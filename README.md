@@ -10,8 +10,8 @@ intended to provide versioning, although that may come later
 
 ## Layout
 
-The top-level repository contains json files for production, development, and
-staging. The `archive` directory contains past deployment artifacts.
+The top-level repository contains json files for `production`, `development`,
+and `staging`. The `archive` directory contains past deployment artifacts.
 
 ## Contributing
 
