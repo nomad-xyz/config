@@ -8,6 +8,10 @@ repo is intended to be a snapshot of the current state of the Nomad deployments
 on many chains to ensure that applications have the latest info. It is not
 intended to provide versioning, although that may come later
 
+- production https://nomad-xyz.github.io/config/production.json
+- staging https://nomad-xyz.github.io/config/staging.json
+- development https://nomad-xyz.github.io/config/development.json
+
 ## Layout
 
 The top-level repository contains json files for `production`, `development`,
