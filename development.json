@@ -1019,7 +1019,7 @@
           "goerli",
           "optimismkovan",
           "evmostestnet",
-          "neontestnet"
+          "goerli"
         ],
         "domain": 2001,
         "name": "kovan",
