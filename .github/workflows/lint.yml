@@ -1,0 +1,13 @@
+on: [push]
+
+name: lint
+
+jobs:
+  lint:
+    name:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Sort all config files
+        run: ./sort_configs.sh
