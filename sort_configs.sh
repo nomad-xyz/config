@@ -9,7 +9,7 @@ do
   # compare the config to the tmp file
   if cmp "$f.json" "$f.tmp.json"; then
     # files are the same, so remove the tmp file
-    /bin/rm "$f.tmp.json"
+    rm "$f.tmp.json"
   else 
     # if we're in CI (set to true for github actions)
     # and the files are different, then fail
@@ -19,6 +19,6 @@ do
     fi
 
     # files are different, update the config with the tmp file
-    /bin/mv "$f.tmp.json" "$f.json"
+    mv "$f.tmp.json" "$f.json"
   fi
 done
