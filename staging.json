@@ -1,4 +1,15 @@
 {
+  "version": 0,
+  "networks": [
+    "evmostestnet",
+    "fuji",
+    "goerli",
+    "kovan",
+    "milkomedaC1testnet",
+    "mumbai",
+    "neontestnet",
+    "rinkeby"
+  ],
   "agent": {
     "evmostestnet": {
       "db": "/usr/share/nomad",
@@ -24,12 +35,12 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
-          "neontestnet",
-          "rinkeby",
-          "kovan",
           "fuji",
+          "kovan",
+          "milkomedaC1testnet",
           "mumbai",
-          "milkomedaC1testnet"
+          "neontestnet",
+          "rinkeby"
         ]
       },
       "relayer": {
@@ -70,12 +81,12 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
-          "neontestnet",
-          "rinkeby",
           "evmostestnet",
           "kovan",
+          "milkomedaC1testnet",
           "mumbai",
-          "milkomedaC1testnet"
+          "neontestnet",
+          "rinkeby"
         ]
       },
       "relayer": {
@@ -116,13 +127,13 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
-          "neontestnet",
-          "rinkeby",
           "evmostestnet",
-          "kovan",
           "fuji",
+          "kovan",
+          "milkomedaC1testnet",
           "mumbai",
-          "milkomedaC1testnet"
+          "neontestnet",
+          "rinkeby"
         ]
       },
       "relayer": {
@@ -163,12 +174,12 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
-          "neontestnet",
-          "rinkeby",
           "evmostestnet",
           "fuji",
+          "milkomedaC1testnet",
           "mumbai",
-          "milkomedaC1testnet"
+          "neontestnet",
+          "rinkeby"
         ]
       },
       "relayer": {
@@ -209,12 +220,12 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
-          "neontestnet",
-          "rinkeby",
           "evmostestnet",
-          "kovan",
           "fuji",
-          "mumbai"
+          "kovan",
+          "mumbai",
+          "neontestnet",
+          "rinkeby"
         ]
       },
       "relayer": {
@@ -255,12 +266,12 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
-          "neontestnet",
-          "rinkeby",
           "evmostestnet",
-          "kovan",
           "fuji",
-          "milkomedaC1testnet"
+          "kovan",
+          "milkomedaC1testnet",
+          "neontestnet",
+          "rinkeby"
         ]
       },
       "relayer": {
@@ -301,12 +312,12 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
-          "rinkeby",
           "evmostestnet",
-          "kovan",
           "fuji",
+          "kovan",
+          "milkomedaC1testnet",
           "mumbai",
-          "milkomedaC1testnet"
+          "rinkeby"
         ]
       },
       "relayer": {
@@ -347,12 +358,12 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
-          "neontestnet",
           "evmostestnet",
-          "kovan",
           "fuji",
+          "kovan",
+          "milkomedaC1testnet",
           "mumbai",
-          "milkomedaC1testnet"
+          "neontestnet"
         ]
       },
       "relayer": {
@@ -505,9 +516,9 @@
     },
     "rinkeby": {
       "connections": [
-        "kovan",
+        "evmostestnet",
         "goerli",
-        "evmostestnet"
+        "kovan"
       ],
       "connextEnabled": true,
       "displayName": "Rinkeby",
@@ -713,16 +724,6 @@
     "kovan": "evmDefault",
     "rinkeby": "evmDefault"
   },
-  "networks": [
-    "neontestnet",
-    "goerli",
-    "rinkeby",
-    "evmostestnet",
-    "kovan",
-    "fuji",
-    "mumbai",
-    "milkomedaC1testnet"
-  ],
   "protocol": {
     "governor": {
       "domain": 1111,
@@ -751,13 +752,13 @@
           ]
         },
         "connections": [
-          "kovan",
-          "goerli",
-          "rinkeby",
-          "neontestnet",
           "fuji",
+          "goerli",
+          "kovan",
+          "milkomedaC1testnet",
           "mumbai",
-          "milkomedaC1testnet"
+          "neontestnet",
+          "rinkeby"
         ],
         "domain": 4441,
         "name": "evmostestnet",
@@ -793,13 +794,13 @@
           ]
         },
         "connections": [
-          "neontestnet",
-          "goerli",
-          "rinkeby",
           "evmostestnet",
+          "goerli",
           "kovan",
+          "milkomedaC1testnet",
           "mumbai",
-          "milkomedaC1testnet"
+          "neontestnet",
+          "rinkeby"
         ],
         "domain": 6661,
         "name": "fuji",
@@ -835,13 +836,13 @@
           ]
         },
         "connections": [
-          "rinkeby",
-          "kovan",
           "evmostestnet",
-          "neontestnet",
           "fuji",
+          "kovan",
+          "milkomedaC1testnet",
           "mumbai",
-          "milkomedaC1testnet"
+          "neontestnet",
+          "rinkeby"
         ],
         "domain": 3331,
         "name": "goerli",
@@ -877,13 +878,13 @@
           ]
         },
         "connections": [
-          "goerli",
-          "rinkeby",
           "evmostestnet",
-          "neontestnet",
           "fuji",
+          "goerli",
+          "milkomedaC1testnet",
           "mumbai",
-          "milkomedaC1testnet"
+          "neontestnet",
+          "rinkeby"
         ],
         "domain": 2221,
         "name": "kovan",
@@ -919,13 +920,13 @@
           ]
         },
         "connections": [
-          "neontestnet",
-          "goerli",
-          "rinkeby",
           "evmostestnet",
-          "kovan",
           "fuji",
-          "mumbai"
+          "goerli",
+          "kovan",
+          "mumbai",
+          "neontestnet",
+          "rinkeby"
         ],
         "domain": 8881,
         "name": "milkomedaC1testnet",
@@ -961,13 +962,13 @@
           ]
         },
         "connections": [
-          "neontestnet",
-          "goerli",
-          "rinkeby",
           "evmostestnet",
-          "kovan",
           "fuji",
-          "milkomedaC1testnet"
+          "goerli",
+          "kovan",
+          "milkomedaC1testnet",
+          "neontestnet",
+          "rinkeby"
         ],
         "domain": 7771,
         "name": "mumbai",
@@ -1003,13 +1004,13 @@
           ]
         },
         "connections": [
-          "kovan",
-          "rinkeby",
-          "goerli",
           "evmostestnet",
           "fuji",
+          "goerli",
+          "kovan",
+          "milkomedaC1testnet",
           "mumbai",
-          "milkomedaC1testnet"
+          "rinkeby"
         ],
         "domain": 5551,
         "name": "neontestnet",
@@ -1045,13 +1046,13 @@
           ]
         },
         "connections": [
-          "goerli",
           "evmostestnet",
-          "kovan",
-          "neontestnet",
           "fuji",
+          "goerli",
+          "kovan",
+          "milkomedaC1testnet",
           "mumbai",
-          "milkomedaC1testnet"
+          "neontestnet"
         ],
         "domain": 1111,
         "name": "rinkeby",
@@ -1092,6 +1093,5 @@
     "rinkeby": [
       "https://rinkeby-light.eth.linkpool.io"
     ]
-  },
-  "version": 0
+  }
 }
