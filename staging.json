@@ -24,10 +24,58 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
+          "neontestnet",
           "rinkeby",
-          "goerli",
           "kovan",
-          "neontestnet"
+          "fuji",
+          "mumbai",
+          "milkomedaC1testnet"
+        ]
+      },
+      "relayer": {
+        "enabled": true,
+        "interval": 10
+      },
+      "rpcStyle": "ethereum",
+      "updater": {
+        "enabled": true,
+        "interval": 5
+      },
+      "watcher": {
+        "enabled": true,
+        "interval": 5
+      }
+    },
+    "fuji": {
+      "db": "/usr/share/nomad",
+      "kathy": {
+        "chat": {
+          "type": "default"
+        },
+        "enabled": true,
+        "interval": 500
+      },
+      "logging": {
+        "fmt": "json",
+        "level": "info"
+      },
+      "metrics": 9090,
+      "processor": {
+        "allowed": null,
+        "denied": null,
+        "enabled": true,
+        "interval": 5,
+        "s3": {
+          "bucket": "nomadxyz-development-proofs",
+          "region": "us-west-2"
+        },
+        "subsidizedRemotes": [
+          "neontestnet",
+          "rinkeby",
+          "evmostestnet",
+          "kovan",
+          "mumbai",
+          "milkomedaC1testnet"
         ]
       },
       "relayer": {
@@ -68,10 +116,13 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
+          "neontestnet",
           "rinkeby",
-          "kovan",
           "evmostestnet",
-          "neontestnet"
+          "kovan",
+          "fuji",
+          "mumbai",
+          "milkomedaC1testnet"
         ]
       },
       "relayer": {
@@ -112,10 +163,104 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
+          "neontestnet",
           "rinkeby",
-          "goerli",
           "evmostestnet",
-          "neontestnet"
+          "fuji",
+          "mumbai",
+          "milkomedaC1testnet"
+        ]
+      },
+      "relayer": {
+        "enabled": true,
+        "interval": 10
+      },
+      "rpcStyle": "ethereum",
+      "updater": {
+        "enabled": true,
+        "interval": 5
+      },
+      "watcher": {
+        "enabled": true,
+        "interval": 5
+      }
+    },
+    "milkomedaC1testnet": {
+      "db": "/usr/share/nomad",
+      "kathy": {
+        "chat": {
+          "type": "default"
+        },
+        "enabled": true,
+        "interval": 500
+      },
+      "logging": {
+        "fmt": "json",
+        "level": "info"
+      },
+      "metrics": 9090,
+      "processor": {
+        "allowed": null,
+        "denied": null,
+        "enabled": true,
+        "interval": 5,
+        "s3": {
+          "bucket": "nomadxyz-development-proofs",
+          "region": "us-west-2"
+        },
+        "subsidizedRemotes": [
+          "neontestnet",
+          "rinkeby",
+          "evmostestnet",
+          "kovan",
+          "fuji",
+          "mumbai"
+        ]
+      },
+      "relayer": {
+        "enabled": true,
+        "interval": 10
+      },
+      "rpcStyle": "ethereum",
+      "updater": {
+        "enabled": true,
+        "interval": 5
+      },
+      "watcher": {
+        "enabled": true,
+        "interval": 5
+      }
+    },
+    "mumbai": {
+      "db": "/usr/share/nomad",
+      "kathy": {
+        "chat": {
+          "type": "default"
+        },
+        "enabled": true,
+        "interval": 500
+      },
+      "logging": {
+        "fmt": "json",
+        "level": "info"
+      },
+      "metrics": 9090,
+      "processor": {
+        "allowed": null,
+        "denied": null,
+        "enabled": true,
+        "interval": 5,
+        "s3": {
+          "bucket": "nomadxyz-development-proofs",
+          "region": "us-west-2"
+        },
+        "subsidizedRemotes": [
+          "neontestnet",
+          "rinkeby",
+          "evmostestnet",
+          "kovan",
+          "fuji",
+          "milkomedaC1testnet"
         ]
       },
       "relayer": {
@@ -157,9 +302,11 @@
         },
         "subsidizedRemotes": [
           "rinkeby",
+          "evmostestnet",
           "kovan",
-          "goerli",
-          "evmostestnet"
+          "fuji",
+          "mumbai",
+          "milkomedaC1testnet"
         ]
       },
       "relayer": {
@@ -200,10 +347,12 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
-          "kovan",
-          "goerli",
+          "neontestnet",
           "evmostestnet",
-          "neontestnet"
+          "kovan",
+          "fuji",
+          "mumbai",
+          "milkomedaC1testnet"
         ]
       },
       "relayer": {
@@ -569,7 +718,10 @@
     "goerli",
     "rinkeby",
     "evmostestnet",
-    "kovan"
+    "kovan",
+    "fuji",
+    "mumbai",
+    "milkomedaC1testnet"
   ],
   "protocol": {
     "governor": {
@@ -602,7 +754,10 @@
           "kovan",
           "goerli",
           "rinkeby",
-          "neontestnet"
+          "neontestnet",
+          "fuji",
+          "mumbai",
+          "milkomedaC1testnet"
         ],
         "domain": 4441,
         "name": "evmostestnet",
@@ -614,6 +769,48 @@
           "finalizationBlocks": 10,
           "indexPageSize": 2000,
           "supports1559": false
+        }
+      },
+      "fuji": {
+        "bridgeConfiguration": {
+          "customs": [],
+          "deployGas": 850000,
+          "mintGas": 200000,
+          "weth": "0xd00ae08403B9bbb9124bB305C09058E32C39A48c"
+        },
+        "configuration": {
+          "governance": {
+            "recoveryManager": "0xa4849f1d96b26066f9c631fcdc8f1457d27fb5ec",
+            "recoveryTimelock": 180
+          },
+          "maximumGas": 1000000,
+          "optimisticSeconds": 1800,
+          "processGas": 850000,
+          "reserveGas": 15000,
+          "updater": "0x5340fe2f454b861e71647bd80596a3463e095c9c",
+          "watchers": [
+            "0xa031973b293b924f6c848202bf1dc3107fde4d1e"
+          ]
+        },
+        "connections": [
+          "neontestnet",
+          "goerli",
+          "rinkeby",
+          "evmostestnet",
+          "kovan",
+          "mumbai",
+          "milkomedaC1testnet"
+        ],
+        "domain": 6661,
+        "name": "fuji",
+        "specs": {
+          "blockExplorer": "https://testnet.snowtrace.io/",
+          "blockTime": 2,
+          "chainId": 43113,
+          "confirmations": 20,
+          "finalizationBlocks": 3,
+          "indexPageSize": 2000,
+          "supports1559": true
         }
       },
       "goerli": {
@@ -641,7 +838,10 @@
           "rinkeby",
           "kovan",
           "evmostestnet",
-          "neontestnet"
+          "neontestnet",
+          "fuji",
+          "mumbai",
+          "milkomedaC1testnet"
         ],
         "domain": 3331,
         "name": "goerli",
@@ -680,7 +880,10 @@
           "goerli",
           "rinkeby",
           "evmostestnet",
-          "neontestnet"
+          "neontestnet",
+          "fuji",
+          "mumbai",
+          "milkomedaC1testnet"
         ],
         "domain": 2221,
         "name": "kovan",
@@ -692,6 +895,90 @@
           "finalizationBlocks": 10,
           "indexPageSize": 2000,
           "supports1559": false
+        }
+      },
+      "milkomedaC1testnet": {
+        "bridgeConfiguration": {
+          "customs": [],
+          "deployGas": 850000,
+          "mintGas": 200000,
+          "weth": "0x65a51E52eCD17B641f8F0D1d56a6c9738951FDC9"
+        },
+        "configuration": {
+          "governance": {
+            "recoveryManager": "0xa4849f1d96b26066f9c631fcdc8f1457d27fb5ec",
+            "recoveryTimelock": 180
+          },
+          "maximumGas": 1000000,
+          "optimisticSeconds": 1800,
+          "processGas": 850000,
+          "reserveGas": 15000,
+          "updater": "0x5340fe2f454b861e71647bd80596a3463e095c9c",
+          "watchers": [
+            "0xa031973b293b924f6c848202bf1dc3107fde4d1e"
+          ]
+        },
+        "connections": [
+          "neontestnet",
+          "goerli",
+          "rinkeby",
+          "evmostestnet",
+          "kovan",
+          "fuji",
+          "mumbai"
+        ],
+        "domain": 8881,
+        "name": "milkomedaC1testnet",
+        "specs": {
+          "blockExplorer": "https://explorer-devnet-cardano-evm.c1.milkomeda.com/",
+          "blockTime": 4,
+          "chainId": 200101,
+          "confirmations": 6,
+          "finalizationBlocks": 15,
+          "indexPageSize": 2000,
+          "supports1559": false
+        }
+      },
+      "mumbai": {
+        "bridgeConfiguration": {
+          "customs": [],
+          "deployGas": 850000,
+          "mintGas": 200000,
+          "weth": "0x0000000000000000000000000000000000001010"
+        },
+        "configuration": {
+          "governance": {
+            "recoveryManager": "0xa4849f1d96b26066f9c631fcdc8f1457d27fb5ec",
+            "recoveryTimelock": 180
+          },
+          "maximumGas": 1000000,
+          "optimisticSeconds": 1800,
+          "processGas": 850000,
+          "reserveGas": 15000,
+          "updater": "0x5340fe2f454b861e71647bd80596a3463e095c9c",
+          "watchers": [
+            "0xa031973b293b924f6c848202bf1dc3107fde4d1e"
+          ]
+        },
+        "connections": [
+          "neontestnet",
+          "goerli",
+          "rinkeby",
+          "evmostestnet",
+          "kovan",
+          "fuji",
+          "milkomedaC1testnet"
+        ],
+        "domain": 7771,
+        "name": "mumbai",
+        "specs": {
+          "blockExplorer": "https://mumbai.polygonscan.com/",
+          "blockTime": 5,
+          "chainId": 80001,
+          "confirmations": 6,
+          "finalizationBlocks": 255,
+          "indexPageSize": 2000,
+          "supports1559": true
         }
       },
       "neontestnet": {
@@ -719,7 +1006,10 @@
           "kovan",
           "rinkeby",
           "goerli",
-          "evmostestnet"
+          "evmostestnet",
+          "fuji",
+          "mumbai",
+          "milkomedaC1testnet"
         ],
         "domain": 5551,
         "name": "neontestnet",
@@ -758,7 +1048,10 @@
           "goerli",
           "evmostestnet",
           "kovan",
-          "neontestnet"
+          "neontestnet",
+          "fuji",
+          "mumbai",
+          "milkomedaC1testnet"
         ],
         "domain": 1111,
         "name": "rinkeby",
@@ -778,11 +1071,20 @@
     "evmostestnet": [
       "https://eth.bd.evmos.dev:8545"
     ],
+    "fuji": [
+      "https://api.avax-test.network/ext/bc/C/rpc"
+    ],
     "goerli": [
-      "tps://goerli-light.eth.linkpool.io"
+      "https://goerli-light.eth.linkpool.io"
     ],
     "kovan": [
       "https://kovan.poa.network"
+    ],
+    "milkomedaC1testnet": [
+      "https://rpc-devnet-cardano-evm.c1.milkomeda.com"
+    ],
+    "mumbai": [
+      "https://rpc-mumbai.matic.today"
     ],
     "neontestnet": [
       "https://proxy.devnet.neonlabs.org/solana"
