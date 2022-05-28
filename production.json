@@ -1,4 +1,19 @@
 {
+  "version": 0,
+  "networks": [
+    "avalanche",
+    "bobaL2",
+    "cronos",
+    "ethereum",
+    "evmos",
+    "fantom",
+    "fuse",
+    "godwoken",
+    "milkomedaC1",
+    "moonbeam",
+    "moonriver",
+    "xdai"
+  ],
   "agent": {
     "avalanche": {
       "db": "/usr/share/nomad",
@@ -24,10 +39,10 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
-          "moonbeam",
+          "evmos",
           "milkomedaC1",
-          "xdai",
-          "evmos"
+          "moonbeam",
+          "xdai"
         ]
       },
       "relayer": {
@@ -68,11 +83,11 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
-          "moonbeam",
-          "milkomedaC1",
-          "xdai",
           "avalanche",
-          "evmos"
+          "evmos",
+          "milkomedaC1",
+          "moonbeam",
+          "xdai"
         ]
       },
       "relayer": {
@@ -113,10 +128,10 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
-          "moonbeam",
+          "avalanche",
           "milkomedaC1",
-          "xdai",
-          "avalanche"
+          "moonbeam",
+          "xdai"
         ]
       },
       "relayer": {
@@ -157,10 +172,10 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
-          "moonbeam",
-          "xdai",
           "avalanche",
-          "evmos"
+          "evmos",
+          "moonbeam",
+          "xdai"
         ]
       },
       "relayer": {
@@ -201,10 +216,10 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
-          "milkomedaC1",
-          "xdai",
           "avalanche",
-          "evmos"
+          "evmos",
+          "milkomedaC1",
+          "xdai"
         ]
       },
       "relayer": {
@@ -245,10 +260,10 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
-          "moonbeam",
-          "milkomedaC1",
           "avalanche",
-          "evmos"
+          "evmos",
+          "milkomedaC1",
+          "moonbeam"
         ]
       },
       "relayer": {
@@ -416,8 +431,8 @@
     "ethereum": {
       "connections": [
         "avalanche",
-        "moonbeam",
         "milkomedaC1",
+        "moonbeam",
         "xDai"
       ],
       "connextEnabled": true,
@@ -726,20 +741,6 @@
     "moonbeam": "evmDefault",
     "xdai": "evmDefault"
   },
-  "networks": [
-    "ethereum",
-    "xdai",
-    "avalanche",
-    "evmos",
-    "milkomedaC1",
-    "moonbeam",
-    "godwoken",
-    "moonriver",
-    "fantom",
-    "bobaL2",
-    "cronos",
-    "fuse"
-  ],
   "protocol": {
     "governor": {
       "domain": 6648936,
@@ -768,17 +769,17 @@
           ]
         },
         "connections": [
-          "ethereum",
-          "xdai",
-          "evmos",
-          "milkomedaC1",
-          "moonbeam",
-          "godwoken",
-          "moonriver",
-          "fantom",
           "bobaL2",
           "cronos",
-          "fuse"
+          "ethereum",
+          "evmos",
+          "fantom",
+          "fuse",
+          "godwoken",
+          "milkomedaC1",
+          "moonbeam",
+          "moonriver",
+          "xdai"
         ],
         "domain": 1635148152,
         "name": "avalanche",
@@ -813,20 +814,20 @@
           ]
         },
         "connections": [
-          "moonbeam",
-          "ethereum",
-          "milkomedaC1",
-          "xdai",
-          "evmos",
-          "optimism",
           "arbitrum",
-          "harmony",
-          "fantom",
-          "godwoken",
+          "avalanche",
           "cronos",
-          "moonriver",
+          "ethereum",
+          "evmos",
+          "fantom",
           "fuse",
-          "avalanche"
+          "godwoken",
+          "harmony",
+          "milkomedaC1",
+          "moonbeam",
+          "moonriver",
+          "optimism",
+          "xdai"
         ],
         "domain": 981119897,
         "name": "bobaL2",
@@ -863,17 +864,17 @@
           ]
         },
         "connections": [
-          "ethereum",
-          "xdai",
           "avalanche",
+          "bobaL2",
+          "ethereum",
           "evmos",
+          "fantom",
+          "fuse",
+          "godwoken",
           "milkomedaC1",
           "moonbeam",
-          "godwoken",
           "moonriver",
-          "fantom",
-          "bobaL2",
-          "fuse"
+          "xdai"
         ],
         "domain": 99114111,
         "name": "cronos",
@@ -909,17 +910,17 @@
           ]
         },
         "connections": [
-          "xdai",
           "avalanche",
-          "evmos",
-          "milkomedaC1",
-          "moonbeam",
-          "godwoken",
-          "moonriver",
-          "fantom",
           "bobaL2",
           "cronos",
-          "fuse"
+          "evmos",
+          "fantom",
+          "fuse",
+          "godwoken",
+          "milkomedaC1",
+          "moonbeam",
+          "moonriver",
+          "xdai"
         ],
         "domain": 6648936,
         "name": "ethereum",
@@ -965,17 +966,17 @@
           ]
         },
         "connections": [
-          "ethereum",
-          "xdai",
           "avalanche",
-          "milkomedaC1",
-          "moonbeam",
-          "godwoken",
-          "moonriver",
-          "fantom",
           "bobaL2",
           "cronos",
-          "fuse"
+          "ethereum",
+          "fantom",
+          "fuse",
+          "godwoken",
+          "milkomedaC1",
+          "moonbeam",
+          "moonriver",
+          "xdai"
         ],
         "domain": 1702260083,
         "name": "evmos",
@@ -1011,17 +1012,17 @@
           ]
         },
         "connections": [
-          "ethereum",
-          "xdai",
           "avalanche",
-          "evmos",
-          "milkomedaC1",
-          "moonbeam",
-          "godwoken",
-          "moonriver",
           "bobaL2",
           "cronos",
-          "fuse"
+          "ethereum",
+          "evmos",
+          "fuse",
+          "godwoken",
+          "milkomedaC1",
+          "moonbeam",
+          "moonriver",
+          "xdai"
         ],
         "domain": 10297110,
         "name": "fantom",
@@ -1057,20 +1058,20 @@
           ]
         },
         "connections": [
-          "moonbeam",
-          "ethereum",
-          "milkomedaC1",
-          "xdai",
-          "evmos",
-          "optimism",
           "arbitrum",
-          "harmony",
+          "avalanche",
+          "bobaL2",
+          "cronos",
+          "ethereum",
+          "evmos",
           "fantom",
           "godwoken",
-          "cronos",
+          "harmony",
+          "milkomedaC1",
+          "moonbeam",
           "moonriver",
-          "bobaL2",
-          "avalanche"
+          "optimism",
+          "xdai"
         ],
         "domain": 102117115101,
         "name": "fuse",
@@ -1107,20 +1108,20 @@
           ]
         },
         "connections": [
-          "moonbeam",
-          "ethereum",
-          "milkomedaC1",
-          "xdai",
-          "evmos",
-          "optimism",
           "arbitrum",
-          "harmony",
-          "moonriver",
-          "fantom",
+          "avalanche",
           "bobaL2",
           "cronos",
+          "ethereum",
+          "evmos",
+          "fantom",
           "fuse",
-          "avalanche"
+          "harmony",
+          "milkomedaC1",
+          "moonbeam",
+          "moonriver",
+          "optimism",
+          "xdai"
         ],
         "domain": 119111107101,
         "name": "godwoken",
@@ -1157,17 +1158,17 @@
           ]
         },
         "connections": [
-          "ethereum",
-          "xdai",
           "avalanche",
-          "evmos",
-          "moonbeam",
-          "godwoken",
-          "moonriver",
-          "fantom",
           "bobaL2",
           "cronos",
-          "fuse"
+          "ethereum",
+          "evmos",
+          "fantom",
+          "fuse",
+          "godwoken",
+          "moonbeam",
+          "moonriver",
+          "xdai"
         ],
         "domain": 25393,
         "name": "milkomedaC1",
@@ -1203,17 +1204,17 @@
           ]
         },
         "connections": [
-          "ethereum",
-          "xdai",
           "avalanche",
-          "evmos",
-          "milkomedaC1",
-          "godwoken",
-          "moonriver",
-          "fantom",
           "bobaL2",
           "cronos",
-          "fuse"
+          "ethereum",
+          "evmos",
+          "fantom",
+          "fuse",
+          "godwoken",
+          "milkomedaC1",
+          "moonriver",
+          "xdai"
         ],
         "domain": 1650811245,
         "name": "moonbeam",
@@ -1249,17 +1250,17 @@
           ]
         },
         "connections": [
-          "ethereum",
-          "xdai",
           "avalanche",
-          "evmos",
-          "milkomedaC1",
-          "moonbeam",
-          "godwoken",
-          "fantom",
           "bobaL2",
           "cronos",
-          "fuse"
+          "ethereum",
+          "evmos",
+          "fantom",
+          "fuse",
+          "godwoken",
+          "milkomedaC1",
+          "moonbeam",
+          "xdai"
         ],
         "domain": 114105118,
         "name": "moonriver",
@@ -1295,17 +1296,17 @@
           ]
         },
         "connections": [
-          "ethereum",
           "avalanche",
-          "evmos",
-          "milkomedaC1",
-          "moonbeam",
-          "godwoken",
-          "moonriver",
-          "fantom",
           "bobaL2",
           "cronos",
-          "fuse"
+          "ethereum",
+          "evmos",
+          "fantom",
+          "fuse",
+          "godwoken",
+          "milkomedaC1",
+          "moonbeam",
+          "moonriver"
         ],
         "domain": 2019844457,
         "name": "xdai",
@@ -1362,6 +1363,5 @@
   "s3": {
     "bucket": "nomadxyz-production-proofs",
     "region": "us-west-2"
-  },
-  "version": 0
+  }
 }

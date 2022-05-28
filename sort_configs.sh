@@ -3,8 +3,11 @@ set -e
 
 for f in "production" "staging" "development"
 do
-  # output the sorted config to a tmp file
-  jq --sort-keys . "$f.json" > "$f.tmp.json"
+  # sort array and object keys alphabetically
+  jq 'walk( if type == "array" then sort else . end )' --sort-keys "$f.json" |
+    # move version and networks to top of json and write to tmp file
+    jq '. as $in | {version,networks} + $in' > "$f.tmp.json" 
+      
 
   # compare the config to the tmp file
   if cmp "$f.json" "$f.tmp.json"; then

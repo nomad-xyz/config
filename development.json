@@ -1,4 +1,14 @@
 {
+  "version": 0,
+  "networks": [
+    "arbitrumrinkeby",
+    "evmostestnet",
+    "goerli",
+    "kovan",
+    "neontestnet",
+    "optimismkovan",
+    "rinkeby"
+  ],
   "agent": {
     "arbitrumrinkeby": {
       "db": "/usr/share/nomad",
@@ -24,12 +34,12 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
-          "kovan",
-          "goerli",
           "evmostestnet",
+          "goerli",
+          "kovan",
           "neontestnet",
-          "rinkeby",
-          "optimismkovan"
+          "optimismkovan",
+          "rinkeby"
         ]
       },
       "relayer": {
@@ -70,10 +80,10 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
-          "rinkeby",
-          "kovan",
           "goerli",
-          "neontestnet"
+          "kovan",
+          "neontestnet",
+          "rinkeby"
         ]
       },
       "relayer": {
@@ -114,10 +124,10 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
-          "rinkeby",
-          "kovan",
           "evmostestnet",
-          "neontestnet"
+          "kovan",
+          "neontestnet",
+          "rinkeby"
         ]
       },
       "relayer": {
@@ -158,10 +168,10 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
-          "rinkeby",
-          "goerli",
           "evmostestnet",
-          "neontestnet"
+          "goerli",
+          "neontestnet",
+          "rinkeby"
         ]
       },
       "relayer": {
@@ -202,10 +212,10 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
-          "rinkeby",
-          "goerli",
           "evmostestnet",
-          "kovan"
+          "goerli",
+          "kovan",
+          "rinkeby"
         ]
       },
       "relayer": {
@@ -246,11 +256,11 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
-          "kovan",
-          "goerli",
-          "evmostestnet",
-          "neontestnet",
           "arbitrumrinkeby",
+          "evmostestnet",
+          "goerli",
+          "kovan",
+          "neontestnet",
           "rinkeby"
         ]
       },
@@ -292,9 +302,9 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
-          "kovan",
-          "goerli",
           "evmostestnet",
+          "goerli",
+          "kovan",
           "neontestnet"
         ]
       },
@@ -488,9 +498,9 @@
     },
     "rinkeby": {
       "connections": [
-        "kovan",
-        "goerli",
         "evmostestnet",
+        "goerli",
+        "kovan",
         "neontestnet"
       ],
       "connextEnabled": true,
@@ -980,15 +990,6 @@
       }
     }
   },
-  "networks": [
-    "kovan",
-    "rinkeby",
-    "neontestnet",
-    "optimismkovan",
-    "goerli",
-    "arbitrumrinkeby",
-    "evmostestnet"
-  ],
   "protocol": {
     "governor": {
       "domain": 1001,
@@ -1018,11 +1019,11 @@
         },
         "connections": [
           "evmostestnet",
+          "goerli",
           "kovan",
           "neontestnet",
-          "rinkeby",
-          "goerli",
-          "optimismkovan"
+          "optimismkovan",
+          "rinkeby"
         ],
         "domain": 6661,
         "name": "arbitrumrinkeby",
@@ -1058,12 +1059,12 @@
           ]
         },
         "connections": [
-          "neontestnet",
-          "kovan",
-          "goerli",
-          "rinkeby",
           "arbitrumrinkeby",
-          "optimismkovan"
+          "goerli",
+          "kovan",
+          "neontestnet",
+          "optimismkovan",
+          "rinkeby"
         ],
         "domain": 4001,
         "name": "evmostestnet",
@@ -1100,10 +1101,10 @@
         },
         "connections": [
           "arbitrumrinkeby",
-          "optimismkovan",
-          "neontestnet",
-          "kovan",
           "evmostestnet",
+          "kovan",
+          "neontestnet",
+          "optimismkovan",
           "rinkeby"
         ],
         "domain": 3001,
@@ -1141,10 +1142,10 @@
         },
         "connections": [
           "arbitrumrinkeby",
-          "optimismkovan",
-          "goerli",
           "evmostestnet",
+          "goerli",
           "neontestnet",
+          "optimismkovan",
           "rinkeby"
         ],
         "domain": 2001,
@@ -1181,12 +1182,12 @@
           ]
         },
         "connections": [
-          "evmostestnet",
-          "optimismkovan",
           "arbitrumrinkeby",
+          "evmostestnet",
+          "goerli",
           "kovan",
-          "rinkeby",
-          "goerli"
+          "optimismkovan",
+          "rinkeby"
         ],
         "domain": 5001,
         "name": "neontestnet",
@@ -1222,12 +1223,12 @@
           ]
         },
         "connections": [
+          "arbitrumrinkeby",
+          "evmostestnet",
+          "goerli",
           "kovan",
           "neontestnet",
-          "goerli",
-          "evmostestnet",
-          "rinkeby",
-          "arbitrumrinkeby"
+          "rinkeby"
         ],
         "domain": 8881,
         "name": "optimismkovan",
@@ -1264,11 +1265,11 @@
         },
         "connections": [
           "arbitrumrinkeby",
-          "kovan",
-          "optimismkovan",
+          "evmostestnet",
           "goerli",
+          "kovan",
           "neontestnet",
-          "evmostestnet"
+          "optimismkovan"
         ],
         "domain": 1001,
         "name": "rinkeby",
@@ -1306,6 +1307,5 @@
     "rinkeby": [
       "https://eth-rinkeby.alchemyapi.io/v2/2_EHjVL6clA6rFkDqdX8b7afHwHoCU0x"
     ]
-  },
-  "version": 0
+  }
 }
