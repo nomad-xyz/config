@@ -17,6 +17,22 @@ intended to provide versioning, although that may come later
 The top-level repository contains json files for `production`, `development`,
 and `staging`. The `archive` directory contains past deployment artifacts.
 
+## Setup
+
+Follow the steps below to have the sort config script run automatically pre-commit
+
+1. Set the hooks path to the committed hooks folder
+
+```bash
+git config core.hooksPath hooks/
+```
+
+2. Disable the ignored hook warning for the pre-commit hook
+
+```bash
+git config advice.ignoredHook false
+```
+
 ## Contributing
 
 This is an informational archive of current and past configuration. It's not
