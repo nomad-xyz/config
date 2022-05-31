@@ -1,6 +1,7 @@
 {
   "version": 0,
   "networks": [
+    "arbitrum",
     "avalanche",
     "bobaL2",
     "cronos",
@@ -9,9 +10,12 @@
     "fantom",
     "fuse",
     "godwoken",
+    "harmony",
     "milkomedaC1",
     "moonbeam",
+    "moonbeam",
     "moonriver",
+    "optimism",
     "xdai"
   ],
   "agent": {
@@ -747,6 +751,57 @@
       "id": "0x93277b8f5939975b9e6694d5fd2837143afbf68a"
     },
     "networks": {
+      "arbitrum": {
+        "bridgeConfiguration": {
+          "customs": [],
+          "deployGas": 850000,
+          "mintGas": 200000,
+          "weth": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+        },
+        "configuration": {
+          "governance": {
+            "recoveryManager": "<TEMPLATE>",
+            "recoveryTimelock": 86400
+          },
+          "maximumGas": 1000000,
+          "optimisticSeconds": 1800,
+          "processGas": 850000,
+          "reserveGas": 25000,
+          "updater": "0x7eB6aEE9875d32Cf8a12C01fA951302B192C20A8",
+          "watchers": [
+            "0xd5084275511450b5036FCB14E2bb5395Ed63f19D"
+          ]
+        },
+        "connections": [
+          "avalanche",
+          "bobaL2",
+          "cronos",
+          "ethereum",
+          "evmos",
+          "fantom",
+          "fuse",
+          "godwoken",
+          "harmony",
+          "milkomedaC1",
+          "moonbeam",
+          "moonbeam",
+          "moonriver",
+          "optimism",
+          "xdai"
+        ],
+        "domain": 6386274,
+        "name": "arbitrum",
+        "rpc": "https://arb-mainnet.g.alchemy.com/v2/RwdK_GHt5oGT7WkGUn2AQJrCXsrEpGjD",
+        "specs": {
+          "blockExplorer": "https://arbiscan.io/",
+          "blockTime": 1,
+          "chainId": 42161,
+          "confirmations": 1,
+          "finalizationBlocks": 1,
+          "indexPageSize": 2000,
+          "supports1559": false
+        }
+      },
       "avalanche": {
         "bridgeConfiguration": {
           "customs": [],
@@ -769,6 +824,7 @@
           ]
         },
         "connections": [
+          "arbitrum",
           "bobaL2",
           "cronos",
           "ethereum",
@@ -776,9 +832,12 @@
           "fantom",
           "fuse",
           "godwoken",
+          "harmony",
           "milkomedaC1",
           "moonbeam",
+          "moonbeam",
           "moonriver",
+          "optimism",
           "xdai"
         ],
         "domain": 1635148152,
@@ -825,6 +884,7 @@
           "harmony",
           "milkomedaC1",
           "moonbeam",
+          "moonbeam",
           "moonriver",
           "optimism",
           "xdai"
@@ -864,6 +924,7 @@
           ]
         },
         "connections": [
+          "arbitrum",
           "avalanche",
           "bobaL2",
           "ethereum",
@@ -871,9 +932,12 @@
           "fantom",
           "fuse",
           "godwoken",
+          "harmony",
           "milkomedaC1",
           "moonbeam",
+          "moonbeam",
           "moonriver",
+          "optimism",
           "xdai"
         ],
         "domain": 99114111,
@@ -910,6 +974,7 @@
           ]
         },
         "connections": [
+          "arbitrum",
           "avalanche",
           "bobaL2",
           "cronos",
@@ -917,9 +982,12 @@
           "fantom",
           "fuse",
           "godwoken",
+          "harmony",
           "milkomedaC1",
           "moonbeam",
+          "moonbeam",
           "moonriver",
+          "optimism",
           "xdai"
         ],
         "domain": 6648936,
@@ -966,6 +1034,7 @@
           ]
         },
         "connections": [
+          "arbitrum",
           "avalanche",
           "bobaL2",
           "cronos",
@@ -973,9 +1042,12 @@
           "fantom",
           "fuse",
           "godwoken",
+          "harmony",
           "milkomedaC1",
           "moonbeam",
+          "moonbeam",
           "moonriver",
+          "optimism",
           "xdai"
         ],
         "domain": 1702260083,
@@ -1012,6 +1084,7 @@
           ]
         },
         "connections": [
+          "arbitrum",
           "avalanche",
           "bobaL2",
           "cronos",
@@ -1019,9 +1092,12 @@
           "evmos",
           "fuse",
           "godwoken",
+          "harmony",
           "milkomedaC1",
           "moonbeam",
+          "moonbeam",
           "moonriver",
+          "optimism",
           "xdai"
         ],
         "domain": 10297110,
@@ -1068,6 +1144,7 @@
           "godwoken",
           "harmony",
           "milkomedaC1",
+          "moonbeam",
           "moonbeam",
           "moonriver",
           "optimism",
@@ -1119,6 +1196,7 @@
           "harmony",
           "milkomedaC1",
           "moonbeam",
+          "moonbeam",
           "moonriver",
           "optimism",
           "xdai"
@@ -1134,6 +1212,56 @@
           "finalizationBlocks": 2,
           "indexPageSize": 2000,
           "supports1559": false
+        }
+      },
+      "harmony": {
+        "bridgeConfiguration": {
+          "customs": [],
+          "deployGas": 850000,
+          "mintGas": 200000,
+          "weth": "https://explorer.harmony.one/"
+        },
+        "configuration": {
+          "governance": {
+            "recoveryManager": "",
+            "recoveryTimelock": 86400
+          },
+          "maximumGas": 1000000,
+          "optimisticSeconds": 1800,
+          "processGas": 850000,
+          "reserveGas": 25000,
+          "updater": "",
+          "watchers": [
+            ""
+          ]
+        },
+        "connections": [
+          "arbitrum",
+          "avalanche",
+          "bobaL2",
+          "cronos",
+          "ethereum",
+          "evmos",
+          "fantom",
+          "fuse",
+          "godwoken",
+          "milkomedaC1",
+          "moonbeam",
+          "moonbeam",
+          "moonriver",
+          "optimism",
+          "xdai"
+        ],
+        "domain": 1751216749,
+        "name": "harmony",
+        "specs": {
+          "blockExplorer": "https://explorer.harmony.one/",
+          "blockTime": 5,
+          "chainId": 100,
+          "confirmations": 5,
+          "finalizationBlocks": 3,
+          "indexPageSize": 2000,
+          "supports1559": true
         }
       },
       "milkomedaC1": {
@@ -1158,6 +1286,7 @@
           ]
         },
         "connections": [
+          "arbitrum",
           "avalanche",
           "bobaL2",
           "cronos",
@@ -1166,8 +1295,11 @@
           "fantom",
           "fuse",
           "godwoken",
+          "harmony",
+          "moonbeam",
           "moonbeam",
           "moonriver",
+          "optimism",
           "xdai"
         ],
         "domain": 25393,
@@ -1204,6 +1336,7 @@
           ]
         },
         "connections": [
+          "arbitrum",
           "avalanche",
           "bobaL2",
           "cronos",
@@ -1212,8 +1345,11 @@
           "fantom",
           "fuse",
           "godwoken",
+          "harmony",
           "milkomedaC1",
+          "moonbeam",
           "moonriver",
+          "optimism",
           "xdai"
         ],
         "domain": 1650811245,
@@ -1250,6 +1386,7 @@
           ]
         },
         "connections": [
+          "arbitrum",
           "avalanche",
           "bobaL2",
           "cronos",
@@ -1258,8 +1395,11 @@
           "fantom",
           "fuse",
           "godwoken",
+          "harmony",
           "milkomedaC1",
           "moonbeam",
+          "moonbeam",
+          "optimism",
           "xdai"
         ],
         "domain": 114105118,
@@ -1272,6 +1412,57 @@
           "finalizationBlocks": 20,
           "indexPageSize": 2000,
           "supports1559": true
+        }
+      },
+      "optimism": {
+        "bridgeConfiguration": {
+          "customs": [],
+          "deployGas": 850000,
+          "mintGas": 200000,
+          "weth": "0x4200000000000000000000000000000000000006"
+        },
+        "configuration": {
+          "governance": {
+            "recoveryManager": "<TEMPLATE>",
+            "recoveryTimelock": 86400
+          },
+          "maximumGas": 1000000,
+          "optimisticSeconds": 1800,
+          "processGas": 850000,
+          "reserveGas": 25000,
+          "updater": "0xDf2617dD2a9A6122B4c8098dF81333AdD2EfC797",
+          "watchers": [
+            "0xF8Ef453caa7FD27B52db8D9184c37DB88984CfA9"
+          ]
+        },
+        "connections": [
+          "arbitrum",
+          "avalanche",
+          "bobaL2",
+          "cronos",
+          "ethereum",
+          "evmos",
+          "fantom",
+          "fuse",
+          "godwoken",
+          "harmony",
+          "milkomedaC1",
+          "moonbeam",
+          "moonbeam",
+          "moonriver",
+          "xdai"
+        ],
+        "domain": 7303284,
+        "name": "optimism",
+        "rpc": "https://opt-mainnet.g.alchemy.com/v2/GrfuUkGYiTpD6mUhYrPW79SarxYbTnYL",
+        "specs": {
+          "blockExplorer": "https://optimistic.etherscan.io/",
+          "blockTime": 1,
+          "chainId": 10,
+          "confirmations": 1,
+          "finalizationBlocks": 1,
+          "indexPageSize": 2000,
+          "supports1559": false
         }
       },
       "xdai": {
@@ -1296,6 +1487,7 @@
           ]
         },
         "connections": [
+          "arbitrum",
           "avalanche",
           "bobaL2",
           "cronos",
@@ -1304,9 +1496,12 @@
           "fantom",
           "fuse",
           "godwoken",
+          "harmony",
           "milkomedaC1",
           "moonbeam",
-          "moonriver"
+          "moonbeam",
+          "moonriver",
+          "optimism"
         ],
         "domain": 2019844457,
         "name": "xdai",
@@ -1323,6 +1518,9 @@
     }
   },
   "rpcs": {
+    "arbitrum": [
+      "https://arb-mainnet.g.alchemy.com/v2/RwdK_GHt5oGT7WkGUn2AQJrCXsrEpGjD"
+    ],
     "avalanche": [
       "https://api.avax.network/ext/bc/C/rpc"
     ],
@@ -1347,6 +1545,9 @@
     "godwoken": [
       "https://mainnet.godwoken.io/rpc/eth-wallet"
     ],
+    "harmony": [
+      "https://harmony-mainnet.chainstacklabs.com"
+    ],
     "milkomedaC1": [
       "https://rpc.c1.milkomeda.com:8545"
     ],
@@ -1355,6 +1556,9 @@
     ],
     "moonriver": [
       "https://moonriver.api.onfinality.io/public"
+    ],
+    "optimism": [
+      "https://opt-mainnet.g.alchemy.com/v2/GrfuUkGYiTpD6mUhYrPW79SarxYbTnYL"
     ],
     "xdai": [
       "https://dai.poa.network/"
