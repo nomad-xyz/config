@@ -84,6 +84,7 @@
           "goerli",
           "kovan",
           "neontestnet",
+          "neontestnet",
           "optimismkovan",
           "rinkeby"
         ]
@@ -129,6 +130,7 @@
           "arbitrumrinkeby",
           "evmostestnet",
           "kovan",
+          "neontestnet",
           "neontestnet",
           "optimismkovan",
           "rinkeby"
@@ -220,10 +222,8 @@
         "subsidizedRemotes": [
           "arbitrumrinkeby",
           "evmostestnet",
-          "goerli",
           "kovan",
-          "optimismkovan",
-          "rinkeby"
+          "optimismkovan"
         ]
       },
       "relayer": {
@@ -314,6 +314,7 @@
           "evmostestnet",
           "goerli",
           "kovan",
+          "neontestnet",
           "neontestnet",
           "optimismkovan"
         ]
@@ -859,10 +860,146 @@
   },
   "environment": "development",
   "gas": {
-    "evmostestnet": "evmDefault",
-    "goerli": "evmDefault",
-    "kovan": "evmDefault",
-    "rinkeby": "evmDefault"
+    "evmostestnet": {
+      "bridge": {
+        "bridgeRouter": {
+          "send": 500000
+        },
+        "ethHelper": {
+          "send": 800000,
+          "sendToEvmLike": 800000
+        }
+      },
+      "core": {
+        "connectionManager": {
+          "ownerUnenrollReplica": 120000,
+          "unenrollReplica": 120000
+        },
+        "home": {
+          "doubleUpdate": 200000,
+          "improperUpdate": {
+            "base": 100000,
+            "perMessage": 10000
+          },
+          "update": {
+            "base": 100000,
+            "perMessage": 10000
+          }
+        },
+        "replica": {
+          "doubleUpdate": 200000,
+          "process": 1700000,
+          "prove": 200000,
+          "proveAndProcess": 1900000,
+          "update": 140000
+        }
+      }
+    },
+    "goerli": {
+      "bridge": {
+        "bridgeRouter": {
+          "send": 500000
+        },
+        "ethHelper": {
+          "send": 800000,
+          "sendToEvmLike": 800000
+        }
+      },
+      "core": {
+        "connectionManager": {
+          "ownerUnenrollReplica": 120000,
+          "unenrollReplica": 120000
+        },
+        "home": {
+          "doubleUpdate": 200000,
+          "improperUpdate": {
+            "base": 100000,
+            "perMessage": 10000
+          },
+          "update": {
+            "base": 100000,
+            "perMessage": 10000
+          }
+        },
+        "replica": {
+          "doubleUpdate": 200000,
+          "process": 1700000,
+          "prove": 200000,
+          "proveAndProcess": 1900000,
+          "update": 140000
+        }
+      }
+    },
+    "kovan": {
+      "bridge": {
+        "bridgeRouter": {
+          "send": 500000
+        },
+        "ethHelper": {
+          "send": 800000,
+          "sendToEvmLike": 800000
+        }
+      },
+      "core": {
+        "connectionManager": {
+          "ownerUnenrollReplica": 120000,
+          "unenrollReplica": 120000
+        },
+        "home": {
+          "doubleUpdate": 200000,
+          "improperUpdate": {
+            "base": 100000,
+            "perMessage": 10000
+          },
+          "update": {
+            "base": 100000,
+            "perMessage": 10000
+          }
+        },
+        "replica": {
+          "doubleUpdate": 200000,
+          "process": 1700000,
+          "prove": 200000,
+          "proveAndProcess": 1900000,
+          "update": 140000
+        }
+      }
+    },
+    "rinkeby": {
+      "bridge": {
+        "bridgeRouter": {
+          "send": 500000
+        },
+        "ethHelper": {
+          "send": 800000,
+          "sendToEvmLike": 800000
+        }
+      },
+      "core": {
+        "connectionManager": {
+          "ownerUnenrollReplica": 120000,
+          "unenrollReplica": 120000
+        },
+        "home": {
+          "doubleUpdate": 200000,
+          "improperUpdate": {
+            "base": 100000,
+            "perMessage": 10000
+          },
+          "update": {
+            "base": 100000,
+            "perMessage": 10000
+          }
+        },
+        "replica": {
+          "doubleUpdate": 200000,
+          "process": 1700000,
+          "prove": 200000,
+          "proveAndProcess": 1900000,
+          "update": 140000
+        }
+      }
+    }
   },
   "protocol": {
     "governor": {
@@ -977,7 +1114,10 @@
           "arbitrumrinkeby",
           "evmostestnet",
           "kovan",
+          "kovan",
           "neontestnet",
+          "neontestnet",
+          "optimismkovan",
           "optimismkovan",
           "rinkeby"
         ],
@@ -1018,8 +1158,11 @@
           "arbitrumrinkeby",
           "evmostestnet",
           "goerli",
+          "goerli",
           "neontestnet",
           "optimismkovan",
+          "optimismkovan",
+          "rinkeby",
           "rinkeby"
         ],
         "domain": 2001,
@@ -1098,7 +1241,10 @@
         },
         "connections": [
           "arbitrumrinkeby",
+          "arbitrumrinkeby",
           "evmostestnet",
+          "evmostestnet",
+          "goerli",
           "goerli",
           "kovan",
           "neontestnet",
@@ -1167,7 +1313,7 @@
       "https://eth.bd.evmos.dev:8545"
     ],
     "goerli": [
-      "https://goerli-light.eth.linkpool.io"
+      "https://eth-goerli.alchemyapi.io/v2/PU0_a_1LHwf2bVF1zscb8hr8E4Rqk49F"
     ],
     "kovan": [
       "https://kovan.poa.network"
@@ -1179,7 +1325,7 @@
       "https://kovan.optimism.io"
     ],
     "rinkeby": [
-      "https://rinkeby-light.eth.linkpool.io"
+      "https://eth-rinkeby.alchemyapi.io/v2/2_EHjVL6clA6rFkDqdX8b7afHwHoCU0x"
     ]
   }
 }
