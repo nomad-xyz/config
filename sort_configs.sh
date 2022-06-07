@@ -1,8 +1,11 @@
 #!/bin/bash
 set -e
 
-for f in "production" "staging" "development"
+for file in *.json pending-deploy/*.json
 do
+  # get file without extension (eg: a.json -> a, a/b.json -> a/b)
+  f="${file%.json}"
+
   # sort array and object keys alphabetically
   jq 'walk( if type == "array" then sort else . end )' --sort-keys "$f.json" |
     # move version and networks to top of json and write to tmp file
