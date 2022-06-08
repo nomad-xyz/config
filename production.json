@@ -418,7 +418,7 @@
         "avalanche",
         "moonbeam",
         "milkomedaC1",
-        "xDai"
+        "evmos"
       ],
       "connextEnabled": true,
       "displayName": "Ethereum",
@@ -447,14 +447,6 @@
       "connextEnabled": true,
       "displayName": "Moonbeam",
       "nativeTokenSymbol": "GLMR"
-    },
-    "xdai": {
-      "connections": [
-        "ethereum"
-      ],
-      "connextEnabled": true,
-      "displayName": "Gnosis Chain",
-      "nativeTokenSymbol": "xDAI"
     }
   },
   "core": {
