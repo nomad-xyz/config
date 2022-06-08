@@ -998,7 +998,7 @@
       "https://rpc.c1.milkomeda.com:8545"
     ],
     "moonbeam": [
-      "https://moonriver.api.onfinality.io/public"
+      "https://rpc.api.moonbeam.network"
     ],
     "xdai": [
       "https://dai.poa.network/"
