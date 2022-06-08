@@ -425,8 +425,8 @@
     "ethereum": {
       "connections": [
         "avalanche",
-        "milkomedaC1",
         "evmos",
+        "milkomedaC1",
         "moonbeam",
         "xDai"
       ],
