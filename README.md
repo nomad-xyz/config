@@ -31,19 +31,19 @@ governance actions. To contribute, add all outputs of a deployment process to a
 We want a precise record of when a config was created and why
 
 - Check out a new branch
-- Copy the root-level config to a new file in `pending_deploys/`
+- Copy the root-level config to a new file in `pending-deploys/`
 - Extend the config
 - Make a PR and get it merged 💪
 
 ### Deploying
 
 Deploys should be run from an already-committed config file, present in
-`pending_deploys/`. We want to reserve ALL information about the deploy you're
+`pending-deploys/`. We want to reserve ALL information about the deploy you're
 running :)
 
 - Check out a new branch
 - Create a **new folder** for your deploy in `archive/`
-- Invoke the deploy script, targeting your config in `pending_deploys/`
+- Invoke the deploy script, targeting your config in `pending-deploys/`
 - Copy all deploy outputs to your new folder
   - verification details
   - governance actions
