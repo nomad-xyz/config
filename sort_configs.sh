@@ -1,15 +1,21 @@
 #!/bin/bash
 set -e
 
-for f in "production" "staging" "development"
+for file in *.json pending-deploy/*.json
 do
-  # output the sorted config to a tmp file
-  jq --sort-keys . "$f.json" > "$f.tmp.json"
+  # get file without extension (eg: a.json -> a, a/b.json -> a/b)
+  f="${file%.json}"
+
+  # sort array and object keys alphabetically
+  jq 'walk( if type == "array" then sort else . end )' --sort-keys "$f.json" |
+    # move version and networks to top of json and write to tmp file
+    jq '. as $in | {version,networks} + $in' > "$f.tmp.json" 
+      
 
   # compare the config to the tmp file
   if cmp "$f.json" "$f.tmp.json"; then
     # files are the same, so remove the tmp file
-    /bin/rm "$f.tmp.json"
+    rm "$f.tmp.json"
   else 
     # if we're in CI (set to true for github actions)
     # and the files are different, then fail
@@ -19,6 +25,6 @@ do
     fi
 
     # files are different, update the config with the tmp file
-    /bin/mv "$f.tmp.json" "$f.json"
+    mv "$f.tmp.json" "$f.json"
   fi
 done
