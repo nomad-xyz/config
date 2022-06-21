@@ -1,0 +1,29 @@
+Compiler run successful (with warnings)
+warning[2462]: node_modules/@openzeppelin/contracts/access/Ownable.sol:26:5: Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    constructor () internal {
+    ^ (Relevant source part starts here and spans across multiple lines).
+
+
+warning[5878]: packages/contracts-bridge/contracts/BridgeRouter.sol:324:13: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+            payable(_recipient).send(DUST_AMOUNT);
+            ^-----------------------------------^
+
+
+warning[2018]: packages/upgrade/solscripts/Upgrade.sol:126:3: Warning: Function state mutability can be restricted to view
+  function title(string memory title1) public {
+  ^ (Relevant source part starts here and spans across multiple lines).
+
+
+warning[2018]: packages/upgrade/solscripts/Upgrade.sol:132:3: Warning: Function state mutability can be restricted to view
+  function title(string memory title1, string memory title2) public {
+  ^ (Relevant source part starts here and spans across multiple lines).
+
+
+
+
+==========================
+
+ONCHAIN EXECUTION COMPLETE & SUCCESSFUL. Transaction receipts written to "broadcast/Upgrade.sol/1284/deploy-latest.json"
+
+Transactions saved to: broadcast/Upgrade.sol/1284/deploy-latest.json
+

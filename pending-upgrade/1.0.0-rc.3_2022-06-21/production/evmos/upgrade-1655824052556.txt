@@ -1,0 +1,39 @@
+Compiling 47 files with 0.7.6
+Solc 0.7.6 finished in 3.06s
+Compiler run successful (with warnings)
+warning[2462]: node_modules/@openzeppelin/contracts/access/Ownable.sol:26:5: Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    constructor () internal {
+    ^ (Relevant source part starts here and spans across multiple lines).
+
+
+warning[5878]: packages/contracts-bridge/contracts/BridgeRouter.sol:324:13: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+            payable(_recipient).send(DUST_AMOUNT);
+            ^-----------------------------------^
+
+
+warning[2018]: packages/upgrade/solscripts/Upgrade.sol:126:3: Warning: Function state mutability can be restricted to view
+  function title(string memory title1) public {
+  ^ (Relevant source part starts here and spans across multiple lines).
+
+
+warning[2018]: packages/upgrade/solscripts/Upgrade.sol:132:3: Warning: Function state mutability can be restricted to view
+  function title(string memory title1, string memory title2) public {
+  ^ (Relevant source part starts here and spans across multiple lines).
+
+
+##
+Checking previously pending transactions.
+
+#####
+✅ Hash: 0xfd42435a0bdb4682e1461572600d6d98dcce14caa5ca53d2dd0ceda98828a449
+Block: 851116
+Paid: 0.00020701503436449 ETH (69005 gas * 3.000000498 gwei)
+
+
+
+==========================
+
+ONCHAIN EXECUTION COMPLETE & SUCCESSFUL. Transaction receipts written to "broadcast/Upgrade.sol/9001/deploy-latest.json"
+
+Transactions saved to: broadcast/Upgrade.sol/9001/deploy-latest.json
+

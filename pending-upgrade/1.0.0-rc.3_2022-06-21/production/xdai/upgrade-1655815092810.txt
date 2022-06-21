@@ -1,0 +1,93 @@
+Compiler run successful (with warnings)
+warning[2462]: node_modules/@openzeppelin/contracts/access/Ownable.sol:26:5: Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    constructor () internal {
+    ^ (Relevant source part starts here and spans across multiple lines).
+
+
+warning[5878]: packages/contracts-bridge/contracts/BridgeRouter.sol:324:13: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+            payable(_recipient).send(DUST_AMOUNT);
+            ^-----------------------------------^
+
+
+warning[2018]: packages/upgrade/solscripts/Upgrade.sol:126:3: Warning: Function state mutability can be restricted to view
+  function title(string memory title1) public {
+  ^ (Relevant source part starts here and spans across multiple lines).
+
+
+warning[2018]: packages/upgrade/solscripts/Upgrade.sol:132:3: Warning: Function state mutability can be restricted to view
+  function title(string memory title1, string memory title2) public {
+  ^ (Relevant source part starts here and spans across multiple lines).
+
+
+
+###
+Finding wallets for all the necessary addresses...
+##
+Sending transactions [0 - 0].
+
+#####
+✅ Hash: 0x2796cfb54e5deee3c3677cfbb652a5b16efab28fe592dfc53cd7eef820ff506c
+Block: 22775493
+Paid: 0.000207015000483035 ETH (69005 gas * 3.000000007 gwei)
+
+
+Transactions saved to: broadcast/Upgrade.sol/100/deploy-latest.json
+
+
+
+==========================
+
+ONCHAIN EXECUTION COMPLETE & SUCCESSFUL. Transaction receipts written to "broadcast/Upgrade.sol/100/deploy-latest.json"
+##
+Start Contract Verification
+
+Submitting verification for [packages/contracts-core/contracts/Home.sol:Home] 0x58b142e8a7b71afdad3d941845db86444811e951.
+Submitted contract for verification:
+	Response: `OK`
+	GUID: `58b142e8a7b71afdad3d941845db86444811e95162b1bbcf`
+	URL: https://blockscout.com/xdai/mainnetaddress/0x58b142e8a7b71afdad3d941845db86444811e951
+Waiting for verification result...
+Contract successfully verified.
+
+Submitting verification for [packages/contracts-core/contracts/Replica.sol:Replica] 0x73fa0b9ee4e2657e4641332a82b39750eeb736a3.
+Submitted contract for verification:
+	Response: `OK`
+	GUID: `73fa0b9ee4e2657e4641332a82b39750eeb736a362b1bbd1`
+	URL: https://blockscout.com/xdai/mainnetaddress/0x73fa0b9ee4e2657e4641332a82b39750eeb736a3
+Waiting for verification result...
+Contract successfully verified.
+
+Submitting verification for [packages/contracts-core/contracts/governance/GovernanceRouter.sol:GovernanceRouter] 0xfb533b6c2d266d4a0a6cdd8c5caa4744729f2473.
+Submitted contract for verification:
+	Response: `OK`
+	GUID: `fb533b6c2d266d4a0a6cdd8c5caa4744729f247362b1bbd7`
+	URL: https://blockscout.com/xdai/mainnetaddress/0xfb533b6c2d266d4a0a6cdd8c5caa4744729f2473
+Waiting for verification result...
+Contract successfully verified.
+
+Submitting verification for [packages/contracts-bridge/contracts/BridgeRouter.sol:BridgeRouter] 0x8288c1eb2e1ee05d2e8acc22770e4e427a06ce67.
+Submitted contract for verification:
+	Response: `OK`
+	GUID: `8288c1eb2e1ee05d2e8acc22770e4e427a06ce6762b1bbdb`
+	URL: https://blockscout.com/xdai/mainnetaddress/0x8288c1eb2e1ee05d2e8acc22770e4e427a06ce67
+Waiting for verification result...
+Contract successfully verified.
+
+Submitting verification for [packages/contracts-bridge/contracts/TokenRegistry.sol:TokenRegistry] 0x58200645cb063c825d9969a0d6b5dac78b8d1204.
+Submitted contract for verification:
+	Response: `OK`
+	GUID: `58200645cb063c825d9969a0d6b5dac78b8d120462b1bbdf`
+	URL: https://blockscout.com/xdai/mainnetaddress/0x58200645cb063c825d9969a0d6b5dac78b8d1204
+Waiting for verification result...
+Contract successfully verified.
+
+Submitting verification for [packages/contracts-bridge/contracts/BridgeToken.sol:BridgeToken] 0x588858b071837fc9f7cec53cf373bdb93c48f6ae.
+Submitted contract for verification:
+	Response: `OK`
+	GUID: `588858b071837fc9f7cec53cf373bdb93c48f6ae62b1bbe3`
+	URL: https://blockscout.com/xdai/mainnetaddress/0x588858b071837fc9f7cec53cf373bdb93c48f6ae
+Waiting for verification result...
+Contract successfully verified.
+
+Transactions saved to: broadcast/Upgrade.sol/100/deploy-latest.json
+

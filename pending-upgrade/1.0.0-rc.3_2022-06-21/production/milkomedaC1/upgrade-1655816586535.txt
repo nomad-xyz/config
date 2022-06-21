@@ -1,0 +1,152 @@
+Compiling 47 files with 0.7.6
+Solc 0.7.6 finished in 3.00s
+Compiler run successful (with warnings)
+warning[2462]: node_modules/@openzeppelin/contracts/access/Ownable.sol:26:5: Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    constructor () internal {
+    ^ (Relevant source part starts here and spans across multiple lines).
+
+
+warning[5878]: packages/contracts-bridge/contracts/BridgeRouter.sol:324:13: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+            payable(_recipient).send(DUST_AMOUNT);
+            ^-----------------------------------^
+
+
+warning[2018]: packages/upgrade/solscripts/Upgrade.sol:126:3: Warning: Function state mutability can be restricted to view
+  function title(string memory title1) public {
+  ^ (Relevant source part starts here and spans across multiple lines).
+
+
+warning[2018]: packages/upgrade/solscripts/Upgrade.sol:132:3: Warning: Function state mutability can be restricted to view
+  function title(string memory title1, string memory title2) public {
+  ^ (Relevant source part starts here and spans across multiple lines).
+
+
+[32mScript ran successfully.[0m
+Gas used: 15973434
+
+== Logs ==
+   
+  ===========================
+  Upgrading Contracts on domain , milkomedaC1
+  ===========================
+   
+  ===========================
+  Deploying new implementations...
+  ===========================
+  home implementation address
+  0x263c732f614380e570fc9810ad162aff59978510
+  replica implementation address
+  0xab42ebd10f77db551632d88300ea4e52882b045f
+  governanceRouter implementation address
+  0x295f1ef8e4e5a26190e986a40637f3d8354baf34
+  bridgeRouter implementation address
+  0xf5859458ceafb6e34d0118fc6965786cf6cec8af
+  tokenRegistry implementation address
+  0x9dc81f56fd4fc4705e98899e99567283e8d9a9cd
+  bridgeToken implementation address
+  0xa85b5500f3babe89011dfea2d1b217751aabdfce
+  ===========================
+  Initializing implementations with dummy values...
+  ===========================
+
+==========================
+
+Estimated total gas used for script: 22165540
+
+Amount required: 1.39642901997783446 ETH
+
+==========================
+
+###
+Finding wallets for all the necessary addresses...
+##
+Sending transactions [0 - 11].
+
+#####
+✅ Hash: 0x12cb96e8620954c0b4f5b0beb83a9e8c26606d5c5c7ef6df6844f3698ea09390
+Contract Address: 0x263c732f614380e570fc9810ad162aff59978510
+Block: 3875400
+Paid: 0.164261852997392669 ETH (2607331 gas * 62.999999999 gwei)
+
+
+#####
+✅ Hash: 0xd9e5092625748b69ad373cccf188a2cbfb236c62151bd82249c35d44b5e5304b
+Contract Address: 0xab42ebd10f77db551632d88300ea4e52882b045f
+Block: 3875403
+Paid: 0.162700145997417458 ETH (2582542 gas * 62.999999999 gwei)
+
+
+#####
+✅ Hash: 0xa33c85aa117f15cb2d63b521adcd4558bf3f64252d109b885d410e05e01334ea
+Contract Address: 0x295f1ef8e4e5a26190e986a40637f3d8354baf34
+Block: 3875406
+Paid: 0.212830253996621742 ETH (3378258 gas * 62.999999999 gwei)
+
+
+#####
+✅ Hash: 0x86f7ebe4d4c32ba511080cef0d68299ba51a1b5c8cf8b383fa13c77aa75fc328
+Contract Address: 0xf5859458ceafb6e34d0118fc6965786cf6cec8af
+Block: 3875409
+Paid: 0.231147944996330985 ETH (3669015 gas * 62.999999999 gwei)
+
+
+#####
+✅ Hash: 0x3e4d939790f86087e526bac642ed28cc7ef4a732257dd7d01fc06b72599bd4cb
+Contract Address: 0x9dc81f56fd4fc4705e98899e99567283e8d9a9cd
+Block: 3875412
+Paid: 0.128847977997954794 ETH (2045206 gas * 62.999999999 gwei)
+
+
+#####
+✅ Hash: 0xf48a2115473c46f5edcce7256eb3dd6f6998e51d69e04cf18dce9070770db190
+Contract Address: 0xa85b5500f3babe89011dfea2d1b217751aabdfce
+Block: 3875415
+Paid: 0.130188932997933509 ETH (2066491 gas * 62.999999999 gwei)
+
+
+#####
+✅ Hash: 0x74f03c45c86e7febff749f9492532a330cdea419e234204d41dda3b3ae723063
+Block: 3875418
+Paid: 0.009129707999855084 ETH (144916 gas * 62.999999999 gwei)
+
+
+#####
+✅ Hash: 0xfcb6ce28c5fcff53a5fbd975326ffb7b2e8866e0adf95613304245648759af55
+Block: 3875421
+Paid: 0.009189116999854141 ETH (145859 gas * 62.999999999 gwei)
+
+
+#####
+✅ Hash: 0x3da0212fdac198037ca514f3bc32cd4d2f42dafdd65609394bee3abeda5a1809
+Block: 3875424
+Paid: 0.007111754999887115 ETH (112885 gas * 62.999999999 gwei)
+
+
+#####
+✅ Hash: 0x47e43e316cf92d77a79964e5343a5591e8de29aa6c7c0538dcf9f6299b2fb996
+Block: 3875427
+Paid: 0.007209593999885562 ETH (114438 gas * 62.999999999 gwei)
+
+
+#####
+✅ Hash: 0x4b6349c1dd0a87f556fabe52bbff4c8b4d6e9936612e30d5687eff2a4ab0e9d0
+Block: 3875430
+Paid: 0.007211861999885526 ETH (114474 gas * 62.999999999 gwei)
+
+
+#####
+✅ Hash: 0xc1a769021ea3089dc0339d90ec7c93c77ebd6141a7edcbf33adce53ca8bb3685
+Block: 3875433
+Paid: 0.004347314999930995 ETH (69005 gas * 62.999999999 gwei)
+
+
+Transactions saved to: broadcast/Upgrade.sol/2001/deploy-latest.json
+
+
+
+==========================
+
+ONCHAIN EXECUTION COMPLETE & SUCCESSFUL. Transaction receipts written to "broadcast/Upgrade.sol/2001/deploy-latest.json"
+
+Transactions saved to: broadcast/Upgrade.sol/2001/deploy-latest.json
+
