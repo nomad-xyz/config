@@ -12,11 +12,16 @@
     "arbitrumrinkeby": {
       "db": "/usr/share/nomad",
       "kathy": {
-        "chat": { "type": "default" },
+        "chat": {
+          "type": "default"
+        },
         "enabled": true,
         "interval": 500
       },
-      "logging": { "fmt": "json", "level": "info" },
+      "logging": {
+        "fmt": "json",
+        "level": "info"
+      },
       "metrics": 9090,
       "processor": {
         "allowed": null,
@@ -36,19 +41,33 @@
           "rinkeby"
         ]
       },
-      "relayer": { "enabled": true, "interval": 10 },
+      "relayer": {
+        "enabled": true,
+        "interval": 10
+      },
       "rpcStyle": "ethereum",
-      "updater": { "enabled": true, "interval": 5 },
-      "watcher": { "enabled": true, "interval": 5 }
+      "updater": {
+        "enabled": true,
+        "interval": 5
+      },
+      "watcher": {
+        "enabled": true,
+        "interval": 5
+      }
     },
     "evmostestnet": {
       "db": "/usr/share/nomad",
       "kathy": {
-        "chat": { "type": "default" },
+        "chat": {
+          "type": "default"
+        },
         "enabled": true,
         "interval": 500
       },
-      "logging": { "fmt": "json", "level": "info" },
+      "logging": {
+        "fmt": "json",
+        "level": "info"
+      },
       "metrics": 9090,
       "processor": {
         "allowed": null,
@@ -68,19 +87,33 @@
           "rinkeby"
         ]
       },
-      "relayer": { "enabled": true, "interval": 10 },
+      "relayer": {
+        "enabled": true,
+        "interval": 10
+      },
       "rpcStyle": "ethereum",
-      "updater": { "enabled": true, "interval": 5 },
-      "watcher": { "enabled": true, "interval": 5 }
+      "updater": {
+        "enabled": true,
+        "interval": 5
+      },
+      "watcher": {
+        "enabled": true,
+        "interval": 5
+      }
     },
     "goerli": {
       "db": "/usr/share/nomad",
       "kathy": {
-        "chat": { "type": "default" },
+        "chat": {
+          "type": "default"
+        },
         "enabled": true,
         "interval": 500
       },
-      "logging": { "fmt": "json", "level": "info" },
+      "logging": {
+        "fmt": "json",
+        "level": "info"
+      },
       "metrics": 9090,
       "processor": {
         "allowed": null,
@@ -100,19 +133,33 @@
           "rinkeby"
         ]
       },
-      "relayer": { "enabled": true, "interval": 10 },
+      "relayer": {
+        "enabled": true,
+        "interval": 10
+      },
       "rpcStyle": "ethereum",
-      "updater": { "enabled": true, "interval": 5 },
-      "watcher": { "enabled": true, "interval": 5 }
+      "updater": {
+        "enabled": true,
+        "interval": 5
+      },
+      "watcher": {
+        "enabled": true,
+        "interval": 5
+      }
     },
     "kovan": {
       "db": "/usr/share/nomad",
       "kathy": {
-        "chat": { "type": "default" },
+        "chat": {
+          "type": "default"
+        },
         "enabled": true,
         "interval": 500
       },
-      "logging": { "fmt": "json", "level": "info" },
+      "logging": {
+        "fmt": "json",
+        "level": "info"
+      },
       "metrics": 9090,
       "processor": {
         "allowed": null,
@@ -132,19 +179,33 @@
           "rinkeby"
         ]
       },
-      "relayer": { "enabled": true, "interval": 10 },
+      "relayer": {
+        "enabled": true,
+        "interval": 10
+      },
       "rpcStyle": "ethereum",
-      "updater": { "enabled": true, "interval": 5 },
-      "watcher": { "enabled": true, "interval": 5 }
+      "updater": {
+        "enabled": true,
+        "interval": 5
+      },
+      "watcher": {
+        "enabled": true,
+        "interval": 5
+      }
     },
     "neontestnet": {
       "db": "/usr/share/nomad",
       "kathy": {
-        "chat": { "type": "default" },
+        "chat": {
+          "type": "default"
+        },
         "enabled": true,
         "interval": 500
       },
-      "logging": { "fmt": "json", "level": "info" },
+      "logging": {
+        "fmt": "json",
+        "level": "info"
+      },
       "metrics": 9090,
       "processor": {
         "allowed": null,
@@ -164,19 +225,33 @@
           "rinkeby"
         ]
       },
-      "relayer": { "enabled": true, "interval": 10 },
+      "relayer": {
+        "enabled": true,
+        "interval": 10
+      },
       "rpcStyle": "ethereum",
-      "updater": { "enabled": true, "interval": 5 },
-      "watcher": { "enabled": true, "interval": 5 }
+      "updater": {
+        "enabled": true,
+        "interval": 5
+      },
+      "watcher": {
+        "enabled": true,
+        "interval": 5
+      }
     },
     "optimismkovan": {
       "db": "/usr/share/nomad",
       "kathy": {
-        "chat": { "type": "default" },
+        "chat": {
+          "type": "default"
+        },
         "enabled": true,
         "interval": 500
       },
-      "logging": { "fmt": "json", "level": "info" },
+      "logging": {
+        "fmt": "json",
+        "level": "info"
+      },
       "metrics": 9090,
       "processor": {
         "allowed": null,
@@ -196,19 +271,33 @@
           "rinkeby"
         ]
       },
-      "relayer": { "enabled": true, "interval": 10 },
+      "relayer": {
+        "enabled": true,
+        "interval": 10
+      },
       "rpcStyle": "ethereum",
-      "updater": { "enabled": true, "interval": 5 },
-      "watcher": { "enabled": true, "interval": 5 }
+      "updater": {
+        "enabled": true,
+        "interval": 5
+      },
+      "watcher": {
+        "enabled": true,
+        "interval": 5
+      }
     },
     "rinkeby": {
       "db": "/usr/share/nomad",
       "kathy": {
-        "chat": { "type": "default" },
+        "chat": {
+          "type": "default"
+        },
         "enabled": true,
         "interval": 500
       },
-      "logging": { "fmt": "json", "level": "info" },
+      "logging": {
+        "fmt": "json",
+        "level": "info"
+      },
       "metrics": 9090,
       "processor": {
         "allowed": null,
@@ -228,10 +317,19 @@
           "optimismkovan"
         ]
       },
-      "relayer": { "enabled": true, "interval": 10 },
+      "relayer": {
+        "enabled": true,
+        "interval": 10
+      },
       "rpcStyle": "ethereum",
-      "updater": { "enabled": true, "interval": 5 },
-      "watcher": { "enabled": true, "interval": 5 }
+      "updater": {
+        "enabled": true,
+        "interval": 5
+      },
+      "watcher": {
+        "enabled": true,
+        "interval": 5
+      }
     }
   },
   "bridge": {
@@ -378,29 +476,42 @@
   },
   "bridgeGui": {
     "evmostestnet": {
-      "connections": ["rinkeby"],
+      "connections": [
+        "rinkeby"
+      ],
       "displayName": "Evmos Testnet",
       "nativeTokenSymbol": "tEVMOS"
     },
     "goerli": {
-      "connections": ["rinkeby"],
+      "connections": [
+        "rinkeby"
+      ],
       "connextEnabled": true,
       "displayName": "Goerli",
       "nativeTokenSymbol": "gETH"
     },
     "kovan": {
-      "connections": ["rinkeby"],
+      "connections": [
+        "rinkeby"
+      ],
       "connextEnabled": true,
       "displayName": "Kovan",
       "nativeTokenSymbol": "kETH"
     },
     "neontestnet": {
-      "connections": ["rinkeby"],
+      "connections": [
+        "rinkeby"
+      ],
       "displayName": "Neon Testnet",
       "nativeTokenSymbol": "tNEON"
     },
     "rinkeby": {
-      "connections": ["evmostestnet", "goerli", "kovan", "neontestnet"],
+      "connections": [
+        "evmostestnet",
+        "goerli",
+        "kovan",
+        "neontestnet"
+      ],
       "connextEnabled": true,
       "displayName": "Rinkeby",
       "manualProcessing": true,
@@ -775,7 +886,9 @@
           "processGas": 85000000,
           "reserveGas": 2500000,
           "updater": "0xbfcec115c9019c40855130714a2450f22728594a",
-          "watchers": ["0xe6252c87d801d8d9008d1b7b2886fb788675db29"]
+          "watchers": [
+            "0xe6252c87d801d8d9008d1b7b2886fb788675db29"
+          ]
         },
         "connections": [
           "evmostestnet",
@@ -814,7 +927,9 @@
           "processGas": 85000000,
           "reserveGas": 1500000,
           "updater": "0x815d2281a9ebacfbffa4294375de6e14f2522d87",
-          "watchers": ["0xafcf8db79e999cb79260572fb61c8e5006b855a4"]
+          "watchers": [
+            "0xafcf8db79e999cb79260572fb61c8e5006b855a4"
+          ]
         },
         "connections": [
           "arbitrumrinkeby",
@@ -853,7 +968,9 @@
           "processGas": 85000000,
           "reserveGas": 1500000,
           "updater": "0xd16bdbbc56090156ec609ebebc8bace1240fa22e",
-          "watchers": ["0x69520f1cec6199fe93c6c77881b5de701e0efeff"]
+          "watchers": [
+            "0x69520f1cec6199fe93c6c77881b5de701e0efeff"
+          ]
         },
         "connections": [
           "arbitrumrinkeby",
@@ -892,7 +1009,9 @@
           "processGas": 85000000,
           "reserveGas": 1500000,
           "updater": "0x45818549c1e7d16c915fe23c1524b524507a184b",
-          "watchers": ["0xe8c6bf61d5f5744f465865772e1de88059267bac"]
+          "watchers": [
+            "0xe8c6bf61d5f5744f465865772e1de88059267bac"
+          ]
         },
         "connections": [
           "arbitrumrinkeby",
@@ -931,7 +1050,9 @@
           "processGas": 85000000,
           "reserveGas": 2500000,
           "updater": "0xa4e6e0953443882f448b93de52abfe7eb8b2efd4",
-          "watchers": ["0xdc030a4e198dd6d08a7497b3deaf644ad755c10b"]
+          "watchers": [
+            "0xdc030a4e198dd6d08a7497b3deaf644ad755c10b"
+          ]
         },
         "connections": [
           "arbitrumrinkeby",
@@ -970,7 +1091,9 @@
           "processGas": 85000000,
           "reserveGas": 2500000,
           "updater": "0xbd8f1387b91c3e91ea836d871e8e7a2c26c118e0",
-          "watchers": ["0x295d72cb3753d9e38a8fce5024cf8b9e280385f1"]
+          "watchers": [
+            "0x295d72cb3753d9e38a8fce5024cf8b9e280385f1"
+          ]
         },
         "connections": [
           "arbitrumrinkeby",
@@ -1009,7 +1132,9 @@
           "processGas": 85000000,
           "reserveGas": 1500000,
           "updater": "0xe80d5d65275208aee8e10609258e4e048eb86b4c",
-          "watchers": ["0x8ad65ba028cae9e3932959d5c167a09ede941d2c"]
+          "watchers": [
+            "0x8ad65ba028cae9e3932959d5c167a09ede941d2c"
+          ]
         },
         "connections": [
           "arbitrumrinkeby",
@@ -1034,12 +1159,18 @@
     }
   },
   "rpcs": {
-    "evmostestnet": ["https://eth.bd.evmos.dev:8545/"],
-    "goerli": ["https://goerli.infura.io/v3/de08c16049f346fb87575404e21d2b5e"],
+    "evmostestnet": [
+      "https://eth.bd.evmos.dev:8545/"
+    ],
+    "goerli": [
+      "https://goerli.infura.io/v3/de08c16049f346fb87575404e21d2b5e"
+    ],
     "kovan": [
       "https://eth-kovan.alchemyapi.io/v2/9R6dAhbA4IyQoFuX0eEqwFdt3sMNpZnJ"
     ],
-    "neontestnet": ["https://proxy.devnet.neonlabs.org/solana"],
+    "neontestnet": [
+      "https://proxy.devnet.neonlabs.org/solana"
+    ],
     "rinkeby": [
       "https://eth-rinkeby.alchemyapi.io/v2/-uKtZgu7bWLDEuW3EaOZ0f6eKpqiH-Tj"
     ]
