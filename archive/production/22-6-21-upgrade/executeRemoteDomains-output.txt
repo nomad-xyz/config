@@ -1,0 +1,26 @@
+Batch status on avalanche: Received!
+Executing Batch on avalanche...
+Executed Batch on avalanche!!
+   Transaction Hash: 0x5937369c8bfc1943cc7fa1fc7e60d7db474158fadbf99511b8e13d50801eba06
+   Block Explorer: https://snowtrace.io/
+Batch status on evmos: Received!
+Executing Batch on evmos...
+Executed Batch on evmos!!
+   Transaction Hash: 0x66400bf9dd33ccdf90a4d3491bd818caaad629bc099db83fa660661dbe491098
+   Block Explorer: http://evm.evmos.org
+Batch status on milkomedaC1: Received!
+Executing Batch on milkomedaC1...
+Executed Batch on milkomedaC1!!
+   Transaction Hash: 0x248de1582e1049a0968a7c3b82c7d1ff6cc82f76a07a3a47d1b88299b1490f9f
+   Block Explorer: https://rpc.c1.milkomeda.com:4000/
+Batch status on moonbeam: Received!
+Executing Batch on moonbeam...
+Executed Batch on moonbeam!!
+   Transaction Hash: 0x0d2a6f55cb7d568c4d754990feb715c2fa98d126583e3acab280c52a09f5e882
+   Block Explorer: https://moonbeam.moonscan.io
+Batch status on xdai: Received!
+Executing Batch on xdai...
+Executed Batch on xdai!!
+   Transaction Hash: 0x3eac4d364873f3706e25eade87926f112fed15f3feb9afb7fe8eeeca077a27ae
+   Block Explorer: https://blockscout.com/xdai/mainnet/
+
