@@ -600,7 +600,7 @@
       "https://eth.bd.evmos.dev:8545"
     ],
     "goerli": [
-      "tps://goerli-light.eth.linkpool.io"
+      "https://goerli-light.eth.linkpool.io"
     ],
     "neontestnet": [
       "https://proxy.devnet.neonlabs.org/solana"
