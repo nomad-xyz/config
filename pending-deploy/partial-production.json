@@ -1,0 +1,351 @@
+{
+  "version": null,
+  "networks": null,
+  "bobaL2": {
+    "bridgeConfiguration": {
+      "customs": [],
+      "deployGas": 850000,
+      "mintGas": 200000
+    },
+    "configuration": {
+      "governance": {
+        "recoveryManager": "TODO",
+        "recoveryTimelock": 86400
+      },
+      "maximumGas": 1000000,
+      "optimisticSeconds": 1800,
+      "processGas": 850000,
+      "reserveGas": 25000,
+      "updater": "0x0eDE076f0E998bd7581597e79496E74300338B9e",
+      "watchers": [
+        "0x29d079996a42D636528462564200B07EC0c2B56C"
+      ]
+    },
+    "connections": [
+      "arbitrum",
+      "avalanche",
+      "cronos",
+      "ethereum",
+      "evmos",
+      "fantom",
+      "fuse",
+      "godwoken",
+      "harmony",
+      "milkomedaC1",
+      "moonbeam",
+      "moonbeam",
+      "moonriver",
+      "optimism",
+      "xdai"
+    ],
+    "domain": 981119897,
+    "name": "bobaL2",
+    "rpc": "https://mainnet.boba.network/",
+    "specs": {
+      "blockExplorer": "https://blockexplorer.boba.network/",
+      "blockTime": 39,
+      "chainId": 288,
+      "confirmations": 1,
+      "finalizationBlocks": 20,
+      "indexPageSize": 2000,
+      "supports1559": false
+    }
+  },
+  "cronos": {
+    "bridgeConfiguration": {
+      "customs": [],
+      "deployGas": 850000,
+      "mintGas": 200000,
+      "weth": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23"
+    },
+    "configuration": {
+      "governance": {
+        "recoveryManager": "TODO",
+        "recoveryTimelock": 86400
+      },
+      "maximumGas": 1000000,
+      "optimisticSeconds": 1800,
+      "processGas": 850000,
+      "reserveGas": 25000,
+      "updater": "0x46a20091366aEDf1Ff0CBe7D6f4f68b5269e76e8",
+      "watchers": [
+        "0x63C587Ae8759Fe704Cad19eE916cD2D7652CB664"
+      ]
+    },
+    "connections": [
+      "arbitrum",
+      "avalanche",
+      "bobaL2",
+      "ethereum",
+      "evmos",
+      "fantom",
+      "fuse",
+      "godwoken",
+      "harmony",
+      "milkomedaC1",
+      "moonbeam",
+      "moonbeam",
+      "moonriver",
+      "optimism",
+      "xdai"
+    ],
+    "domain": 99114111,
+    "name": "cronos",
+    "specs": {
+      "blockExplorer": "https://cronoscan.com/",
+      "blockTime": 6,
+      "chainId": 25,
+      "confirmations": 5,
+      "finalizationBlocks": 1,
+      "indexPageSize": 2000,
+      "supports1559": true
+    }
+  },
+  "fantom": {
+    "bridgeConfiguration": {
+      "customs": [],
+      "deployGas": 850000,
+      "mintGas": 200000,
+      "weth": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83"
+    },
+    "configuration": {
+      "governance": {
+        "recoveryManager": "TODO",
+        "recoveryTimelock": 86400
+      },
+      "maximumGas": 1000000,
+      "optimisticSeconds": 1800,
+      "processGas": 850000,
+      "reserveGas": 25000,
+      "updater": "0xafa665340fc89a2433Ec2A97f0EEfc13d3aA7F19",
+      "watchers": [
+        "0x2a18a459430392E93d0c04371bAdC3836bDeeA0D"
+      ]
+    },
+    "connections": [
+      "arbitrum",
+      "avalanche",
+      "bobaL2",
+      "cronos",
+      "ethereum",
+      "evmos",
+      "fuse",
+      "godwoken",
+      "harmony",
+      "milkomedaC1",
+      "moonbeam",
+      "moonriver",
+      "optimism",
+      "xdai"
+    ],
+    "domain": 10297110,
+    "name": "fantom",
+    "specs": {
+      "blockExplorer": "https://ftmscan.com/",
+      "blockTime": 1,
+      "chainId": 250,
+      "confirmations": 5,
+      "finalizationBlocks": 5,
+      "indexPageSize": 2000,
+      "supports1559": false
+    }
+  },
+  "fuse": {
+    "bridgeConfiguration": {
+      "customs": [],
+      "deployGas": 850000,
+      "mintGas": 200000,
+      "weth": "0x0be9e53fd7edac9f859882afdda116645287c629"
+    },
+    "configuration": {
+      "governance": {
+        "recoveryManager": "TODO",
+        "recoveryTimelock": 86400
+      },
+      "maximumGas": 1000000,
+      "optimisticSeconds": 1800,
+      "processGas": 850000,
+      "reserveGas": 25000,
+      "updater": "0xD50c844C1cD8A5041f53853d517d7f0D447650A5",
+      "watchers": [
+        "0x4aBE37bFc13246639729Cb8aC3375D63a9835d55"
+      ]
+    },
+    "connections": [
+      "arbitrum",
+      "avalanche",
+      "bobaL2",
+      "cronos",
+      "ethereum",
+      "evmos",
+      "fantom",
+      "godwoken",
+      "harmony",
+      "milkomedaC1",
+      "moonbeam",
+      "moonriver",
+      "optimism",
+      "xdai"
+    ],
+    "domain": 102117115101,
+    "name": "fuse",
+    "rpc": "https://rpc.fuse.io/",
+    "specs": {
+      "blockExplorer": "https://explorer.fuse.io/",
+      "blockTime": 5,
+      "chainId": 122,
+      "confirmations": 6,
+      "finalizationBlocks": 1,
+      "indexPageSize": 2000,
+      "supports1559": false
+    }
+  },
+  "godwoken": {
+    "bridgeConfiguration": {
+      "customs": [],
+      "deployGas": 850000,
+      "mintGas": 200000,
+      "weth": "0xe934f463d026d97f6ce0a10215d0ac4224f0a930"
+    },
+    "configuration": {
+      "governance": {
+        "recoveryManager": "TODO",
+        "recoveryTimelock": 86400
+      },
+      "maximumGas": 1000000,
+      "optimisticSeconds": 1800,
+      "processGas": 850000,
+      "reserveGas": 25000,
+      "updater": "0x47B991032Bd3B90E5f51B93C41Db0519914da181",
+      "watchers": [
+        "0x84Ecc24832e1d415319161F883612F32Ad0be0fe"
+      ]
+    },
+    "connections": [
+      "arbitrum",
+      "avalanche",
+      "bobaL2",
+      "cronos",
+      "ethereum",
+      "evmos",
+      "fantom",
+      "fuse",
+      "harmony",
+      "milkomedaC1",
+      "moonbeam",
+      "moonriver",
+      "optimism",
+      "xdai"
+    ],
+    "domain": 119111107101,
+    "name": "godwoken",
+    "rpc": "https://mainnet.godwoken.io/rpc/eth-wallet",
+    "specs": {
+      "blockExplorer": "https://explorer.nervos.org/",
+      "blockTime": 9,
+      "chainId": 71394,
+      "confirmations": 4,
+      "finalizationBlocks": 2,
+      "indexPageSize": 2000,
+      "supports1559": false
+    }
+  },
+  "harmony": {
+    "bridgeConfiguration": {
+      "customs": [],
+      "deployGas": 850000,
+      "mintGas": 200000,
+      "weth": "https://explorer.harmony.one/"
+    },
+    "configuration": {
+      "governance": {
+        "recoveryManager": "",
+        "recoveryTimelock": 86400
+      },
+      "maximumGas": 1000000,
+      "optimisticSeconds": 1800,
+      "processGas": 850000,
+      "reserveGas": 25000,
+      "updater": "",
+      "watchers": [
+        ""
+      ]
+    },
+    "connections": [
+      "arbitrum",
+      "avalanche",
+      "bobaL2",
+      "cronos",
+      "ethereum",
+      "evmos",
+      "fantom",
+      "fuse",
+      "godwoken",
+      "milkomedaC1",
+      "moonbeam",
+      "moonriver",
+      "optimism",
+      "xdai"
+    ],
+    "domain": 1751216749,
+    "name": "harmony",
+    "specs": {
+      "blockExplorer": "https://explorer.harmony.one/",
+      "blockTime": 5,
+      "chainId": 100,
+      "confirmations": 5,
+      "finalizationBlocks": 3,
+      "indexPageSize": 2000,
+      "supports1559": true
+    }
+  },
+  "moonriver": {
+    "bridgeConfiguration": {
+      "customs": [],
+      "deployGas": 850000,
+      "mintGas": 200000,
+      "weth": "0x98878B06940aE243284CA214f92Bb71a2b032B8A"
+    },
+    "configuration": {
+      "governance": {
+        "recoveryManager": "TODO",
+        "recoveryTimelock": 86400
+      },
+      "maximumGas": 1000000,
+      "optimisticSeconds": 1800,
+      "processGas": 850000,
+      "reserveGas": 25000,
+      "updater": "0x1BD7662eA608327f7319DD01C7f11E1179F17439",
+      "watchers": [
+        "0x5B450219f5385f69CE84fE15ed04543b0967F0C2"
+      ]
+    },
+    "connections": [
+      "arbitrum",
+      "avalanche",
+      "bobaL2",
+      "cronos",
+      "ethereum",
+      "evmos",
+      "fantom",
+      "fuse",
+      "godwoken",
+      "harmony",
+      "milkomedaC1",
+      "moonbeam",
+      "optimism",
+      "xdai"
+    ],
+    "domain": 114105118,
+    "name": "moonriver",
+    "specs": {
+      "blockExplorer": "https://moonriver.moonscan.io/",
+      "blockTime": 12,
+      "chainId": 1285,
+      "confirmations": 3,
+      "finalizationBlocks": 20,
+      "indexPageSize": 2000,
+      "supports1559": true
+    }
+  }
+}
