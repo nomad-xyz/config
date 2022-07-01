@@ -519,6 +519,7 @@
           "beacon": "0x4cfdab9df84e03413a8da8fea41212ba6bc6c250",
           "implementation": "0x73f6d2ddd31856eb45080cf9eaf397f57800cacd",
           "proxy": "0xBcB33f3eDa164679e1D45bdB57cE0B69526dA765"
+        },
         "optimism-goerli": {
           "beacon": "0x4cfdab9df84e03413a8da8fea41212ba6bc6c250",
           "implementation": "0x2fdf5ea21cea01f744a7aa6c712318aa2958a697",
@@ -571,6 +572,7 @@
           "beacon": "0xe1fbad342c8f2967f74dcef5db8c774a07b41dab",
           "implementation": "0x15fd033c7bb9eaf0961f351193bfd47f851ee414",
           "proxy": "0xDa6A17839b25DE8DD848E291A467Efb705C15525"
+        },
         "optimism-goerli": {
           "beacon": "0xe1fbad342c8f2967f74dcef5db8c774a07b41dab",
           "implementation": "0xb10252d7c83cd5db1e3e295720c298682a56a4ff",
@@ -623,6 +625,7 @@
           "beacon": "0xd8Be3C0d3CE1C077184a931cc88F938Ec5E639dE",
           "implementation": "0xA179A65273b55A424DDB2834ce3983f4b5d6A5Fb",
           "proxy": "0x26F38465cA262CaCaB85f8a4e1D32b8BB7c9eF4f"
+        },
         "optimism-goerli": {
           "beacon": "0xd8be3c0d3ce1c077184a931cc88f938ec5e639de",
           "implementation": "0xa179a65273b55a424ddb2834ce3983f4b5d6a5fb",
@@ -786,6 +789,7 @@
           "beacon": "0x7e31b1e36313260466123c630e78a038cf6b395b",
           "implementation": "0x9972c9d9a711b1f92a686cfff28e504de829489a",
           "proxy": "0xe28EFd42Ffb9FC9f7c7EcEC23db2fbD85A2101d7"
+        },
         "optimism-goerli": {
           "beacon": "0x7e31b1e36313260466123c630e78a038cf6b395b",
           "implementation": "0x2f205eeedef1a3b95f78f2ce492b1fd20026982e",
