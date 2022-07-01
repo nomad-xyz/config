@@ -1,0 +1,202 @@
+Compiling 47 files with 0.7.6
+Solc 0.7.6 finished in 3.09s
+Compiler run successful (with warnings)
+warning[2462]: node_modules/@openzeppelin/contracts/access/Ownable.sol:26:5: Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    constructor () internal {
+    ^ (Relevant source part starts here and spans across multiple lines).
+
+
+warning[5878]: packages/contracts-bridge/contracts/BridgeRouter.sol:324:13: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+            payable(_recipient).send(DUST_AMOUNT);
+            ^-----------------------------------^
+
+
+warning[2018]: packages/upgrade/solscripts/Upgrade.sol:126:3: Warning: Function state mutability can be restricted to view
+  function title(string memory title1) public {
+  ^ (Relevant source part starts here and spans across multiple lines).
+
+
+warning[2018]: packages/upgrade/solscripts/Upgrade.sol:132:3: Warning: Function state mutability can be restricted to view
+  function title(string memory title1, string memory title2) public {
+  ^ (Relevant source part starts here and spans across multiple lines).
+
+
+[32mScript ran successfully.[0m
+Gas used: 15973434
+
+== Logs ==
+   
+  ===========================
+  Upgrading Contracts on domain , ethereum
+  ===========================
+   
+  ===========================
+  Deploying new implementations...
+  ===========================
+  home implementation address
+  0x1f98fdc4d8d0806eb3902d57df7a2183b333b80c
+  replica implementation address
+  0xb92336759618f55bd0f8313bd843604592e27bd8
+  governanceRouter implementation address
+  0xfbea6d67ddd90e1f726c2622c6c42b016fdad5a7
+  bridgeRouter implementation address
+  0x15fda9f60310d09fea54e3c99d1197dff5107248
+  tokenRegistry implementation address
+  0xc1fae48ae1225fce8698503d5bb1378db5ce14f6
+  bridgeToken implementation address
+  0x4dbc3d23c13ebd7d1b26009a56c1c30b9d8dfe51
+  ===========================
+  Initializing implementations with dummy values...
+  ===========================
+
+==========================
+
+Estimated total gas used for script: 22165587
+
+Amount required: 0.756044168148068067 ETH
+
+==========================
+
+###
+Finding wallets for all the necessary addresses...
+##
+Sending transactions [0 - 11].
+
+#####
+✅ Hash: 0x026a34a5628745635103c9aa042d3e03b4c7c23f95a60703edad5f6da3d24a61
+Contract Address: 0x1f98fdc4d8d0806eb3902d57df7a2183b333b80c
+Block: 15002468
+Paid: 0.088933646084432063 ETH (2607343 gas * 34.108917041 gwei)
+
+
+#####
+✅ Hash: 0xaf05a8c0b2d8c9e795329ab6e05044d016ee9a355d6eb49b082ce0789363f715
+Contract Address: 0xb92336759618f55bd0f8313bd843604592e27bd8
+Block: 15002471
+Paid: 0.088088120139902714 ETH (2582554 gas * 34.108917041 gwei)
+
+
+#####
+✅ Hash: 0x18b5c97506f364a15d539076d1043fdae408e79b607c62fa0646665be7c875ac
+Contract Address: 0xfbea6d67ddd90e1f726c2622c6c42b016fdad5a7
+Block: 15002473
+Paid: 0.11522913117209907 ETH (3378270 gas * 34.108917041 gwei)
+
+
+#####
+✅ Hash: 0x438020d0704f96a9d592bdcdcd4b56ad5496c3f0587e8418093d487e6621b124
+Contract Address: 0x15fda9f60310d09fea54e3c99d1197dff5107248
+Block: 15002475
+Paid: 0.125146128257184615 ETH (3669015 gas * 34.108917041 gwei)
+
+
+#####
+✅ Hash: 0x12a0e69ce79cfac5dd9de6e589d33b3854a3fbd4686240bf30662d34c69172e4
+Contract Address: 0xc1fae48ae1225fce8698503d5bb1378db5ce14f6
+Block: 15002477
+Paid: 0.069759761785755446 ETH (2045206 gas * 34.108917041 gwei)
+
+
+#####
+✅ Hash: 0x6f57ab43295bc56e6e7bb9ad4d893ae8ab000c2cd6c168a6ff31eb607a284d51
+Contract Address: 0x4dbc3d23c13ebd7d1b26009a56c1c30b9d8dfe51
+Block: 15002478
+Paid: 0.070485770084973131 ETH (2066491 gas * 34.108917041 gwei)
+
+
+#####
+✅ Hash: 0x94dc5629b7cecd4e0f8aafbc10c86adaaa166357cda94697ce16e6b7b17ca7f6
+Block: 15002480
+Paid: 0.004942927821913556 ETH (144916 gas * 34.108917041 gwei)
+
+
+#####
+✅ Hash: 0x53fd92771d2084a9bf39a6477015ef53b7f116c79d98a21be723d06d79024cad
+Block: 15002481
+Paid: 0.004975092530683219 ETH (145859 gas * 34.108917041 gwei)
+
+
+#####
+✅ Hash: 0xca5d77bc09003f6422e5ca4e66853efc278cacdc2d32dfc0e86e451544aa695c
+Block: 15002482
+Paid: 0.003850385100173285 ETH (112885 gas * 34.108917041 gwei)
+
+
+#####
+✅ Hash: 0x93e0e2185b550b624e31f34c9ff7d88e528958fb43921a2fda48d75cc9ed112a
+Block: 15002483
+Paid: 0.003903356248337958 ETH (114438 gas * 34.108917041 gwei)
+
+
+#####
+✅ Hash: 0x776890cc1fc7fd2d00421eb684d3b20934407c5c637732397039e893ed51f5fe
+Block: 15002484
+Paid: 0.003904584169351434 ETH (114474 gas * 34.108917041 gwei)
+
+
+#####
+✅ Hash: 0xba0ba579508781228c3c5421991526d1bfcee7f477e14328d2b23cba98d2a48f
+Block: 15002486
+Paid: 0.002353685820414205 ETH (69005 gas * 34.108917041 gwei)
+
+
+Transactions saved to: broadcast/Upgrade.sol/1/deploy-latest.json
+
+
+
+==========================
+
+ONCHAIN EXECUTION COMPLETE & SUCCESSFUL. Transaction receipts written to "broadcast/Upgrade.sol/1/deploy-latest.json"
+##
+Start Contract Verification
+
+Submitting verification for [packages/contracts-core/contracts/Home.sol:Home] 0x1f98fdc4d8d0806eb3902d57df7a2183b333b80c.
+Submitted contract for verification:
+	Response: `OK`
+	GUID: `1sl8ezbr7stv2kgp1vbfrbgwaumctqgb1sm7ym3pkmqxdwgt7a`
+	URL: https://etherscan.io/address/0x1f98fdc4d8d0806eb3902d57df7a2183b333b80c
+Waiting for verification result...
+Contract successfully verified.
+
+Submitting verification for [packages/contracts-core/contracts/Replica.sol:Replica] 0xb92336759618f55bd0f8313bd843604592e27bd8.
+Submitted contract for verification:
+	Response: `OK`
+	GUID: `cx7yjqagzjcayicivbpzgeunkdbis5etvhci5t8xxgejclphmv`
+	URL: https://etherscan.io/address/0xb92336759618f55bd0f8313bd843604592e27bd8
+Waiting for verification result...
+Contract successfully verified.
+
+Submitting verification for [packages/contracts-core/contracts/governance/GovernanceRouter.sol:GovernanceRouter] 0xfbea6d67ddd90e1f726c2622c6c42b016fdad5a7.
+Submitted contract for verification:
+	Response: `OK`
+	GUID: `zfvyuywjdgdrqu5k5gvje4tsczzalzpuxx6yxxpenkfsj6rkes`
+	URL: https://etherscan.io/address/0xfbea6d67ddd90e1f726c2622c6c42b016fdad5a7
+Waiting for verification result...
+Contract successfully verified.
+
+Submitting verification for [packages/contracts-bridge/contracts/BridgeRouter.sol:BridgeRouter] 0x15fda9f60310d09fea54e3c99d1197dff5107248.
+Submitted contract for verification:
+	Response: `OK`
+	GUID: `h8c2gvc4wuykyesjutn6m7ihvin2iv9evtsghvgalt1ufunczz`
+	URL: https://etherscan.io/address/0x15fda9f60310d09fea54e3c99d1197dff5107248
+Waiting for verification result...
+Contract source code already verified
+
+Submitting verification for [packages/contracts-bridge/contracts/TokenRegistry.sol:TokenRegistry] 0xc1fae48ae1225fce8698503d5bb1378db5ce14f6.
+Submitted contract for verification:
+	Response: `OK`
+	GUID: `cqp85apuxy8bmrljq5lbtymdjt7p23wbuijjrmpisnqi3bybix`
+	URL: https://etherscan.io/address/0xc1fae48ae1225fce8698503d5bb1378db5ce14f6
+Waiting for verification result...
+Contract source code already verified
+
+Submitting verification for [packages/contracts-bridge/contracts/BridgeToken.sol:BridgeToken] 0x4dbc3d23c13ebd7d1b26009a56c1c30b9d8dfe51.
+Submitted contract for verification:
+	Response: `OK`
+	GUID: `4hqnyedanbuztw3wid72sdguj5z5bjmv7wyem6b67gyeqswvf6`
+	URL: https://etherscan.io/address/0x4dbc3d23c13ebd7d1b26009a56c1c30b9d8dfe51
+Waiting for verification result...
+Contract successfully verified.
+
+Transactions saved to: broadcast/Upgrade.sol/1/deploy-latest.json
+

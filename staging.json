@@ -184,12 +184,12 @@
     "evmostestnet": {
       "bridgeRouter": {
         "beacon": "0xab308abb7dbd8eda27bb19c6069929ea2b637aba",
-        "implementation": "0x56a9200981d6c61f286c7e1824fed723457ee7c4",
+        "implementation": "0x19067855486ce8a772878423cfab8842ff9b3793",
         "proxy": "0xd0d596fb4985eddf2859eeae7c7e80f00403fbb7"
       },
       "bridgeToken": {
         "beacon": "0xbeab447203a8caa05d60b8aa56b8f1c1b4d5d4eb",
-        "implementation": "0xccab5cb48afb5105c3c90c1f594fad75708a6669",
+        "implementation": "0x428620149c7e05ef1581bd68427dd0b0e6a71d08",
         "proxy": "0x0000000000000000000000000000000000000000"
       },
       "customs": [],
@@ -197,19 +197,19 @@
       "ethHelper": "0xa179a65273b55a424ddb2834ce3983f4b5d6a5fb",
       "tokenRegistry": {
         "beacon": "0x59dd6dfe0e3f8c0c39d67d98b6b6c12b0d432900",
-        "implementation": "0xa1a6eb9de15a69faa90a12b36a589dfd0c272e4d",
+        "implementation": "0xc4c42a914c49e04e2c7787cffc9c294338e1cf44",
         "proxy": "0xba48e1ea33e92263192c97496507586a5baf2c23"
       }
     },
     "goerli": {
       "bridgeRouter": {
         "beacon": "0xddd8b23487ec3e4b02427713acf03d2a0c1700d6",
-        "implementation": "0xf06eecc237d3fc74efeb848441eff12cf85ae904",
+        "implementation": "0x151b8a335ad5d0d15085d172c1fc70e6a81ceec2",
         "proxy": "0x6d8acf60f3ddb6c49def2a2b77e56be2ff1502cf"
       },
       "bridgeToken": {
         "beacon": "0x94d0c8c7cdf68d83816e2a54f6ca1b4da3deff17",
-        "implementation": "0xc7c12197154859f8b03d8f370fa9cc9efb22ba6b",
+        "implementation": "0xea5ee132a66c2ce09aeb8baddabb26ecf33603ae",
         "proxy": "0x0000000000000000000000000000000000000000"
       },
       "customs": [],
@@ -217,7 +217,7 @@
       "ethHelper": "0x888ae8056f5b0f8e0268c331666ad08c1e9bd4cf",
       "tokenRegistry": {
         "beacon": "0x9dd8fd7e34d9adff5b5333a0eca52b8017f4abba",
-        "implementation": "0x9361517c61c8144e8fba42ec45ca44868505d46e",
+        "implementation": "0x40ac82a5aafc919a917d93c73d614891dec6581b",
         "proxy": "0x22431cd0b489f148fd34baee3accf815750ac732"
       }
     },
@@ -244,12 +244,12 @@
     "rinkeby": {
       "bridgeRouter": {
         "beacon": "0x4308f89c9f9d8e60655a2f5b2d9fd81cbd563b74",
-        "implementation": "0x0ea056263e70eb9b7b3c30ca9b1d5c0f86f30411",
+        "implementation": "0x40a4467bcb110c453561487f62753117a98ced27",
         "proxy": "0x94e10fc081653fda7fb6f3e52189fc58020359bb"
       },
       "bridgeToken": {
         "beacon": "0x2fa4f954a2f7c88cebd220ff929c1c427d5831ce",
-        "implementation": "0x2ef49f0933abd6c61f25049523f5e1d0b7735e43",
+        "implementation": "0x36044f7203d41fd959801b89fcdf4075251123e2",
         "proxy": "0x0000000000000000000000000000000000000000"
       },
       "customs": [],
@@ -257,7 +257,7 @@
       "ethHelper": "0x9ad5cea0d01f246a33f785c3a0826f730e4fed1e",
       "tokenRegistry": {
         "beacon": "0xd6cc8807cdcaa4af36a0a0c41d9a992668de7033",
-        "implementation": "0xdaabea0529c6c23b391ed19cc139a4f65565ef33",
+        "implementation": "0x2b387c015cc1c9e6bf39a924fadcaf2e17e90f9d",
         "proxy": "0xbda2ae94347b13ffe3a3b558af59a69ac101ebbe"
       }
     }
@@ -301,28 +301,28 @@
       "deployHeight": 998766,
       "governanceRouter": {
         "beacon": "0xc14772571056bfacb3e306ef2dfce8623065394a",
-        "implementation": "0xec62966972cf1c056d716b5ff59e5ed64216ae5d",
+        "implementation": "0x7a2ac3f2d84ca2da7a725cfbc159bc1c2492cf14",
         "proxy": "0x3c054909e1f659c4bb6f3c03060e74b42d5f602f"
       },
       "home": {
         "beacon": "0xe50e6190dc9b3324f4f699fd8c68d80fdda3ce81",
-        "implementation": "0x0dae7ee495760f07806f38f52d9195607df74b42",
+        "implementation": "0x740085c562aa71dfa417fb3fa0933acacd037ae3",
         "proxy": "0x16b0f38bcca1f5f88cfe1d238779a57e0df6707d"
       },
       "replicas": {
         "goerli": {
           "beacon": "0x4cfdab9df84e03413a8da8fea41212ba6bc6c250",
-          "implementation": "0x2fdf5ea21cea01f744a7aa6c712318aa2958a697",
+          "implementation": "0x73f6d2ddd31856eb45080cf9eaf397f57800cacd",
           "proxy": "0xe5cd1d85d4bd5d28f8f0c9a0a9c140919f9000e2"
         },
         "neontestnet": {
           "beacon": "0x4cfdab9df84e03413a8da8fea41212ba6bc6c250",
-          "implementation": "0x2fdf5ea21cea01f744a7aa6c712318aa2958a697",
+          "implementation": "0x73f6d2ddd31856eb45080cf9eaf397f57800cacd",
           "proxy": "0xBcB33f3eDa164679e1D45bdB57cE0B69526dA765"
         },
         "rinkeby": {
           "beacon": "0x4cfdab9df84e03413a8da8fea41212ba6bc6c250",
-          "implementation": "0x2fdf5ea21cea01f744a7aa6c712318aa2958a697",
+          "implementation": "0x73f6d2ddd31856eb45080cf9eaf397f57800cacd",
           "proxy": "0x60e5957f39ad0b38e35d87902f2960bb71c9641a"
         }
       },
@@ -334,28 +334,28 @@
       "deployHeight": 6748857,
       "governanceRouter": {
         "beacon": "0x5b6549371c14b0c1e9bc5536eddd1b6125295ba3",
-        "implementation": "0x060fe7cb89d56af04800f333e6ff5da8f7f47513",
+        "implementation": "0x166b6a590a2ebeb71c3bdc74762c03a1276bba0c",
         "proxy": "0xaedf9ab06c019088ca435e9cfa81b53a997dcec9"
       },
       "home": {
         "beacon": "0x881a28465d23976e7ae68ba539cd688fef59b9b6",
-        "implementation": "0xbdae77a9d5dffa96285ccba8e2f393ebc540246c",
+        "implementation": "0x272e4af5d4a496ff74615fd4f87104a6e202a365",
         "proxy": "0x2698210d52378c0c01765ac7e79a10e8a226fbae"
       },
       "replicas": {
         "evmostestnet": {
           "beacon": "0xe1fbad342c8f2967f74dcef5db8c774a07b41dab",
-          "implementation": "0xb10252d7c83cd5db1e3e295720c298682a56a4ff",
+          "implementation": "0x15fd033c7bb9eaf0961f351193bfd47f851ee414",
           "proxy": "0x3b02a61ce383c473dece1bb66b2aeda18c742115"
         },
         "neontestnet": {
           "beacon": "0xe1fbad342c8f2967f74dcef5db8c774a07b41dab",
-          "implementation": "0xb10252d7c83cd5db1e3e295720c298682a56a4ff",
+          "implementation": "0x15fd033c7bb9eaf0961f351193bfd47f851ee414",
           "proxy": "0xDa6A17839b25DE8DD848E291A467Efb705C15525"
         },
         "rinkeby": {
           "beacon": "0xe1fbad342c8f2967f74dcef5db8c774a07b41dab",
-          "implementation": "0xb10252d7c83cd5db1e3e295720c298682a56a4ff",
+          "implementation": "0x15fd033c7bb9eaf0961f351193bfd47f851ee414",
           "proxy": "0xf89e0dcea5ae9626810427a62b135394d86913b2"
         }
       },
@@ -400,28 +400,28 @@
       "deployHeight": 10537550,
       "governanceRouter": {
         "beacon": "0xebbc6ffa340c2696c94b71c161ceb129530aca40",
-        "implementation": "0x9ab8fb7df6c347f9401e9be4eff5e1fa7c456267",
+        "implementation": "0x661ec6b5ff9a6e2f79cdc92246a73a884a9dfc24",
         "proxy": "0x408eedf7b9a59465bb06f62c278e58d929a4f5fb"
       },
       "home": {
         "beacon": "0xdefbb737c9f229efec5e7e7896d2c66e7333512b",
-        "implementation": "0x021846f3e7d6f52519e23b1d7303e13f063b3b71",
+        "implementation": "0x199157aa19784b4dd3e61323455b1617467ae832",
         "proxy": "0xba64e033fafd08e1b14e034fcd31d10e9534ba8e"
       },
       "replicas": {
         "evmostestnet": {
           "beacon": "0x7e31b1e36313260466123c630e78a038cf6b395b",
-          "implementation": "0x2f205eeedef1a3b95f78f2ce492b1fd20026982e",
+          "implementation": "0x9972c9d9a711b1f92a686cfff28e504de829489a",
           "proxy": "0xddccd92b9a18052d03ea4241e059ed82d7d1a695"
         },
         "goerli": {
           "beacon": "0x7e31b1e36313260466123c630e78a038cf6b395b",
-          "implementation": "0x2f205eeedef1a3b95f78f2ce492b1fd20026982e",
+          "implementation": "0x9972c9d9a711b1f92a686cfff28e504de829489a",
           "proxy": "0x4c57ebd1eacb86d4dd5b64bb67115f9d401bc141"
         },
         "neontestnet": {
           "beacon": "0x7e31b1e36313260466123c630e78a038cf6b395b",
-          "implementation": "0x2f205eeedef1a3b95f78f2ce492b1fd20026982e",
+          "implementation": "0x9972c9d9a711b1f92a686cfff28e504de829489a",
           "proxy": "0xe28EFd42Ffb9FC9f7c7EcEC23db2fbD85A2101d7"
         }
       },
@@ -597,7 +597,7 @@
   },
   "rpcs": {
     "evmostestnet": [
-      "https://eth.bd.evmos.dev:8545"
+      "https://eth.bd.evmos.dev:8545/"
     ],
     "goerli": [
       "https://goerli-light.eth.linkpool.io"

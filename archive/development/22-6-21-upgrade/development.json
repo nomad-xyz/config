@@ -6,7 +6,6 @@
     "goerli",
     "kovan",
     "neontestnet",
-    "optimismkovan",
     "rinkeby"
   ],
   "agent": {
@@ -84,7 +83,6 @@
           "goerli",
           "kovan",
           "neontestnet",
-          "neontestnet",
           "optimismkovan",
           "rinkeby"
         ]
@@ -130,7 +128,6 @@
           "arbitrumrinkeby",
           "evmostestnet",
           "kovan",
-          "neontestnet",
           "neontestnet",
           "optimismkovan",
           "rinkeby"
@@ -222,8 +219,10 @@
         "subsidizedRemotes": [
           "arbitrumrinkeby",
           "evmostestnet",
+          "goerli",
           "kovan",
-          "optimismkovan"
+          "optimismkovan",
+          "rinkeby"
         ]
       },
       "relayer": {
@@ -315,7 +314,6 @@
           "goerli",
           "kovan",
           "neontestnet",
-          "neontestnet",
           "optimismkovan"
         ]
       },
@@ -338,12 +336,12 @@
     "arbitrumrinkeby": {
       "bridgeRouter": {
         "beacon": "0x4272e577e40b3146d0269d1276542bba2adeaabf",
-        "implementation": "0x5aaa45f1329af4d2dd46e6e6cd70924b87f2d7dd",
+        "implementation": "0xf624ce4c7ab95f38e83ba453dd2d39eb2463c63a",
         "proxy": "0x2288254096c0b5747c6f48a93fd17a03f83dda24"
       },
       "bridgeToken": {
         "beacon": "0x3daa2126a75a205c25b540d791806b3445313ec0",
-        "implementation": "0xd926b924de53cf5adee4738f1608f7e25982499a",
+        "implementation": "0xadcfa0fa7af55da60c511c5da63a4c45c1776bc8",
         "proxy": "0x0000000000000000000000000000000000000000"
       },
       "customs": [],
@@ -351,19 +349,19 @@
       "ethHelper": "0x54b74b0e24bf83fbd5081a99a99566048d231bfa",
       "tokenRegistry": {
         "beacon": "0x88b6740d1a8b3f25df6179fbcf83026867ee8523",
-        "implementation": "0x9301dcce67e663dda07be9a5166a8b2bde12bac3",
+        "implementation": "0x2f584717e62497be3ea3eb7b9df11b51b0bbe8a8",
         "proxy": "0xcd817d1fed120aad28c64817a4a0277bd81aaa9d"
       }
     },
     "evmostestnet": {
       "bridgeRouter": {
         "beacon": "0x3a58831408c67bf1ec7b4de773552c87a169b37e",
-        "implementation": "0x52dbd0c2b9387ded247022806b645dc8a5aee8ff",
+        "implementation": "0xb5bb00feea0992ed5830022bb11fca1b1da80743",
         "proxy": "0x2d12e31c4ec3ee566b6f6eaab89875f4c18ef971"
       },
       "bridgeToken": {
         "beacon": "0x96f2380d5240e3634692694eab82f5609caee18d",
-        "implementation": "0xb0b95e5cc3e922a2b67fd3bbca1c18603a4d0ba4",
+        "implementation": "0x2398bd48e3af8d6355086bdec5e9b33941cb4c1d",
         "proxy": "0x0000000000000000000000000000000000000000"
       },
       "customs": [],
@@ -371,19 +369,19 @@
       "ethHelper": "0x3bfcdad68bea1ed61fac49d050dabe0e1a482d30",
       "tokenRegistry": {
         "beacon": "0x3014dd7f749a62baea07b96fb929f14001a2e87f",
-        "implementation": "0xbf394c127403ea4aaf56f42b8217fb4544c6e5be",
+        "implementation": "0x59082375623fbb2246fa432952eb04c81d36554b",
         "proxy": "0x8887b5b8c798720690f8ca5a15bf26c3984f20e8"
       }
     },
     "goerli": {
       "bridgeRouter": {
         "beacon": "0x1e0db0d3361c6e7e78b68079cad63daf5e337c49",
-        "implementation": "0x9b68006a0740411a315ceeda30f160a5263af005",
+        "implementation": "0x458601f248fbc6bca596c102fbee6f155bdc7523",
         "proxy": "0x17e9b5d4fbd4359875e19bd06359ded7fba33f4c"
       },
       "bridgeToken": {
         "beacon": "0xa0f7bd4594dacc63a91b3c7857dbc789309aabe8",
-        "implementation": "0xa42a96cfd0ecdb41514908d8e0a0a55b14ec199d",
+        "implementation": "0x43959a82a3efe7503dcacb5b6f39830d539156fd",
         "proxy": "0x0000000000000000000000000000000000000000"
       },
       "customs": [],
@@ -391,19 +389,19 @@
       "ethHelper": "0x6f646837e542b47a7c982da5ceb3676caabc00bf",
       "tokenRegistry": {
         "beacon": "0x20d53a6835d201fcf9cceab9309a044f75388b83",
-        "implementation": "0xe195d2e4c247b5cce1630cb0b39d8bfedf66c0f3",
+        "implementation": "0x958a0e80306583123d230324ce6d1aac6fc91128",
         "proxy": "0xcaca3358fd90c8e7ae9689ac4d21a8a7ec58c030"
       }
     },
     "kovan": {
       "bridgeRouter": {
         "beacon": "0xa3ff2c100c10fa34f3f79c79dd39aa86bc54326e",
-        "implementation": "0x2b56f51f74917852d19ec0b127358122a461dee3",
+        "implementation": "0x26f8446420aba995c3b36193d1ec49249abb2f6d",
         "proxy": "0xff3ecfa871d0419abf55ba5395c10c3c321c108c"
       },
       "bridgeToken": {
         "beacon": "0x7af50c002a7e9e6fc683d8ca1d6840d3b5c285b7",
-        "implementation": "0x9b5f25ae3edaf2ec85c484f425dce0dbe9ba7c98",
+        "implementation": "0x74ec7a6a70edfb7f2252c93d5caec4c24278d5b5",
         "proxy": "0x0000000000000000000000000000000000000000"
       },
       "customs": [],
@@ -411,7 +409,7 @@
       "ethHelper": "0xd71410e8f988ba97e95e2833ebf8d6c42cbcaa2d",
       "tokenRegistry": {
         "beacon": "0x4b6771cbd12526cba501b9e14cf98c391c4c8fdf",
-        "implementation": "0x1d734e5897e8c98a25436bb85780e001310d5f34",
+        "implementation": "0x727a8583f29abaaae700babe972e357adfd2d218",
         "proxy": "0xbedbb76cea6a3dc28ec3afbc137ec3b4749f4467"
       }
     },
@@ -438,12 +436,12 @@
     "optimismkovan": {
       "bridgeRouter": {
         "beacon": "0xc966ab655df40988f6ada362dbbfd4447dc47725",
-        "implementation": "0x1cad12645d171a46f64a2ac1695a5fd9c904ebfc",
+        "implementation": "0x89784cea6baf552f49a98daff2c16730e9d2488f",
         "proxy": "0x9e76f5dfc22cfe83c06ef44fc318d5f923f33e2f"
       },
       "bridgeToken": {
         "beacon": "0xbb9108c6fe2134be3445bbc6bfa57a223e66b612",
-        "implementation": "0x20fb023a95710adaa08ff87bd896cca4b15ec483",
+        "implementation": "0xf2e2da66eaacc274469c29149d9ba5996fad5449",
         "proxy": "0x0000000000000000000000000000000000000000"
       },
       "customs": [],
@@ -451,19 +449,19 @@
       "ethHelper": "0x5ed597d469a81534749e14a177e59d68278d6dbb",
       "tokenRegistry": {
         "beacon": "0x359b05839b46efb969d97cd76a2aa4e172c75bba",
-        "implementation": "0x5c61715188d0eedb81dcbdd0fba16fe5add751d9",
+        "implementation": "0xe6034b2f02ffe38563c0f96252577ceedb00b4f5",
         "proxy": "0x952abfc4283f8d93f38a2993330b1b60ca3a8249"
       }
     },
     "rinkeby": {
       "bridgeRouter": {
         "beacon": "0xa778962b0ffbe7bc4449c308513a196bfa344232",
-        "implementation": "0x4e103edd1971e2721105a1cb090d81821b70aa1e",
+        "implementation": "0xebf2eaff9799c2b3b8f80cf40d89afbbba2e362e",
         "proxy": "0x5731f3581d139e9a697448a34f55a89b781aac9a"
       },
       "bridgeToken": {
         "beacon": "0xc19123a2afcc71220f603aec6228bc527db39fd0",
-        "implementation": "0x4fc8561f45da09098b0fe0f983a16202bf03106a",
+        "implementation": "0xf163454b43bcfab89db7ba2d5323d66b8096a952",
         "proxy": "0x0000000000000000000000000000000000000000"
       },
       "customs": [],
@@ -471,7 +469,7 @@
       "ethHelper": "0x64586c361748e1973efdccda47c43bfd255d5238",
       "tokenRegistry": {
         "beacon": "0xa38175d60e5f3b08989694af084abdb9d86efba7",
-        "implementation": "0x2b91b5ce301bfc7b42927f40f9cef10b0c64f2f4",
+        "implementation": "0xdf1307c9a5a77a9d0d68a1b4e83ff25bdb582093",
         "proxy": "0x7975a69a1fbccd03693e1ebec3e494be09d0604a"
       }
     }
@@ -525,43 +523,43 @@
       "deployHeight": 12098988,
       "governanceRouter": {
         "beacon": "0x1631d12da55cbfb540d46e0dd9bbfb1d3f293dc8",
-        "implementation": "0x03aed5b64abb6012f3a0d79baa5cb91459be2db2",
+        "implementation": "0x2e588e0cff16cb8dd343551b435f5fee94f35230",
         "proxy": "0x6cc740e1e17b7b72e1d6c46afea4d44d86657102"
       },
       "home": {
         "beacon": "0x4b162c5c62a67e8a1772c0f04715ed2606b51421",
-        "implementation": "0x0e41dbf2f9faa8f68eb854456ea855dae14accca",
+        "implementation": "0xe015da2b3cfdefb210ad5125744b552e80905468",
         "proxy": "0x884dad9316c61ed353b1d6931ba46663e1c3aacf"
       },
       "replicas": {
         "evmostestnet": {
           "beacon": "0x0c09e151720e0bcf4e2db42a3b5608b3de78e8d7",
-          "implementation": "0xd336a4b868ef5652268ff9c7de86de95c678909a",
+          "implementation": "0x7c8cc92daa7d9172dfe5d8319cc74a6166d05c2c",
           "proxy": "0xb372d6b312f678494cf4e1bf5d149e733640e968"
         },
         "goerli": {
           "beacon": "0x0c09e151720e0bcf4e2db42a3b5608b3de78e8d7",
-          "implementation": "0xd336a4b868ef5652268ff9c7de86de95c678909a",
+          "implementation": "0x7c8cc92daa7d9172dfe5d8319cc74a6166d05c2c",
           "proxy": "0x5f4d75de162b4c050f27ce2f2374d50e3d7fbbb6"
         },
         "kovan": {
           "beacon": "0x0c09e151720e0bcf4e2db42a3b5608b3de78e8d7",
-          "implementation": "0xd336a4b868ef5652268ff9c7de86de95c678909a",
+          "implementation": "0x7c8cc92daa7d9172dfe5d8319cc74a6166d05c2c",
           "proxy": "0xba7e081310d8bb7c6b6fa40e00389b8421133236"
         },
         "neontestnet": {
           "beacon": "0x0c09e151720e0bcf4e2db42a3b5608b3de78e8d7",
-          "implementation": "0xd336a4b868ef5652268ff9c7de86de95c678909a",
+          "implementation": "0x7c8cc92daa7d9172dfe5d8319cc74a6166d05c2c",
           "proxy": "0x495ef7cfee3850ba2afb5fea4c7c06ee0d1d0d6e"
         },
         "optimismkovan": {
           "beacon": "0x0c09e151720e0bcf4e2db42a3b5608b3de78e8d7",
-          "implementation": "0xd336a4b868ef5652268ff9c7de86de95c678909a",
+          "implementation": "0x7c8cc92daa7d9172dfe5d8319cc74a6166d05c2c",
           "proxy": "0xacaed04b586c0220eb6269e8769852a324355286"
         },
         "rinkeby": {
           "beacon": "0x0c09e151720e0bcf4e2db42a3b5608b3de78e8d7",
-          "implementation": "0xd336a4b868ef5652268ff9c7de86de95c678909a",
+          "implementation": "0x7c8cc92daa7d9172dfe5d8319cc74a6166d05c2c",
           "proxy": "0x921dbedc12ba3299deaf8dd9fff0f435d8839edf"
         }
       },
@@ -573,43 +571,43 @@
       "deployHeight": 942883,
       "governanceRouter": {
         "beacon": "0x6d7c1abe3dc804a69d7c96ba34edea3a8b9c4826",
-        "implementation": "0x56c4c4eb8901fd25a37224cef34c92301f182f47",
+        "implementation": "0x71af0c61653ef8a348e68a7448b72f0d0abed2c8",
         "proxy": "0x505d0ffb3cb00738338045b88d9a995e2f427017"
       },
       "home": {
         "beacon": "0x3fbcb5d882d706c9dea852700c7c35d1087d8740",
-        "implementation": "0x326cb118da8d26f04758db280705094292eac18c",
+        "implementation": "0x2df9005c0e6df01dbc3210e08996d23e07f4fba5",
         "proxy": "0x198740c6fc71308b2f97fe5d632ab46890bcb177"
       },
       "replicas": {
         "arbitrumrinkeby": {
           "beacon": "0xa38bdbd738e81a93e006959f1ea6565bb033c8d7",
-          "implementation": "0x67e9837aa16f425b379aaf7e4d5581e59d577cf2",
+          "implementation": "0x0fd70d51a1defb851da94ee66975b69b785fb8d0",
           "proxy": "0x0ded84b55b52a68bfc808f5696e7b5ba2d8d335d"
         },
         "goerli": {
           "beacon": "0xa38bdbd738e81a93e006959f1ea6565bb033c8d7",
-          "implementation": "0x67e9837aa16f425b379aaf7e4d5581e59d577cf2",
+          "implementation": "0x0fd70d51a1defb851da94ee66975b69b785fb8d0",
           "proxy": "0xff1000469744aa20630ae61d5f9f461b08755582"
         },
         "kovan": {
           "beacon": "0xa38bdbd738e81a93e006959f1ea6565bb033c8d7",
-          "implementation": "0x67e9837aa16f425b379aaf7e4d5581e59d577cf2",
+          "implementation": "0x0fd70d51a1defb851da94ee66975b69b785fb8d0",
           "proxy": "0x745f85d60c6afe77a6465336b87f4baaa5418a13"
         },
         "neontestnet": {
           "beacon": "0xa38bdbd738e81a93e006959f1ea6565bb033c8d7",
-          "implementation": "0x67e9837aa16f425b379aaf7e4d5581e59d577cf2",
+          "implementation": "0x0fd70d51a1defb851da94ee66975b69b785fb8d0",
           "proxy": "0x41737ac8a129f20707d914ff088a7ec3e57bc99b"
         },
         "optimismkovan": {
           "beacon": "0xa38bdbd738e81a93e006959f1ea6565bb033c8d7",
-          "implementation": "0x67e9837aa16f425b379aaf7e4d5581e59d577cf2",
+          "implementation": "0x0fd70d51a1defb851da94ee66975b69b785fb8d0",
           "proxy": "0x0ec74984011b13a96e09267b4395ac28e5f13f4d"
         },
         "rinkeby": {
           "beacon": "0xa38bdbd738e81a93e006959f1ea6565bb033c8d7",
-          "implementation": "0x67e9837aa16f425b379aaf7e4d5581e59d577cf2",
+          "implementation": "0x0fd70d51a1defb851da94ee66975b69b785fb8d0",
           "proxy": "0x362f6d97609501e630ad8a5da2f211675cac591e"
         }
       },
@@ -621,43 +619,43 @@
       "deployHeight": 6748555,
       "governanceRouter": {
         "beacon": "0xaabd0850ab63a1e856521b900b40b496a99e8560",
-        "implementation": "0x79ea0091b38cb6a95bef2ae3bdbf28af49ba1c28",
+        "implementation": "0xc675e02c2a2b95e9e480253570e54481c35064fc",
         "proxy": "0x66d093d20b3dd088397695c65df980c014da5e3e"
       },
       "home": {
         "beacon": "0x25ec670059754b859fdcbdb6802c7644fd0a1af5",
-        "implementation": "0x0ef8ad9603f15127916e2d4777453ac885ae4669",
+        "implementation": "0x8cc7b5dd9fae38ecf99ba428a2f9bcc86c8e9c76",
         "proxy": "0x454f1ec431470063a1792ead14c1f10876796e5f"
       },
       "replicas": {
         "arbitrumrinkeby": {
           "beacon": "0x4a455cbabd96dc9b0dba2f0ccbb58a2dad403df2",
-          "implementation": "0x8a36fbccc8d844aaacbca71e7ec8847215bb82f2",
+          "implementation": "0x9ba051dc387b54963e8988b21c17328d5196b64e",
           "proxy": "0x0ded84b55b52a68bfc808f5696e7b5ba2d8d335d"
         },
         "evmostestnet": {
           "beacon": "0x4a455cbabd96dc9b0dba2f0ccbb58a2dad403df2",
-          "implementation": "0x8a36fbccc8d844aaacbca71e7ec8847215bb82f2",
+          "implementation": "0x9ba051dc387b54963e8988b21c17328d5196b64e",
           "proxy": "0xf1b83d100860887aef35e50b3794e28dc744e5ce"
         },
         "kovan": {
           "beacon": "0x4a455cbabd96dc9b0dba2f0ccbb58a2dad403df2",
-          "implementation": "0x8a36fbccc8d844aaacbca71e7ec8847215bb82f2",
+          "implementation": "0x9ba051dc387b54963e8988b21c17328d5196b64e",
           "proxy": "0x9df21c4a016b8bd84000b29a3ba51980ddd7b37a"
         },
         "neontestnet": {
           "beacon": "0x4a455cbabd96dc9b0dba2f0ccbb58a2dad403df2",
-          "implementation": "0x8a36fbccc8d844aaacbca71e7ec8847215bb82f2",
+          "implementation": "0x9ba051dc387b54963e8988b21c17328d5196b64e",
           "proxy": "0xe9239d33c26bef40ae87a2e211848fc8e7c7baa0"
         },
         "optimismkovan": {
           "beacon": "0x4a455cbabd96dc9b0dba2f0ccbb58a2dad403df2",
-          "implementation": "0x8a36fbccc8d844aaacbca71e7ec8847215bb82f2",
+          "implementation": "0x9ba051dc387b54963e8988b21c17328d5196b64e",
           "proxy": "0x0ec74984011b13a96e09267b4395ac28e5f13f4d"
         },
         "rinkeby": {
           "beacon": "0x4a455cbabd96dc9b0dba2f0ccbb58a2dad403df2",
-          "implementation": "0x8a36fbccc8d844aaacbca71e7ec8847215bb82f2",
+          "implementation": "0x9ba051dc387b54963e8988b21c17328d5196b64e",
           "proxy": "0xf405c58d95a8f2617505841bdacef6de27006d74"
         }
       },
@@ -669,43 +667,43 @@
       "deployHeight": 31134284,
       "governanceRouter": {
         "beacon": "0xd3bd51f18b7a77f2d16364ec0e7a8e499f86c8e9",
-        "implementation": "0xf4a442eeecc3e275d5ed4d91ec6231c7ab8e2386",
+        "implementation": "0x476942f185edb29b2fc6bd8a4d32acde172f81a3",
         "proxy": "0x3f7754a3e178acc32ff8d5887b38f4e7b1673d8b"
       },
       "home": {
         "beacon": "0x1c29678a918b8b4823a76b542b199b82cf4629ba",
-        "implementation": "0x397a0edbdd4c89d1dad557ae5bac75f585d77b7d",
+        "implementation": "0x5ba21af1b5e8dca5327a3e7765cd6ce46537e6f1",
         "proxy": "0x4730144aa70a22bd04338e4589ec8f55618e73bf"
       },
       "replicas": {
         "arbitrumrinkeby": {
           "beacon": "0x6c6b091665520088dbfe8ccb1ecb1d0556814e0d",
-          "implementation": "0x18f4019f6620e1593059b5a0518ceed6a6634373",
+          "implementation": "0x4aff21821fa459ce621b1740f3bd754491fa2cc2",
           "proxy": "0x0ded84b55b52a68bfc808f5696e7b5ba2d8d335d"
         },
         "evmostestnet": {
           "beacon": "0x6c6b091665520088dbfe8ccb1ecb1d0556814e0d",
-          "implementation": "0x18f4019f6620e1593059b5a0518ceed6a6634373",
+          "implementation": "0x4aff21821fa459ce621b1740f3bd754491fa2cc2",
           "proxy": "0x5dcbdfe40ef9e865b3cc2c90c517c557b2fa91c8"
         },
         "goerli": {
           "beacon": "0x6c6b091665520088dbfe8ccb1ecb1d0556814e0d",
-          "implementation": "0x18f4019f6620e1593059b5a0518ceed6a6634373",
+          "implementation": "0x4aff21821fa459ce621b1740f3bd754491fa2cc2",
           "proxy": "0x9969e1b2a9f81fc9066897b4865b58443967024b"
         },
         "neontestnet": {
           "beacon": "0x6c6b091665520088dbfe8ccb1ecb1d0556814e0d",
-          "implementation": "0x18f4019f6620e1593059b5a0518ceed6a6634373",
+          "implementation": "0x4aff21821fa459ce621b1740f3bd754491fa2cc2",
           "proxy": "0xeb04adc8a451b9730ccf0b7f8ab1fb422c72c55a"
         },
         "optimismkovan": {
           "beacon": "0x6c6b091665520088dbfe8ccb1ecb1d0556814e0d",
-          "implementation": "0x18f4019f6620e1593059b5a0518ceed6a6634373",
+          "implementation": "0x4aff21821fa459ce621b1740f3bd754491fa2cc2",
           "proxy": "0xb7ff8c43c8dd80c6b2ab42525b056565627df677"
         },
         "rinkeby": {
           "beacon": "0x6c6b091665520088dbfe8ccb1ecb1d0556814e0d",
-          "implementation": "0x18f4019f6620e1593059b5a0518ceed6a6634373",
+          "implementation": "0x4aff21821fa459ce621b1740f3bd754491fa2cc2",
           "proxy": "0x523c830c9007b595609a7e5f4885eeae6a4d2318"
         }
       },
@@ -765,43 +763,43 @@
       "deployHeight": 3474253,
       "governanceRouter": {
         "beacon": "0x847a1cd98bf276911d4e0939953024d89965a5e3",
-        "implementation": "0x5c1db088cd74c0df41002b2c0bca062e03d85330",
+        "implementation": "0x091264137364018a14e80d477922c334a20574a4",
         "proxy": "0x605811d4c135ea90c77ecbcdbf58430ec0ff452d"
       },
       "home": {
         "beacon": "0x212bb3042ff07ed543e6caf97563429174db9618",
-        "implementation": "0x5caf9c8e47aa3b03747daa18b3d94e681e5b2dcb",
+        "implementation": "0x0ae0010822fccb4778d18c5dfecb53ac6074ddf4",
         "proxy": "0x8c43f05c4bcdd2bd381fa04be9b8752f4f2ec76e"
       },
       "replicas": {
         "arbitrumrinkeby": {
           "beacon": "0x0c4baf5c6e21da386dfe82fdd57fb6a8d6aca7b4",
-          "implementation": "0x8c2f5ddba5c1e66445a53ce8a9b13c21f29923ea",
+          "implementation": "0x532814a2b5a5f4a30fd31d03ab32936d95a4e581",
           "proxy": "0x3c9e9cff71d402371c18ced7f5d6724e80da1ff0"
         },
         "evmostestnet": {
           "beacon": "0x0c4baf5c6e21da386dfe82fdd57fb6a8d6aca7b4",
-          "implementation": "0x8c2f5ddba5c1e66445a53ce8a9b13c21f29923ea",
+          "implementation": "0x532814a2b5a5f4a30fd31d03ab32936d95a4e581",
           "proxy": "0x766de0c81b1589fa03aa7de37666941d7653fafe"
         },
         "goerli": {
           "beacon": "0x0c4baf5c6e21da386dfe82fdd57fb6a8d6aca7b4",
-          "implementation": "0x8c2f5ddba5c1e66445a53ce8a9b13c21f29923ea",
+          "implementation": "0x532814a2b5a5f4a30fd31d03ab32936d95a4e581",
           "proxy": "0x6b16503909d856b7d4bdc6ca4de9cab485b2a1e4"
         },
         "kovan": {
           "beacon": "0x0c4baf5c6e21da386dfe82fdd57fb6a8d6aca7b4",
-          "implementation": "0x8c2f5ddba5c1e66445a53ce8a9b13c21f29923ea",
+          "implementation": "0x532814a2b5a5f4a30fd31d03ab32936d95a4e581",
           "proxy": "0x8557f3af8740e4fa366d4c5d0f9b7f8fd6370fc2"
         },
         "neontestnet": {
           "beacon": "0x0c4baf5c6e21da386dfe82fdd57fb6a8d6aca7b4",
-          "implementation": "0x8c2f5ddba5c1e66445a53ce8a9b13c21f29923ea",
+          "implementation": "0x532814a2b5a5f4a30fd31d03ab32936d95a4e581",
           "proxy": "0xefe642c185d56554174098bf68752816511dbc5a"
         },
         "rinkeby": {
           "beacon": "0x0c4baf5c6e21da386dfe82fdd57fb6a8d6aca7b4",
-          "implementation": "0x8c2f5ddba5c1e66445a53ce8a9b13c21f29923ea",
+          "implementation": "0x532814a2b5a5f4a30fd31d03ab32936d95a4e581",
           "proxy": "0x2dff665beef8a4e6c6833f5c032169974d9846e7"
         }
       },
@@ -813,43 +811,43 @@
       "deployHeight": 10537248,
       "governanceRouter": {
         "beacon": "0x0574d16015f9eef1d228c3c02d551ca8a7458036",
-        "implementation": "0xebedb3243a24a940f086de8cadc96883df56e9de",
+        "implementation": "0x76a0549fc4f238601a0fc4b43aa5c6750a35179e",
         "proxy": "0xfbb2fec4fcb5738c739b9705e723117581cbabeb"
       },
       "home": {
         "beacon": "0x8c49b91b307cd9d00838b947cf7f4a25bc051152",
-        "implementation": "0x87787132ad6282c156ed3e3aaeebbfbc35728f15",
+        "implementation": "0x291aa27728ec80c5b7a2356546b8055a48996c64",
         "proxy": "0x0977fc99b94fd769ea4fbbfa14777434f773ced2"
       },
       "replicas": {
         "arbitrumrinkeby": {
           "beacon": "0x8dc1c77718b6f97f4a1e06e234ba2c8defd9cf9a",
-          "implementation": "0xad74bef73458ddb8646af7a2e9a56734fa44694c",
+          "implementation": "0xcea907d60b96bf18b0c571ff7b0a5e97356f3ceb",
           "proxy": "0x676b7fbb358db45c434fb477c16dfd92fa436152"
         },
         "evmostestnet": {
           "beacon": "0x8dc1c77718b6f97f4a1e06e234ba2c8defd9cf9a",
-          "implementation": "0xad74bef73458ddb8646af7a2e9a56734fa44694c",
+          "implementation": "0xcea907d60b96bf18b0c571ff7b0a5e97356f3ceb",
           "proxy": "0x423b1eced988959067834b13b501c8ab78a28576"
         },
         "goerli": {
           "beacon": "0x8dc1c77718b6f97f4a1e06e234ba2c8defd9cf9a",
-          "implementation": "0xad74bef73458ddb8646af7a2e9a56734fa44694c",
+          "implementation": "0xcea907d60b96bf18b0c571ff7b0a5e97356f3ceb",
           "proxy": "0x96ee295d2c96ea0353b25ff0b8e8e0b8e64db60f"
         },
         "kovan": {
           "beacon": "0x8dc1c77718b6f97f4a1e06e234ba2c8defd9cf9a",
-          "implementation": "0xad74bef73458ddb8646af7a2e9a56734fa44694c",
+          "implementation": "0xcea907d60b96bf18b0c571ff7b0a5e97356f3ceb",
           "proxy": "0x097a3eb6cd351ab28de67a0a0bda9e0e32733da7"
         },
         "neontestnet": {
           "beacon": "0x8dc1c77718b6f97f4a1e06e234ba2c8defd9cf9a",
-          "implementation": "0xad74bef73458ddb8646af7a2e9a56734fa44694c",
+          "implementation": "0xcea907d60b96bf18b0c571ff7b0a5e97356f3ceb",
           "proxy": "0x08f8fb0d580e0ee422bc477d6098e401226a715a"
         },
         "optimismkovan": {
           "beacon": "0x8dc1c77718b6f97f4a1e06e234ba2c8defd9cf9a",
-          "implementation": "0xad74bef73458ddb8646af7a2e9a56734fa44694c",
+          "implementation": "0xcea907d60b96bf18b0c571ff7b0a5e97356f3ceb",
           "proxy": "0x6025dd438e53f4614306dae895b13287391d6ab2"
         }
       },
@@ -860,146 +858,10 @@
   },
   "environment": "development",
   "gas": {
-    "evmostestnet": {
-      "bridge": {
-        "bridgeRouter": {
-          "send": 500000
-        },
-        "ethHelper": {
-          "send": 800000,
-          "sendToEvmLike": 800000
-        }
-      },
-      "core": {
-        "connectionManager": {
-          "ownerUnenrollReplica": 120000,
-          "unenrollReplica": 120000
-        },
-        "home": {
-          "doubleUpdate": 200000,
-          "improperUpdate": {
-            "base": 100000,
-            "perMessage": 10000
-          },
-          "update": {
-            "base": 100000,
-            "perMessage": 10000
-          }
-        },
-        "replica": {
-          "doubleUpdate": 200000,
-          "process": 1700000,
-          "prove": 200000,
-          "proveAndProcess": 1900000,
-          "update": 140000
-        }
-      }
-    },
-    "goerli": {
-      "bridge": {
-        "bridgeRouter": {
-          "send": 500000
-        },
-        "ethHelper": {
-          "send": 800000,
-          "sendToEvmLike": 800000
-        }
-      },
-      "core": {
-        "connectionManager": {
-          "ownerUnenrollReplica": 120000,
-          "unenrollReplica": 120000
-        },
-        "home": {
-          "doubleUpdate": 200000,
-          "improperUpdate": {
-            "base": 100000,
-            "perMessage": 10000
-          },
-          "update": {
-            "base": 100000,
-            "perMessage": 10000
-          }
-        },
-        "replica": {
-          "doubleUpdate": 200000,
-          "process": 1700000,
-          "prove": 200000,
-          "proveAndProcess": 1900000,
-          "update": 140000
-        }
-      }
-    },
-    "kovan": {
-      "bridge": {
-        "bridgeRouter": {
-          "send": 500000
-        },
-        "ethHelper": {
-          "send": 800000,
-          "sendToEvmLike": 800000
-        }
-      },
-      "core": {
-        "connectionManager": {
-          "ownerUnenrollReplica": 120000,
-          "unenrollReplica": 120000
-        },
-        "home": {
-          "doubleUpdate": 200000,
-          "improperUpdate": {
-            "base": 100000,
-            "perMessage": 10000
-          },
-          "update": {
-            "base": 100000,
-            "perMessage": 10000
-          }
-        },
-        "replica": {
-          "doubleUpdate": 200000,
-          "process": 1700000,
-          "prove": 200000,
-          "proveAndProcess": 1900000,
-          "update": 140000
-        }
-      }
-    },
-    "rinkeby": {
-      "bridge": {
-        "bridgeRouter": {
-          "send": 500000
-        },
-        "ethHelper": {
-          "send": 800000,
-          "sendToEvmLike": 800000
-        }
-      },
-      "core": {
-        "connectionManager": {
-          "ownerUnenrollReplica": 120000,
-          "unenrollReplica": 120000
-        },
-        "home": {
-          "doubleUpdate": 200000,
-          "improperUpdate": {
-            "base": 100000,
-            "perMessage": 10000
-          },
-          "update": {
-            "base": 100000,
-            "perMessage": 10000
-          }
-        },
-        "replica": {
-          "doubleUpdate": 200000,
-          "process": 1700000,
-          "prove": 200000,
-          "proveAndProcess": 1900000,
-          "update": 140000
-        }
-      }
-    }
+    "evmostestnet": "evmDefault",
+    "goerli": "evmDefault",
+    "kovan": "evmDefault",
+    "rinkeby": "evmDefault"
   },
   "protocol": {
     "governor": {
@@ -1114,10 +976,7 @@
           "arbitrumrinkeby",
           "evmostestnet",
           "kovan",
-          "kovan",
           "neontestnet",
-          "neontestnet",
-          "optimismkovan",
           "optimismkovan",
           "rinkeby"
         ],
@@ -1158,11 +1017,8 @@
           "arbitrumrinkeby",
           "evmostestnet",
           "goerli",
-          "goerli",
           "neontestnet",
           "optimismkovan",
-          "optimismkovan",
-          "rinkeby",
           "rinkeby"
         ],
         "domain": 2001,
@@ -1241,10 +1097,7 @@
         },
         "connections": [
           "arbitrumrinkeby",
-          "arbitrumrinkeby",
           "evmostestnet",
-          "evmostestnet",
-          "goerli",
           "goerli",
           "kovan",
           "neontestnet",
@@ -1306,26 +1159,20 @@
     }
   },
   "rpcs": {
-    "arbitrumrinkeby": [
-      "https://rinkeby.arbitrum.io/rpc"
-    ],
     "evmostestnet": [
-      "https://eth.bd.evmos.dev:8545"
+      "https://eth.bd.evmos.dev:8545/"
     ],
     "goerli": [
-      "https://eth-goerli.alchemyapi.io/v2/PU0_a_1LHwf2bVF1zscb8hr8E4Rqk49F"
+      "https://goerli.infura.io/v3/de08c16049f346fb87575404e21d2b5e"
     ],
     "kovan": [
-      "https://kovan.poa.network"
+      "https://eth-kovan.alchemyapi.io/v2/9R6dAhbA4IyQoFuX0eEqwFdt3sMNpZnJ"
     ],
     "neontestnet": [
       "https://proxy.devnet.neonlabs.org/solana"
     ],
-    "optimismkovan": [
-      "https://kovan.optimism.io"
-    ],
     "rinkeby": [
-      "https://eth-rinkeby.alchemyapi.io/v2/2_EHjVL6clA6rFkDqdX8b7afHwHoCU0x"
+      "https://eth-rinkeby.alchemyapi.io/v2/-uKtZgu7bWLDEuW3EaOZ0f6eKpqiH-Tj"
     ]
   }
 }
