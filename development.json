@@ -5,6 +5,7 @@
     "evmostestnet",
     "goerli",
     "neontestnet",
+    "optimismkovan",
     "rinkeby"
   ],
   "agent": {
@@ -951,6 +952,9 @@
     }
   },
   "rpcs": {
+    "arbitrumrinkeby": [
+      "https://rinkeby.arbitrum.io/rpc"
+    ],
     "evmostestnet": [
       "https://eth.bd.evmos.dev:8545/"
     ],
@@ -959,6 +963,9 @@
     ],
     "neontestnet": [
       "https://proxy.devnet.neonlabs.org/solana"
+    ],
+    "optimismkovan": [
+      "https://kovan.optimism.io"
     ],
     "rinkeby": [
       "https://rinkeby-light.eth.linkpool.io"
