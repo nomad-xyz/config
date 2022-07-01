@@ -955,13 +955,13 @@
       "https://eth.bd.evmos.dev:8545/"
     ],
     "goerli": [
-      "https://goerli.infura.io/v3/de08c16049f346fb87575404e21d2b5e"
+      "https://goerli-light.eth.linkpool.io"
     ],
     "neontestnet": [
       "https://proxy.devnet.neonlabs.org/solana"
     ],
     "rinkeby": [
-      "https://eth-rinkeby.alchemyapi.io/v2/-uKtZgu7bWLDEuW3EaOZ0f6eKpqiH-Tj"
+      "https://rinkeby-light.eth.linkpool.io"
     ]
   }
 }

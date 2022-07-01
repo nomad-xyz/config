@@ -612,7 +612,7 @@
       "https://kovan.optimism.io"
     ],
     "rinkeby": [
-      "https://eth-rinkeby.alchemyapi.io/v2/-uKtZgu7bWLDEuW3EaOZ0f6eKpqiH-Tj"
+      "https://rinkeby-light.eth.linkpool.io"
     ]
   }
 }
