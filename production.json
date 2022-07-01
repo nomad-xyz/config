@@ -32,12 +32,7 @@
           "bucket": "nomadxyz-production-proofs",
           "region": "us-west-2"
         },
-        "subsidizedRemotes": [
-          "evmos",
-          "milkomedaC1",
-          "moonbeam",
-          "xdai"
-        ]
+        "subsidizedRemotes": ["evmos", "milkomedaC1", "moonbeam", "xdai"]
       },
       "relayer": {
         "enabled": true,
@@ -121,12 +116,7 @@
           "bucket": "nomadxyz-production-proofs",
           "region": "us-west-2"
         },
-        "subsidizedRemotes": [
-          "avalanche",
-          "milkomedaC1",
-          "moonbeam",
-          "xdai"
-        ]
+        "subsidizedRemotes": ["avalanche", "milkomedaC1", "moonbeam", "xdai"]
       },
       "relayer": {
         "enabled": true,
@@ -165,12 +155,7 @@
           "bucket": "nomadxyz-production-proofs",
           "region": "us-west-2"
         },
-        "subsidizedRemotes": [
-          "avalanche",
-          "evmos",
-          "moonbeam",
-          "xdai"
-        ]
+        "subsidizedRemotes": ["avalanche", "evmos", "moonbeam", "xdai"]
       },
       "relayer": {
         "enabled": true,
@@ -209,12 +194,7 @@
           "bucket": "nomadxyz-production-proofs",
           "region": "us-west-2"
         },
-        "subsidizedRemotes": [
-          "avalanche",
-          "evmos",
-          "milkomedaC1",
-          "xdai"
-        ]
+        "subsidizedRemotes": ["avalanche", "evmos", "milkomedaC1", "xdai"]
       },
       "relayer": {
         "enabled": true,
@@ -253,12 +233,7 @@
           "bucket": "nomadxyz-production-proofs",
           "region": "us-west-2"
         },
-        "subsidizedRemotes": [
-          "avalanche",
-          "evmos",
-          "milkomedaC1",
-          "moonbeam"
-        ]
+        "subsidizedRemotes": ["avalanche", "evmos", "milkomedaC1", "moonbeam"]
       },
       "relayer": {
         "enabled": true,
@@ -415,45 +390,31 @@
   },
   "bridgeGui": {
     "avalanche": {
-      "connections": [
-        "ethereum"
-      ],
+      "connections": ["ethereum"],
       "connextEnabled": true,
       "displayName": "Avalanche",
       "nativeTokenSymbol": "AVAX"
     },
     "ethereum": {
-      "connections": [
-        "avalanche",
-        "evmos",
-        "milkomedaC1",
-        "moonbeam",
-        "xDai"
-      ],
+      "connections": ["avalanche", "evmos", "milkomedaC1", "moonbeam", "xDai"],
       "connextEnabled": true,
       "displayName": "Ethereum",
       "manualProcessing": true,
       "nativeTokenSymbol": "ETH"
     },
     "evmos": {
-      "connections": [
-        "ethereum"
-      ],
+      "connections": ["ethereum"],
       "connextEnabled": true,
       "displayName": "Evmos",
       "nativeTokenSymbol": "EVMOS"
     },
     "milkomedaC1": {
-      "connections": [
-        "ethereum"
-      ],
+      "connections": ["ethereum"],
       "displayName": "Milkomeda C1",
       "nativeTokenSymbol": "milkADA"
     },
     "moonbeam": {
-      "connections": [
-        "ethereum"
-      ],
+      "connections": ["ethereum"],
       "connextEnabled": true,
       "displayName": "Moonbeam",
       "nativeTokenSymbol": "GLMR"
@@ -751,17 +712,9 @@
           "processGas": 850000,
           "reserveGas": 25000,
           "updater": "0xb93d4dbb87b80f0869a5ce0839fb75acdbeb1b77",
-          "watchers": [
-            "0x499b1fa18e3cac1c8cdf2b14c458aa70a6a2b68f"
-          ]
+          "watchers": ["0x499b1fa18e3cac1c8cdf2b14c458aa70a6a2b68f"]
         },
-        "connections": [
-          "ethereum",
-          "evmos",
-          "milkomedaC1",
-          "moonbeam",
-          "xdai"
-        ],
+        "connections": ["ethereum", "evmos", "milkomedaC1", "moonbeam", "xdai"],
         "domain": 1635148152,
         "name": "avalanche",
         "specs": {
@@ -791,9 +744,7 @@
           "processGas": 850000,
           "reserveGas": 25000,
           "updater": "0x71dc76c07e92325e7cc09117ab94310da63fc2b9",
-          "watchers": [
-            "0x297bbc2f2eaaeb17ee53f514020bc8173f0570dc"
-          ]
+          "watchers": ["0x297bbc2f2eaaeb17ee53f514020bc8173f0570dc"]
         },
         "connections": [
           "avalanche",
@@ -841,9 +792,7 @@
           "processGas": 850000,
           "reserveGas": 25000,
           "updater": "0xc8e344d4698b6462187c88b9bb58f26ca3b5ed31",
-          "watchers": [
-            "0x9e8e7eb5886a9c77e955fd5d717581556eb7f98d"
-          ]
+          "watchers": ["0x9e8e7eb5886a9c77e955fd5d717581556eb7f98d"]
         },
         "connections": [
           "avalanche",
@@ -881,17 +830,9 @@
           "processGas": 850000,
           "reserveGas": 25000,
           "updater": "0xe293d129d9fd291a8115cb373bb934586055427d",
-          "watchers": [
-            "0x06d8902cfae8235047dc7783875279311798c715"
-          ]
+          "watchers": ["0x06d8902cfae8235047dc7783875279311798c715"]
         },
-        "connections": [
-          "avalanche",
-          "ethereum",
-          "evmos",
-          "moonbeam",
-          "xdai"
-        ],
+        "connections": ["avalanche", "ethereum", "evmos", "moonbeam", "xdai"],
         "domain": 25393,
         "name": "milkomedaC1",
         "specs": {
@@ -921,9 +862,7 @@
           "processGas": 850000,
           "reserveGas": 25000,
           "updater": "0x40fd91557b318bd5d52d12535795265c88702681",
-          "watchers": [
-            "0x9782a3c8128f5d1bd3c9655d03181ba5b420883e"
-          ]
+          "watchers": ["0x9782a3c8128f5d1bd3c9655d03181ba5b420883e"]
         },
         "connections": [
           "avalanche",
@@ -961,9 +900,7 @@
           "processGas": 850000,
           "reserveGas": 25000,
           "updater": "0x777a89f8cba8fa632268e8f3c6789cdadada3482",
-          "watchers": [
-            "0xce941bbad38b35bd7f6b039af5ae67f8f0c99960"
-          ]
+          "watchers": ["0xce941bbad38b35bd7f6b039af5ae67f8f0c99960"]
         },
         "connections": [
           "avalanche",
@@ -987,24 +924,12 @@
     }
   },
   "rpcs": {
-    "avalanche": [
-      "https://api.avax.network/ext/bc/C/rpc"
-    ],
-    "ethereum": [
-      "https://main-light.eth.linkpool.io/"
-    ],
-    "evmos": [
-      "https://eth.bd.evmos.org:8545"
-    ],
-    "milkomedaC1": [
-      "https://rpc.c1.milkomeda.com:8545"
-    ],
-    "moonbeam": [
-      "https://rpc.api.moonbeam.network"
-    ],
-    "xdai": [
-      "https://dai.poa.network/"
-    ]
+    "avalanche": ["https://api.avax.network/ext/bc/C/rpc"],
+    "ethereum": ["https://main-light.eth.linkpool.io/"],
+    "evmos": ["https://eth.bd.evmos.org:8545"],
+    "milkomedaC1": ["https://rpc.c1.milkomeda.com:8545"],
+    "moonbeam": ["https://rpc.api.moonbeam.network"],
+    "xdai": ["https://dai.poa.network/"]
   },
   "s3": {
     "bucket": "nomadxyz-production-proofs",

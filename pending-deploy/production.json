@@ -10,7 +10,7 @@
     "optimism",
     "polygon",
     "xdai",
-    "bnsc"
+    "bsc"
   ],
   "agent": {
     "avalanche": {
@@ -697,7 +697,11 @@
     "evmos": "evmDefault",
     "milkomedaC1": "evmDefault",
     "moonbeam": "evmDefault",
-    "xdai": "evmDefault"
+    "xdai": "evmDefault",
+    "arbitrum": "evmDefault",
+    "optimism": "evmDefault",
+    "polygon": "evmDefault",
+    "bsc": "evmDefault"
   },
   "protocol": {
     "governor": {
@@ -714,15 +718,15 @@
         },
         "configuration": {
           "governance": {
-            "recoveryManager": "TODO",
+            "recoveryManager": ":0xCC1a385C646cf88152e82F3b0C7B81be293F3D52",
             "recoveryTimelock": 86400
           },
           "maximumGas": 1000000,
           "optimisticSeconds": 1800,
           "processGas": 850000,
           "reserveGas": 25000,
-          "updater": "0x7eB6aEE9875d32Cf8a12C01fA951302B192C20A8",
-          "watchers": ["0xd5084275511450b5036FCB14E2bb5395Ed63f19D"]
+          "updater": "0x95c678C7E5761aD3BF33e60Fd7B7E33284287de4",
+          "watchers": ["0x5C6c602d72d72f1C1E4aD25aaD5ee9FB49Ae3868"]
         },
         "connections": [
           "avalanche",
@@ -736,7 +740,6 @@
         ],
         "domain": 6386274,
         "name": "arbitrum",
-        "rpc": "https://arb-mainnet.g.alchemy.com/v2/RwdK_GHt5oGT7WkGUn2AQJrCXsrEpGjD",
         "specs": {
           "blockExplorer": "https://arbiscan.io/",
           "blockTime": 1,
@@ -775,7 +778,7 @@
           "optimism",
           "polygon",
           "xdai",
-          "bnsc"
+          "bsc"
         ],
         "domain": 1635148152,
         "name": "avalanche",
@@ -789,7 +792,7 @@
           "supports1559": true
         }
       },
-      "bnsc": {
+      "bsc": {
         "bridgeConfiguration": {
           "customs": [],
           "deployGas": 850000,
@@ -805,11 +808,11 @@
           "optimisticSeconds": 1800,
           "processGas": 850000,
           "reserveGas": 25000,
-          "updater": "0xd99c4A6621359E3d3F1EAcC1de1cd5455dFC2109",
-          "watchers": ["0x1De6FfE38C2A5c3C47DFb9f4E431156A8B337040"]
+          "updater": "0xfAE6692834Ff552DC9ba167b7E4D728ee0Dc84b8",
+          "watchers": ["0x48F29d97A9aF592d9Bf296eeCf46224043372873"]
         },
         "domain": 6450786,
-        "name": "bnsc",
+        "name": "bsc",
         "networks": [
           "arbitrum",
           "avalanche",
@@ -822,7 +825,7 @@
           "xdai"
         ],
         "specs": {
-          "blockExplorer": "https://bnscscan.com",
+          "blockExplorer": "https://bscscan.com/",
           "blockTime": 3,
           "chainId": 56,
           "confirmations": 7,
@@ -859,7 +862,7 @@
           "optimism",
           "polygon",
           "xdai",
-          "bnsc"
+          "bsc"
         ],
         "domain": 6648936,
         "name": "ethereum",
@@ -911,7 +914,7 @@
           "optimism",
           "polygon",
           "xdai",
-          "bnsc"
+          "bsc"
         ],
         "domain": 1702260083,
         "name": "evmos",
@@ -953,12 +956,12 @@
           "optimism",
           "polygon",
           "xdai",
-          "bnsc"
+          "bsc"
         ],
         "domain": 25393,
         "name": "milkomedaC1",
         "specs": {
-          "blockExplorer": "https://rpc.c1.milkomeda.com:4000/",
+          "blockExplorer": "https://explorer-mainnet-cardano-evm.c1.milkomeda.com/",
           "blockTime": 4,
           "chainId": 2001,
           "confirmations": 2,
@@ -995,7 +998,7 @@
           "optimism",
           "polygon",
           "xdai",
-          "bnsc"
+          "bsc"
         ],
         "domain": 1650811245,
         "name": "moonbeam",
@@ -1025,8 +1028,8 @@
           "optimisticSeconds": 1800,
           "processGas": 850000,
           "reserveGas": 25000,
-          "updater": "0xDf2617dD2a9A6122B4c8098dF81333AdD2EfC797",
-          "watchers": ["0xF8Ef453caa7FD27B52db8D9184c37DB88984CfA9"]
+          "updater": "0x73C09E3401C70390e6453eCAF793fc9e3d249f63",
+          "watchers": ["0x82A74f266996C41DE4257Db9EfeCF9e6AeeA9006"]
         },
         "connections": [
           "arbitrum",
@@ -1037,11 +1040,11 @@
           "moonbeam",
           "polygon",
           "xdai",
-          "bnsc"
+          "bsc"
         ],
         "domain": 7303284,
         "name": "optimism",
-        "rpc": "https://opt-mainnet.g.alchemy.com/v2/GrfuUkGYiTpD6mUhYrPW79SarxYbTnYL",
+        "rpc": "https://mainnet.optimism.io",
         "specs": {
           "blockExplorer": "https://optimistic.etherscan.io/",
           "blockTime": 1,
@@ -1057,7 +1060,7 @@
           "customs": [],
           "deployGas": 850000,
           "mintGas": 200000,
-          "weth": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270"
+          "weth": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
         },
         "configuration": {
           "governance": {
@@ -1068,22 +1071,22 @@
           "optimisticSeconds": 1800,
           "processGas": 850000,
           "reserveGas": 25000,
-          "updater": "0x446c0D060116c748aE41e70b3c89e0f534a8A1F3",
-          "watchers": ["0x03F7C41Eaf7F1f60A56b35CcDE5b94b13fc304D8"]
+          "updater": "0x0cC56ADF7DBb56C92201e2Bb538E7eFc2cF26d73",
+          "watchers": ["0x6DB9182192BcbBCb6299ffe659CbD5e6A84C4f54"]
         },
         "domain": 1886350457,
         "name": "polygon",
         "networks": [
           "arbitrum",
           "avalanche",
-          "bnsc",
+          "bsc",
           "ethereum",
           "evmos",
           "milkomedaC1",
           "moonbeam",
           "optimism",
           "xdai",
-          "bnsc"
+          "bsc"
         ],
         "specs": {
           "blockExplorer": "https://polygonscan.com/",
@@ -1123,7 +1126,7 @@
           "moonbeam",
           "optimism",
           "polygon",
-          "bnsc"
+          "bsc"
         ],
         "domain": 2019844457,
         "name": "xdai",
@@ -1140,19 +1143,16 @@
     }
   },
   "rpcs": {
-    "arbitrum": [
-      "https://arb-mainnet.g.alchemy.com/v2/RwdK_GHt5oGT7WkGUn2AQJrCXsrEpGjD"
-    ],
+    "arbitrum": ["https://arbitrum.public-rpc.com"],
     "avalanche": ["https://api.avax.network/ext/bc/C/rpc"],
     "ethereum": ["https://main-light.eth.linkpool.io/"],
     "evmos": ["https://eth.bd.evmos.org:8545"],
     "milkomedaC1": ["https://rpc.c1.milkomeda.com:8545"],
     "moonbeam": ["https://rpc.api.moonbeam.network"],
-    "optimism": [
-      "https://opt-mainnet.g.alchemy.com/v2/GrfuUkGYiTpD6mUhYrPW79SarxYbTnYL"
-    ],
+    "optimism": ["https://mainnet.optimism.io"],
     "xdai": ["https://dai.poa.network/"],
-    "polygon": ["https://polygon-rpc.com"]
+    "polygon": ["https://polygon-rpc.com"],
+    "bsc": ["https://bsc-dataseed3.defibit.io/"]
   },
   "s3": {
     "bucket": "nomadxyz-production-proofs",
