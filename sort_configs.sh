@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-for file in *.json pending-deploy/*.json
+for file in *.json archive/*/*/*.json
 do
   # get file without extension (eg: a.json -> a, a/b.json -> a/b)
   f="${file%.json}"
