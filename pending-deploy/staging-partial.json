@@ -1,0 +1,100 @@
+{
+  "version": null,
+  "networks": null,
+  "avalanche-fuji": {
+    "bridgeConfiguration": {
+      "customs": [],
+      "deployGas": 850000,
+      "mintGas": 200000
+    },
+    "configuration": {
+      "governance": {
+        "recoveryManager": "0xa4849f1d96b26066f9c631fcdc8f1457d27fb5ec",
+        "recoveryTimelock": 180
+      },
+      "maximumGas": 1000000,
+      "optimisticSeconds": 1800,
+      "processGas": 850000,
+      "reserveGas": 25000,
+      "updater": "TODO",
+      "watchers": ["TODO"]
+    },
+    "connections": [],
+    "domain": 121212,
+    "name": "avalanche-fuji",
+    "rpc": "https://api.avax-test.network/ext/bc/C/",
+    "specs": {
+      "blockExplorer": "https://testnet.snowtrace.io/",
+      "blockTime": 3,
+      "chainId": 43113,
+      "confirmations": 3,
+      "finalizationBlocks": 3,
+      "indexPageSize": 2000,
+      "supports1559": false
+    }
+  },
+  "moonbase-alpha": {
+    "bridgeConfiguration": {
+      "customs": [],
+      "deployGas": 850000,
+      "mintGas": 200000
+    },
+    "configuration": {
+      "governance": {
+        "recoveryManager": "0xa4849f1d96b26066f9c631fcdc8f1457d27fb5ec",
+        "recoveryTimelock": 180
+      },
+      "maximumGas": 1000000,
+      "optimisticSeconds": 1800,
+      "processGas": 850000,
+      "reserveGas": 25000,
+      "updater": "TODO",
+      "watchers": ["TODO"]
+    },
+    "connections": [],
+    "domain": 131313,
+    "name": "moonbase-alpha",
+    "rpc": "https://moonbase-alpha.public.blastapi.io",
+    "specs": {
+      "blockExplorer": "https://moonbase.moonscan.io/",
+      "blockTime": 15,
+      "chainId": 1287,
+      "confirmations": 3,
+      "finalizationBlocks": 3,
+      "indexPageSize": 2000,
+      "supports1559": false
+    }
+  },
+  "milkomeda-testnet": {
+    "bridgeConfiguration": {
+      "customs": [],
+      "deployGas": 850000,
+      "mintGas": 200000
+    },
+    "configuration": {
+      "governance": {
+        "recoveryManager": "0xa4849f1d96b26066f9c631fcdc8f1457d27fb5ec",
+        "recoveryTimelock": 180
+      },
+      "maximumGas": 1000000,
+      "optimisticSeconds": 1800,
+      "processGas": 850000,
+      "reserveGas": 25000,
+      "updater": "TODO",
+      "watchers": ["TODO"]
+    },
+    "connections": [],
+    "domain": 131313,
+    "name": "moonbase-alpha",
+    "rpc": "https://rpc-devnet-cardano-evm.c1.milkomeda.com",
+    "specs": {
+      "blockExplorer": "https://explorer-devnet-cardano-evm.c1.milkomeda.com",
+      "blockTime": 5,
+      "chainId": 200101,
+      "confirmations": 3,
+      "finalizationBlocks": 3,
+      "indexPageSize": 2000,
+      "supports1559": false
+    }
+  }
+}
