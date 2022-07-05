@@ -502,12 +502,12 @@
       "replicas": {
         "arbitrum-rinkeby": {
           "beacon": "0x4cfdab9df84e03413a8da8fea41212ba6bc6c250",
-          "implementation": "0x2fdf5ea21cea01f744a7aa6c712318aa2958a697",
+          "implementation": "0x73f6d2ddd31856eb45080cf9eaf397f57800cacd",
           "proxy": "0x91b3671d417a45ddeb9a7abe3c97aabd2281af7d"
         },
         "bsc-testnet": {
           "beacon": "0x4cfdab9df84e03413a8da8fea41212ba6bc6c250",
-          "implementation": "0x2fdf5ea21cea01f744a7aa6c712318aa2958a697",
+          "implementation": "0x73f6d2ddd31856eb45080cf9eaf397f57800cacd",
           "proxy": "0x2e588e0cff16cb8dd343551b435f5fee94f35230"
         },
         "goerli": {
@@ -522,12 +522,12 @@
         },
         "optimism-goerli": {
           "beacon": "0x4cfdab9df84e03413a8da8fea41212ba6bc6c250",
-          "implementation": "0x2fdf5ea21cea01f744a7aa6c712318aa2958a697",
+          "implementation": "0x73f6d2ddd31856eb45080cf9eaf397f57800cacd",
           "proxy": "0xe015da2b3cfdefb210ad5125744b552e80905468"
         },
         "polygon-mumbai": {
           "beacon": "0x4cfdab9df84e03413a8da8fea41212ba6bc6c250",
-          "implementation": "0x2fdf5ea21cea01f744a7aa6c712318aa2958a697",
+          "implementation": "0x73f6d2ddd31856eb45080cf9eaf397f57800cacd",
           "proxy": "0x7c8cc92daa7d9172dfe5d8319cc74a6166d05c2c"
         },
         "rinkeby": {
@@ -555,12 +555,12 @@
       "replicas": {
         "arbitrum-rinkeby": {
           "beacon": "0xe1fbad342c8f2967f74dcef5db8c774a07b41dab",
-          "implementation": "0xb10252d7c83cd5db1e3e295720c298682a56a4ff",
+          "implementation": "0x15fd033c7bb9eaf0961f351193bfd47f851ee414",
           "proxy": "0xf49babc83690f8a1858fe6b018ab91de00ee1471"
         },
         "bsc-testnet": {
           "beacon": "0xe1fbad342c8f2967f74dcef5db8c774a07b41dab",
-          "implementation": "0xb10252d7c83cd5db1e3e295720c298682a56a4ff",
+          "implementation": "0x15fd033c7bb9eaf0961f351193bfd47f851ee414",
           "proxy": "0x1acfe08c51bab13167d965ab52630cdc74da103b"
         },
         "evmostestnet": {
@@ -575,12 +575,12 @@
         },
         "optimism-goerli": {
           "beacon": "0xe1fbad342c8f2967f74dcef5db8c774a07b41dab",
-          "implementation": "0xb10252d7c83cd5db1e3e295720c298682a56a4ff",
+          "implementation": "0x15fd033c7bb9eaf0961f351193bfd47f851ee414",
           "proxy": "0xf95282ac903b8eea08773c927148f3c2d95f92e6"
         },
         "polygon-mumbai": {
           "beacon": "0xe1fbad342c8f2967f74dcef5db8c774a07b41dab",
-          "implementation": "0xb10252d7c83cd5db1e3e295720c298682a56a4ff",
+          "implementation": "0x15fd033c7bb9eaf0961f351193bfd47f851ee414",
           "proxy": "0xdaf0b05031cdb7b138627af790d23fba442a6017"
         },
         "rinkeby": {
@@ -767,12 +767,12 @@
       "replicas": {
         "arbitrum-rinkeby": {
           "beacon": "0x7e31b1e36313260466123c630e78a038cf6b395b",
-          "implementation": "0x2f205eeedef1a3b95f78f2ce492b1fd20026982e",
+          "implementation": "0x9972c9d9a711b1f92a686cfff28e504de829489a",
           "proxy": "0x62cc36c9ceb52e289c1fb7f2fd6b8a39b72e4267"
         },
         "bsc-testnet": {
           "beacon": "0x7e31b1e36313260466123c630e78a038cf6b395b",
-          "implementation": "0x2f205eeedef1a3b95f78f2ce492b1fd20026982e",
+          "implementation": "0x9972c9d9a711b1f92a686cfff28e504de829489a",
           "proxy": "0xc4576fab0009838e529f50f47c82a5ecf74a7806"
         },
         "evmostestnet": {
@@ -792,12 +792,12 @@
         },
         "optimism-goerli": {
           "beacon": "0x7e31b1e36313260466123c630e78a038cf6b395b",
-          "implementation": "0x2f205eeedef1a3b95f78f2ce492b1fd20026982e",
+          "implementation": "0x9972c9d9a711b1f92a686cfff28e504de829489a",
           "proxy": "0x848dafdcbc1773f757425b7bb1d3af41f3cd78d0"
         },
         "polygon-mumbai": {
           "beacon": "0x7e31b1e36313260466123c630e78a038cf6b395b",
-          "implementation": "0x2f205eeedef1a3b95f78f2ce492b1fd20026982e",
+          "implementation": "0x9972c9d9a711b1f92a686cfff28e504de829489a",
           "proxy": "0x4632ec8b5671e412e66694b2e378cbf62fcd72f0"
         }
       },
@@ -1160,7 +1160,7 @@
       "https://rinkeby.arbitrum.io/rpc"
     ],
     "bsc-testnet": [
-      "http://data-seed-prebsc-2-s2.binance.org:8545/"
+      "https://data-seed-prebsc-1-s1.binance.org:8545/"
     ],
     "evmostestnet": [
       "https://eth.bd.evmos.dev:8545"
