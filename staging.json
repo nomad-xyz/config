@@ -1,16 +1,102 @@
 {
   "version": 0,
   "networks": [
-    "arbitrum-rinkeby",
-    "bsc-testnet",
+    "arbitrumrinkeby",
+    "bsctestnet",
     "evmostestnet",
     "goerli",
     "neontestnet",
-    "optimism-goerli",
-    "polygon-mumbai",
+    "optimismgoerli",
+    "polygonmumbai",
     "rinkeby"
   ],
   "agent": {
+    "arbitrumrinkeby": {
+      "db": "/usr/share/nomad",
+      "kathy": {
+        "chat": {
+          "type": "default"
+        },
+        "enabled": true,
+        "interval": 500
+      },
+      "logging": {
+        "fmt": "json",
+        "level": "info"
+      },
+      "metrics": 9090,
+      "processor": {
+        "allowed": null,
+        "denied": null,
+        "enabled": true,
+        "interval": 5,
+        "s3": {
+          "bucket": "nomadxyz-development-proofs",
+          "region": "us-west-2"
+        },
+        "subsidizedRemotes": [
+          "evmostestnet",
+          "neontestnet",
+          "rinkeby"
+        ]
+      },
+      "relayer": {
+        "enabled": true,
+        "interval": 10
+      },
+      "rpcStyle": "ethereum",
+      "updater": {
+        "enabled": true,
+        "interval": 5
+      },
+      "watcher": {
+        "enabled": true,
+        "interval": 5
+      }
+    },
+    "bsctestnet": {
+      "db": "/usr/share/nomad",
+      "kathy": {
+        "chat": {
+          "type": "default"
+        },
+        "enabled": true,
+        "interval": 500
+      },
+      "logging": {
+        "fmt": "json",
+        "level": "info"
+      },
+      "metrics": 9090,
+      "processor": {
+        "allowed": null,
+        "denied": null,
+        "enabled": true,
+        "interval": 5,
+        "s3": {
+          "bucket": "nomadxyz-development-proofs",
+          "region": "us-west-2"
+        },
+        "subsidizedRemotes": [
+          "evmostestnet",
+          "neontestnet",
+          "rinkeby"
+        ]
+      },
+      "relayer": {
+        "enabled": true,
+        "interval": 10
+      },
+      "rpcStyle": "ethereum",
+      "updater": {
+        "enabled": true,
+        "interval": 5
+      },
+      "watcher": {
+        "enabled": true,
+        "interval": 5
+      }
+    },
     "evmostestnet": {
       "db": "/usr/share/nomad",
       "kathy": {
@@ -140,6 +226,92 @@
         "interval": 5
       }
     },
+    "optimismgoerli": {
+      "db": "/usr/share/nomad",
+      "kathy": {
+        "chat": {
+          "type": "default"
+        },
+        "enabled": true,
+        "interval": 500
+      },
+      "logging": {
+        "fmt": "json",
+        "level": "info"
+      },
+      "metrics": 9090,
+      "processor": {
+        "allowed": null,
+        "denied": null,
+        "enabled": true,
+        "interval": 5,
+        "s3": {
+          "bucket": "nomadxyz-development-proofs",
+          "region": "us-west-2"
+        },
+        "subsidizedRemotes": [
+          "evmostestnet",
+          "neontestnet",
+          "rinkeby"
+        ]
+      },
+      "relayer": {
+        "enabled": true,
+        "interval": 10
+      },
+      "rpcStyle": "ethereum",
+      "updater": {
+        "enabled": true,
+        "interval": 5
+      },
+      "watcher": {
+        "enabled": true,
+        "interval": 5
+      }
+    },
+    "polygonmumbai": {
+      "db": "/usr/share/nomad",
+      "kathy": {
+        "chat": {
+          "type": "default"
+        },
+        "enabled": true,
+        "interval": 500
+      },
+      "logging": {
+        "fmt": "json",
+        "level": "info"
+      },
+      "metrics": 9090,
+      "processor": {
+        "allowed": null,
+        "denied": null,
+        "enabled": true,
+        "interval": 5,
+        "s3": {
+          "bucket": "nomadxyz-development-proofs",
+          "region": "us-west-2"
+        },
+        "subsidizedRemotes": [
+          "evmostestnet",
+          "neontestnet",
+          "rinkeby"
+        ]
+      },
+      "relayer": {
+        "enabled": true,
+        "interval": 10
+      },
+      "rpcStyle": "ethereum",
+      "updater": {
+        "enabled": true,
+        "interval": 5
+      },
+      "watcher": {
+        "enabled": true,
+        "interval": 5
+      }
+    },
     "rinkeby": {
       "db": "/usr/share/nomad",
       "kathy": {
@@ -185,7 +357,7 @@
     }
   },
   "bridge": {
-    "arbitrum-rinkeby": {
+    "arbitrumrinkeby": {
       "bridgeRouter": {
         "beacon": "0x20f63643d5e521e8c1d6d73a2dd09d3c5e752cbe",
         "implementation": "0x6312076d5a91802ec4da3ebbc58c2db0ce0118fe",
@@ -205,7 +377,7 @@
         "proxy": "0xe22b2008a3386f16826e8b710ae8d5c7126a9937"
       }
     },
-    "bsc-testnet": {
+    "bsctestnet": {
       "bridgeRouter": {
         "beacon": "0xb0b95e5cc3e922a2b67fd3bbca1c18603a4d0ba4",
         "implementation": "0x9222e045124f1f3418b150cd00547c14758c40b7",
@@ -285,7 +457,7 @@
         "proxy": "0x59dd6dfe0e3f8c0c39d67d98b6b6c12b0d432900"
       }
     },
-    "optimism-goerli": {
+    "optimismgoerli": {
       "bridgeRouter": {
         "beacon": "0x745f85d60c6afe77a6465336b87f4baaa5418a13",
         "implementation": "0x5e6c640d5c634e8aec17156f1c433239cba9ba16",
@@ -305,7 +477,7 @@
         "proxy": "0xab838c2d976ad2daa8cabd20bc55632e33a6f5d6"
       }
     },
-    "polygon-mumbai": {
+    "polygonmumbai": {
       "bridgeRouter": {
         "beacon": "0x26e0c7bb6b38f597359718ba9029b54f5d096bea",
         "implementation": "0xfe4385156f733dc34811f9d7c851c7e152e2fb26",
@@ -381,7 +553,7 @@
     }
   },
   "core": {
-    "arbitrum-rinkeby": {
+    "arbitrumrinkeby": {
       "deployHeight": 13333087,
       "governanceRouter": {
         "beacon": "0xe31ca9e09b506a75ed87bd822555761fa608ddd3",
@@ -394,7 +566,7 @@
         "proxy": "0x2d5df41069865ff9b85fd3d11fd0361c78bd3ae8"
       },
       "replicas": {
-        "bsc-testnet": {
+        "bsctestnet": {
           "beacon": "0x34d5402a4c7f37ba27e1d8b64f4b481948199b25",
           "implementation": "0x737f8c5a6f70eac13c89c3509477dc295a835967",
           "proxy": "0x430bc3485a24770c9370e21d75655c30d81291f8"
@@ -414,12 +586,12 @@
           "implementation": "0x737f8c5a6f70eac13c89c3509477dc295a835967",
           "proxy": "0x3ae05e294227356393cebae63b6007803d721f97"
         },
-        "optimism-goerli": {
+        "optimismgoerli": {
           "beacon": "0x34d5402a4c7f37ba27e1d8b64f4b481948199b25",
           "implementation": "0x737f8c5a6f70eac13c89c3509477dc295a835967",
           "proxy": "0xb74f33f88c7a19433ed567ab3bad7be12df1d912"
         },
-        "polygon-mumbai": {
+        "polygonmumbai": {
           "beacon": "0x34d5402a4c7f37ba27e1d8b64f4b481948199b25",
           "implementation": "0x737f8c5a6f70eac13c89c3509477dc295a835967",
           "proxy": "0x27144647945d12a0d7242b2db7cd8491dafb1849"
@@ -434,7 +606,7 @@
       "upgradeBeaconController": "0x3ec2235bfdbca03c3709c97d23f9d72c75f8a7dd",
       "xAppConnectionManager": "0xf915a97655daf08d1a4cb0486aea5a4dadd0fc4c"
     },
-    "bsc-testnet": {
+    "bsctestnet": {
       "deployHeight": 20653068,
       "governanceRouter": {
         "beacon": "0xccbad79e427f3ab043fcb20f37e80a8745960678",
@@ -447,7 +619,7 @@
         "proxy": "0xdd51399f486eb3e04512d8e6233cc1761f162c45"
       },
       "replicas": {
-        "arbitrum-rinkeby": {
+        "arbitrumrinkeby": {
           "beacon": "0x26e0c7bb6b38f597359718ba9029b54f5d096bea",
           "implementation": "0xfe4385156f733dc34811f9d7c851c7e152e2fb26",
           "proxy": "0x326cb118da8d26f04758db280705094292eac18c"
@@ -467,12 +639,12 @@
           "implementation": "0xfe4385156f733dc34811f9d7c851c7e152e2fb26",
           "proxy": "0x4e9e30a82ea7c937ef0582c5b86c261f6d332bf9"
         },
-        "optimism-goerli": {
+        "optimismgoerli": {
           "beacon": "0x26e0c7bb6b38f597359718ba9029b54f5d096bea",
           "implementation": "0xfe4385156f733dc34811f9d7c851c7e152e2fb26",
           "proxy": "0x4ff375f320709035cdf37b184ce26ba436eefa8e"
         },
-        "polygon-mumbai": {
+        "polygonmumbai": {
           "beacon": "0x26e0c7bb6b38f597359718ba9029b54f5d096bea",
           "implementation": "0xfe4385156f733dc34811f9d7c851c7e152e2fb26",
           "proxy": "0xab838c2d976ad2daa8cabd20bc55632e33a6f5d6"
@@ -500,12 +672,12 @@
         "proxy": "0x16b0f38bcca1f5f88cfe1d238779a57e0df6707d"
       },
       "replicas": {
-        "arbitrum-rinkeby": {
+        "arbitrumrinkeby": {
           "beacon": "0x4cfdab9df84e03413a8da8fea41212ba6bc6c250",
           "implementation": "0x73f6d2ddd31856eb45080cf9eaf397f57800cacd",
           "proxy": "0x91b3671d417a45ddeb9a7abe3c97aabd2281af7d"
         },
-        "bsc-testnet": {
+        "bsctestnet": {
           "beacon": "0x4cfdab9df84e03413a8da8fea41212ba6bc6c250",
           "implementation": "0x73f6d2ddd31856eb45080cf9eaf397f57800cacd",
           "proxy": "0x2e588e0cff16cb8dd343551b435f5fee94f35230"
@@ -520,12 +692,12 @@
           "implementation": "0x73f6d2ddd31856eb45080cf9eaf397f57800cacd",
           "proxy": "0xBcB33f3eDa164679e1D45bdB57cE0B69526dA765"
         },
-        "optimism-goerli": {
+        "optimismgoerli": {
           "beacon": "0x4cfdab9df84e03413a8da8fea41212ba6bc6c250",
           "implementation": "0x73f6d2ddd31856eb45080cf9eaf397f57800cacd",
           "proxy": "0xe015da2b3cfdefb210ad5125744b552e80905468"
         },
-        "polygon-mumbai": {
+        "polygonmumbai": {
           "beacon": "0x4cfdab9df84e03413a8da8fea41212ba6bc6c250",
           "implementation": "0x73f6d2ddd31856eb45080cf9eaf397f57800cacd",
           "proxy": "0x7c8cc92daa7d9172dfe5d8319cc74a6166d05c2c"
@@ -553,12 +725,12 @@
         "proxy": "0x2698210d52378c0c01765ac7e79a10e8a226fbae"
       },
       "replicas": {
-        "arbitrum-rinkeby": {
+        "arbitrumrinkeby": {
           "beacon": "0xe1fbad342c8f2967f74dcef5db8c774a07b41dab",
           "implementation": "0x15fd033c7bb9eaf0961f351193bfd47f851ee414",
           "proxy": "0xf49babc83690f8a1858fe6b018ab91de00ee1471"
         },
-        "bsc-testnet": {
+        "bsctestnet": {
           "beacon": "0xe1fbad342c8f2967f74dcef5db8c774a07b41dab",
           "implementation": "0x15fd033c7bb9eaf0961f351193bfd47f851ee414",
           "proxy": "0x1acfe08c51bab13167d965ab52630cdc74da103b"
@@ -573,12 +745,12 @@
           "implementation": "0x15fd033c7bb9eaf0961f351193bfd47f851ee414",
           "proxy": "0xDa6A17839b25DE8DD848E291A467Efb705C15525"
         },
-        "optimism-goerli": {
+        "optimismgoerli": {
           "beacon": "0xe1fbad342c8f2967f74dcef5db8c774a07b41dab",
           "implementation": "0x15fd033c7bb9eaf0961f351193bfd47f851ee414",
           "proxy": "0xf95282ac903b8eea08773c927148f3c2d95f92e6"
         },
-        "polygon-mumbai": {
+        "polygonmumbai": {
           "beacon": "0xe1fbad342c8f2967f74dcef5db8c774a07b41dab",
           "implementation": "0x15fd033c7bb9eaf0961f351193bfd47f851ee414",
           "proxy": "0xdaf0b05031cdb7b138627af790d23fba442a6017"
@@ -606,12 +778,12 @@
         "proxy": "0xdaaa8bad96512dcef7aaf7af98d2ef14f6117cd7"
       },
       "replicas": {
-        "arbitrum-rinkeby": {
+        "arbitrumrinkeby": {
           "beacon": "0xd8be3c0d3ce1c077184a931cc88f938ec5e639de",
           "implementation": "0xa179a65273b55a424ddb2834ce3983f4b5d6a5fb",
           "proxy": "0x0499063d42b5d3186e8bcd9d7d84e9c6d4efaa6c"
         },
-        "bsc-testnet": {
+        "bsctestnet": {
           "beacon": "0xd8be3c0d3ce1c077184a931cc88f938ec5e639de",
           "implementation": "0xa179a65273b55a424ddb2834ce3983f4b5d6a5fb",
           "proxy": "0x32641eb9af76a6d62e44d09e7a7f02f6ff5bc5d7"
@@ -626,12 +798,12 @@
           "implementation": "0xA179A65273b55A424DDB2834ce3983f4b5d6A5Fb",
           "proxy": "0x26F38465cA262CaCaB85f8a4e1D32b8BB7c9eF4f"
         },
-        "optimism-goerli": {
+        "optimismgoerli": {
           "beacon": "0xd8be3c0d3ce1c077184a931cc88f938ec5e639de",
           "implementation": "0xa179a65273b55a424ddb2834ce3983f4b5d6a5fb",
           "proxy": "0xe3d39a93914f4375c7b468320d3a5c0eda887dfd"
         },
-        "polygon-mumbai": {
+        "polygonmumbai": {
           "beacon": "0xd8be3c0d3ce1c077184a931cc88f938ec5e639de",
           "implementation": "0xa179a65273b55a424ddb2834ce3983f4b5d6a5fb",
           "proxy": "0x304cb85a9b3208cca9b88a64d9a3782ccad9fce2"
@@ -646,7 +818,7 @@
       "upgradeBeaconController": "0xe5cd1d85d4bd5d28f8f0c9a0a9c140919f9000e2",
       "xAppConnectionManager": "0xeb43d0bad300267bdc1b8afafa70b274c14698ef"
     },
-    "optimism-goerli": {
+    "optimismgoerli": {
       "deployHeight": 18796,
       "governanceRouter": {
         "beacon": "0xdd670cd32be311adf9d91b0fbe766c8da5da4bb4",
@@ -659,12 +831,12 @@
         "proxy": "0xbffbf61c61929216eed0a30d7b824ac2326a01c1"
       },
       "replicas": {
-        "arbitrum-rinkeby": {
+        "arbitrumrinkeby": {
           "beacon": "0x298a4e631b2ac6620fffd264f698761ef8c15fb5",
           "implementation": "0xbac990165ec54c89b282791ee603b43801cc3218",
           "proxy": "0x1387558106dacd35a1ec175a2b7e94e36b7fa576"
         },
-        "bsc-testnet": {
+        "bsctestnet": {
           "beacon": "0x298a4e631b2ac6620fffd264f698761ef8c15fb5",
           "implementation": "0xbac990165ec54c89b282791ee603b43801cc3218",
           "proxy": "0x67e9837aa16f425b379aaf7e4d5581e59d577cf2"
@@ -684,7 +856,7 @@
           "implementation": "0xbac990165ec54c89b282791ee603b43801cc3218",
           "proxy": "0x4dfbf16d6efd1082a2e000689ba60b45815129dd"
         },
-        "polygon-mumbai": {
+        "polygonmumbai": {
           "beacon": "0x298a4e631b2ac6620fffd264f698761ef8c15fb5",
           "implementation": "0xbac990165ec54c89b282791ee603b43801cc3218",
           "proxy": "0x4e9e30a82ea7c937ef0582c5b86c261f6d332bf9"
@@ -699,7 +871,7 @@
       "upgradeBeaconController": "0x9eedb4e71296a17a52dba260906394bc559e35e2",
       "xAppConnectionManager": "0x7e769c2a3d79877deb72dcb0f842fc48d7a9d732"
     },
-    "polygon-mumbai": {
+    "polygonmumbai": {
       "deployHeight": 26972521,
       "governanceRouter": {
         "beacon": "0x89784cea6baf552f49a98daff2c16730e9d2488f",
@@ -712,12 +884,12 @@
         "proxy": "0x38789a24cf7bd4b1f3bf5cebb7498c2662de92d3"
       },
       "replicas": {
-        "arbitrum-rinkeby": {
+        "arbitrumrinkeby": {
           "beacon": "0x0e4024950d71f630d710f8523e4e40656a2cd617",
           "implementation": "0xf2e2da66eaacc274469c29149d9ba5996fad5449",
           "proxy": "0xee8003bdb024a4195d433c555d55aa663b8c022c"
         },
-        "bsc-testnet": {
+        "bsctestnet": {
           "beacon": "0x0e4024950d71f630d710f8523e4e40656a2cd617",
           "implementation": "0xf2e2da66eaacc274469c29149d9ba5996fad5449",
           "proxy": "0x15668d7a4d73745a8354fdfea4657a9ccb77f831"
@@ -737,7 +909,7 @@
           "implementation": "0xf2e2da66eaacc274469c29149d9ba5996fad5449",
           "proxy": "0xa9b74cee7b6aafd44280834cf9440b578260d821"
         },
-        "optimism-goerli": {
+        "optimismgoerli": {
           "beacon": "0x0e4024950d71f630d710f8523e4e40656a2cd617",
           "implementation": "0xf2e2da66eaacc274469c29149d9ba5996fad5449",
           "proxy": "0xfe5fc343e4b934c319675b8379753657d15b43ca"
@@ -765,12 +937,12 @@
         "proxy": "0xba64e033fafd08e1b14e034fcd31d10e9534ba8e"
       },
       "replicas": {
-        "arbitrum-rinkeby": {
+        "arbitrumrinkeby": {
           "beacon": "0x7e31b1e36313260466123c630e78a038cf6b395b",
           "implementation": "0x9972c9d9a711b1f92a686cfff28e504de829489a",
           "proxy": "0x62cc36c9ceb52e289c1fb7f2fd6b8a39b72e4267"
         },
-        "bsc-testnet": {
+        "bsctestnet": {
           "beacon": "0x7e31b1e36313260466123c630e78a038cf6b395b",
           "implementation": "0x9972c9d9a711b1f92a686cfff28e504de829489a",
           "proxy": "0xc4576fab0009838e529f50f47c82a5ecf74a7806"
@@ -790,12 +962,12 @@
           "implementation": "0x9972c9d9a711b1f92a686cfff28e504de829489a",
           "proxy": "0xe28EFd42Ffb9FC9f7c7EcEC23db2fbD85A2101d7"
         },
-        "optimism-goerli": {
+        "optimismgoerli": {
           "beacon": "0x7e31b1e36313260466123c630e78a038cf6b395b",
           "implementation": "0x9972c9d9a711b1f92a686cfff28e504de829489a",
           "proxy": "0x848dafdcbc1773f757425b7bb1d3af41f3cd78d0"
         },
-        "polygon-mumbai": {
+        "polygonmumbai": {
           "beacon": "0x7e31b1e36313260466123c630e78a038cf6b395b",
           "implementation": "0x9972c9d9a711b1f92a686cfff28e504de829489a",
           "proxy": "0x4632ec8b5671e412e66694b2e378cbf62fcd72f0"
@@ -817,7 +989,7 @@
       "id": "0x812c096810e8efaa73eff841b601ab82a7be9ab0"
     },
     "networks": {
-      "arbitrum-rinkeby": {
+      "arbitrumrinkeby": {
         "bridgeConfiguration": {
           "customs": [],
           "deployGas": 0,
@@ -839,16 +1011,16 @@
           ]
         },
         "connections": [
-          "bsc-testnet",
+          "bsctestnet",
           "evmostestnet",
           "goerli",
           "neontestnet",
-          "optimism-goerli",
-          "polygon-mumbai",
+          "optimismgoerli",
+          "polygonmumbai",
           "rinkeby"
         ],
         "domain": 6661,
-        "name": "arbitrum-rinkeby",
+        "name": "arbitrumrinkeby",
         "specs": {
           "blockExplorer": "https://testnet.arbiscan.io/",
           "blockTime": 60,
@@ -859,7 +1031,7 @@
           "supports1559": false
         }
       },
-      "bsc-testnet": {
+      "bsctestnet": {
         "bridgeConfiguration": {
           "customs": [],
           "deployGas": 850000,
@@ -881,16 +1053,16 @@
           ]
         },
         "connections": [
-          "arbitrum-rinkeby",
+          "arbitrumrinkeby",
           "evmostestnet",
           "goerli",
           "neontestnet",
-          "optimism-goerli",
-          "polygon-mumbai",
+          "optimismgoerli",
+          "polygonmumbai",
           "rinkeby"
         ],
         "domain": 7771,
-        "name": "bsc-testnet",
+        "name": "bsctestnet",
         "specs": {
           "blockExplorer": "https://testnet.bscscan.com/",
           "blockTime": 3,
@@ -923,12 +1095,12 @@
           ]
         },
         "connections": [
-          "arbitrum-rinkeby",
-          "bsc-testnet",
+          "arbitrumrinkeby",
+          "bsctestnet",
           "goerli",
           "neontestnet",
-          "optimism-goerli",
-          "polygon-mumbai",
+          "optimismgoerli",
+          "polygonmumbai",
           "rinkeby"
         ],
         "domain": 4441,
@@ -965,12 +1137,12 @@
           ]
         },
         "connections": [
-          "arbitrum-rinkeby",
-          "bsc-testnet",
+          "arbitrumrinkeby",
+          "bsctestnet",
           "evmostestnet",
           "neontestnet",
-          "optimism-goerli",
-          "polygon-mumbai",
+          "optimismgoerli",
+          "polygonmumbai",
           "rinkeby"
         ],
         "domain": 3331,
@@ -1007,12 +1179,12 @@
           ]
         },
         "connections": [
-          "arbitrum-rinkeby",
-          "bsc-testnet",
+          "arbitrumrinkeby",
+          "bsctestnet",
           "evmostestnet",
           "goerli",
-          "optimism-goerli",
-          "polygon-mumbai",
+          "optimismgoerli",
+          "polygonmumbai",
           "rinkeby"
         ],
         "domain": 5551,
@@ -1027,7 +1199,7 @@
           "supports1559": false
         }
       },
-      "optimism-goerli": {
+      "optimismgoerli": {
         "bridgeConfiguration": {
           "customs": [],
           "deployGas": 85000000,
@@ -1049,16 +1221,16 @@
           ]
         },
         "connections": [
-          "arbitrum-rinkeby",
-          "bsc-testnet",
+          "arbitrumrinkeby",
+          "bsctestnet",
           "evmostestnet",
           "goerli",
           "neontestnet",
-          "polygon-mumbai",
+          "polygonmumbai",
           "rinkeby"
         ],
         "domain": 9991,
-        "name": "optimism-goerli",
+        "name": "optimismgoerli",
         "specs": {
           "blockExplorer": "https://goerli-optimistic.etherscan.io",
           "blockTime": 15,
@@ -1069,7 +1241,7 @@
           "supports1559": false
         }
       },
-      "polygon-mumbai": {
+      "polygonmumbai": {
         "bridgeConfiguration": {
           "customs": [],
           "deployGas": 850000,
@@ -1091,18 +1263,18 @@
           ]
         },
         "connections": [
-          "arbitrum-rinkeby",
-          "bsc-testnet",
+          "arbitrumrinkeby",
+          "bsctestnet",
           "evmostestnet",
           "goerli",
           "neontestnet",
-          "optimism-goerli",
+          "optimismgoerli",
           "rinkeby"
         ],
         "domain": 8881,
-        "name": "polygon-mumbai",
+        "name": "polygonmumbai",
         "specs": {
-          "blockExplorer": "https://polygon-mumbai.polygonscan.com/",
+          "blockExplorer": "https://polygonmumbai.polygonscan.com/",
           "blockTime": 5,
           "chainId": 80001,
           "confirmations": 3,
@@ -1133,13 +1305,13 @@
           ]
         },
         "connections": [
-          "arbitrum-rinkeby",
-          "bsc-testnet",
+          "arbitrumrinkeby",
+          "bsctestnet",
           "evmostestnet",
           "goerli",
           "neontestnet",
-          "optimism-goerli",
-          "polygon-mumbai"
+          "optimismgoerli",
+          "polygonmumbai"
         ],
         "domain": 1111,
         "name": "rinkeby",
@@ -1156,10 +1328,10 @@
     }
   },
   "rpcs": {
-    "arbitrum-rinkeby": [
+    "arbitrumrinkeby": [
       "https://rinkeby.arbitrum.io/rpc"
     ],
-    "bsc-testnet": [
+    "bsctestnet": [
       "https://data-seed-prebsc-1-s1.binance.org:8545/"
     ],
     "evmostestnet": [
@@ -1171,10 +1343,10 @@
     "neontestnet": [
       "https://proxy.devnet.neonlabs.org/solana"
     ],
-    "optimism-goerli": [
+    "optimismgoerli": [
       "https://goerli.optimism.io"
     ],
-    "polygon-mumbai": [
+    "polygonmumbai": [
       "https://rpc-mumbai.maticvigil.com/"
     ],
     "rinkeby": [
