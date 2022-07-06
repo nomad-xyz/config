@@ -1,0 +1,11 @@
+{
+  "version": null,
+  "networks": null,
+  "optimism-goerli": [
+    {
+      "address": "0x124A74f83f6DCeef8B6E712f5977e2e0c924BFbf",
+      "name": "UpgradeBeaconController",
+      "specifier": "packages/contracts-core/contracts/upgrade/UpgradeBeaconController.sol:UpgradeBeaconController"
+    }
+  ]
+}

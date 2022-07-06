@@ -1,0 +1,12 @@
+Batch status on goerli: Received!
+Executing Batch on goerli...
+Executed Batch on goerli!!
+   Transaction Hash: 0x087544b807d146dcfbc28ad64082bb64670290ecdb959f460a4dbbf33544de15
+   Block Explorer: https://goerli.etherscan.io/
+Batch status on evmostestnet: Received!
+Executing Batch on evmostestnet...
+Executed Batch on evmostestnet!!
+   Transaction Hash: 0x703176d7620ebad248e83d1318a1d4cf08602efff6ce5b81e70a15c600c38e62
+   Block Explorer: https://evm.evmos.dev/
+Batch status on neontestnet: NotReceived!
+DONE!
