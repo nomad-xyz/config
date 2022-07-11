@@ -31,14 +31,10 @@
         "enabled": true,
         "interval": 5,
         "s3": {
-          "bucket": "nomadxyz-development-proofs",
+          "bucket": "nomadxyz-staging-proofs",
           "region": "us-west-2"
         },
-        "subsidizedRemotes": [
-          "evmostestnet",
-          "neontestnet",
-          "rinkeby"
-        ]
+        "subsidizedRemotes": ["evmostestnet", "neontestnet", "rinkeby"]
       },
       "relayer": {
         "enabled": true,
@@ -74,14 +70,10 @@
         "enabled": true,
         "interval": 5,
         "s3": {
-          "bucket": "nomadxyz-development-proofs",
+          "bucket": "nomadxyz-staging-proofs",
           "region": "us-west-2"
         },
-        "subsidizedRemotes": [
-          "evmostestnet",
-          "neontestnet",
-          "rinkeby"
-        ]
+        "subsidizedRemotes": ["evmostestnet", "neontestnet", "rinkeby"]
       },
       "relayer": {
         "enabled": true,
@@ -117,14 +109,10 @@
         "enabled": true,
         "interval": 5,
         "s3": {
-          "bucket": "nomadxyz-development-proofs",
+          "bucket": "nomadxyz-staging-proofs",
           "region": "us-west-2"
         },
-        "subsidizedRemotes": [
-          "goerli",
-          "neontestnet",
-          "rinkeby"
-        ]
+        "subsidizedRemotes": ["goerli", "neontestnet", "rinkeby"]
       },
       "relayer": {
         "enabled": true,
@@ -160,14 +148,10 @@
         "enabled": true,
         "interval": 5,
         "s3": {
-          "bucket": "nomadxyz-development-proofs",
+          "bucket": "nomadxyz-staging-proofs",
           "region": "us-west-2"
         },
-        "subsidizedRemotes": [
-          "evmostestnet",
-          "neontestnet",
-          "rinkeby"
-        ]
+        "subsidizedRemotes": ["evmostestnet", "neontestnet", "rinkeby"]
       },
       "relayer": {
         "enabled": true,
@@ -203,14 +187,10 @@
         "enabled": true,
         "interval": 5,
         "s3": {
-          "bucket": "nomadxyz-development-proofs",
+          "bucket": "nomadxyz-staging-proofs",
           "region": "us-west-2"
         },
-        "subsidizedRemotes": [
-          "evmostestnet",
-          "goerli",
-          "rinkeby"
-        ]
+        "subsidizedRemotes": ["evmostestnet", "goerli", "rinkeby"]
       },
       "relayer": {
         "enabled": true,
@@ -246,14 +226,10 @@
         "enabled": true,
         "interval": 5,
         "s3": {
-          "bucket": "nomadxyz-development-proofs",
+          "bucket": "nomadxyz-staging-proofs",
           "region": "us-west-2"
         },
-        "subsidizedRemotes": [
-          "evmostestnet",
-          "neontestnet",
-          "rinkeby"
-        ]
+        "subsidizedRemotes": ["evmostestnet", "neontestnet", "rinkeby"]
       },
       "relayer": {
         "enabled": true,
@@ -289,14 +265,10 @@
         "enabled": true,
         "interval": 5,
         "s3": {
-          "bucket": "nomadxyz-development-proofs",
+          "bucket": "nomadxyz-staging-proofs",
           "region": "us-west-2"
         },
-        "subsidizedRemotes": [
-          "evmostestnet",
-          "neontestnet",
-          "rinkeby"
-        ]
+        "subsidizedRemotes": ["evmostestnet", "neontestnet", "rinkeby"]
       },
       "relayer": {
         "enabled": true,
@@ -332,14 +304,10 @@
         "enabled": true,
         "interval": 5,
         "s3": {
-          "bucket": "nomadxyz-development-proofs",
+          "bucket": "nomadxyz-staging-proofs",
           "region": "us-west-2"
         },
-        "subsidizedRemotes": [
-          "evmostestnet",
-          "goerli",
-          "neontestnet"
-        ]
+        "subsidizedRemotes": ["evmostestnet", "goerli", "neontestnet"]
       },
       "relayer": {
         "enabled": true,
@@ -520,32 +488,23 @@
   },
   "bridgeGui": {
     "evmostestnet": {
-      "connections": [
-        "rinkeby"
-      ],
+      "connections": ["rinkeby"],
       "displayName": "Evmos Testnet",
       "nativeTokenSymbol": "tEVMOS"
     },
     "goerli": {
-      "connections": [
-        "rinkeby"
-      ],
+      "connections": ["rinkeby"],
       "connextEnabled": true,
       "displayName": "Goerli",
       "nativeTokenSymbol": "gETH"
     },
     "neontestnet": {
-      "connections": [
-        "rinkeby"
-      ],
+      "connections": ["rinkeby"],
       "displayName": "Neon Testnet",
       "nativeTokenSymbol": "tNEON"
     },
     "rinkeby": {
-      "connections": [
-        "evmostestnet",
-        "goerli"
-      ],
+      "connections": ["evmostestnet", "goerli"],
       "connextEnabled": true,
       "displayName": "Rinkeby",
       "manualProcessing": true,
@@ -1006,9 +965,7 @@
           "processGas": 85000000,
           "reserveGas": 2500000,
           "updater": "0x074076f26d516f399af465992ec0ac637e62a763",
-          "watchers": [
-            "0xdd941216f4b62fb13c1ccb324569cb1c34c432e8"
-          ]
+          "watchers": ["0xdd941216f4b62fb13c1ccb324569cb1c34c432e8"]
         },
         "connections": [
           "bsctestnet",
@@ -1048,9 +1005,7 @@
           "processGas": 850000,
           "reserveGas": 25000,
           "updater": "0x238f100ec728f45bd42732faffffef42e4837e51",
-          "watchers": [
-            "0x579637019af923ec5ff62828037069117e07697f"
-          ]
+          "watchers": ["0x579637019af923ec5ff62828037069117e07697f"]
         },
         "connections": [
           "arbitrumrinkeby",
@@ -1090,9 +1045,7 @@
           "processGas": 850000,
           "reserveGas": 15000,
           "updater": "0x67bd1ee5a1905613244fdfc401597b4b758c4fc5",
-          "watchers": [
-            "0xd703fcb7c0a0aa4128d8371b6ccdbf356a7e4eec"
-          ]
+          "watchers": ["0xd703fcb7c0a0aa4128d8371b6ccdbf356a7e4eec"]
         },
         "connections": [
           "arbitrumrinkeby",
@@ -1132,9 +1085,7 @@
           "processGas": 850000,
           "reserveGas": 15000,
           "updater": "0xd39dd43efdd867939a2f070469cb3e1252827466",
-          "watchers": [
-            "0x1795f9a0a6853d6328241e9dc37203ca545c3b79"
-          ]
+          "watchers": ["0x1795f9a0a6853d6328241e9dc37203ca545c3b79"]
         },
         "connections": [
           "arbitrumrinkeby",
@@ -1174,9 +1125,7 @@
           "processGas": 850000,
           "reserveGas": 25000,
           "updater": "0xf1b9f5dbd2f22a3afbc88809dae63f10023735dd",
-          "watchers": [
-            "0x2eb10725532da906400ce780438d00147dfac278"
-          ]
+          "watchers": ["0x2eb10725532da906400ce780438d00147dfac278"]
         },
         "connections": [
           "arbitrumrinkeby",
@@ -1216,9 +1165,7 @@
           "processGas": 85000000,
           "reserveGas": 2500000,
           "updater": "0x5e405744246913c16f207e3ea15b0f892ea78757",
-          "watchers": [
-            "0x83e9548c55826c9dffc4de20b89cf96c111a4e44"
-          ]
+          "watchers": ["0x83e9548c55826c9dffc4de20b89cf96c111a4e44"]
         },
         "connections": [
           "arbitrumrinkeby",
@@ -1258,9 +1205,7 @@
           "processGas": 850000,
           "reserveGas": 25000,
           "updater": "0x1f1bd2b159e2b3d1f8fe5e2b9193260e78cda7d8",
-          "watchers": [
-            "0xc92ccba6877406a82861c6d112af2bbc96ca462d"
-          ]
+          "watchers": ["0xc92ccba6877406a82861c6d112af2bbc96ca462d"]
         },
         "connections": [
           "arbitrumrinkeby",
@@ -1300,9 +1245,7 @@
           "processGas": 850000,
           "reserveGas": 15000,
           "updater": "0x6b237d5af6e5116fe27116c0f6257caa6721d043",
-          "watchers": [
-            "0x37b1e57b43e755da8384d05cf437d88d0274bfbd"
-          ]
+          "watchers": ["0x37b1e57b43e755da8384d05cf437d88d0274bfbd"]
         },
         "connections": [
           "arbitrumrinkeby",
@@ -1328,29 +1271,13 @@
     }
   },
   "rpcs": {
-    "arbitrumrinkeby": [
-      "https://rinkeby.arbitrum.io/rpc"
-    ],
-    "bsctestnet": [
-      "https://data-seed-prebsc-1-s1.binance.org:8545/"
-    ],
-    "evmostestnet": [
-      "https://eth.bd.evmos.dev:8545"
-    ],
-    "goerli": [
-      "https://goerli-light.eth.linkpool.io"
-    ],
-    "neontestnet": [
-      "https://proxy.devnet.neonlabs.org/solana"
-    ],
-    "optimismgoerli": [
-      "https://goerli.optimism.io"
-    ],
-    "polygonmumbai": [
-      "https://rpc-mumbai.maticvigil.com/"
-    ],
-    "rinkeby": [
-      "https://rinkeby-light.eth.linkpool.io"
-    ]
+    "arbitrumrinkeby": ["https://rinkeby.arbitrum.io/rpc"],
+    "bsctestnet": ["https://data-seed-prebsc-1-s1.binance.org:8545/"],
+    "evmostestnet": ["https://eth.bd.evmos.dev:8545"],
+    "goerli": ["https://goerli-light.eth.linkpool.io"],
+    "neontestnet": ["https://proxy.devnet.neonlabs.org/solana"],
+    "optimismgoerli": ["https://goerli.optimism.io"],
+    "polygonmumbai": ["https://rpc-mumbai.maticvigil.com/"],
+    "rinkeby": ["https://rinkeby-light.eth.linkpool.io"]
   }
 }
