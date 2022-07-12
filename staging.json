@@ -1026,7 +1026,7 @@
           "blockTime": 60,
           "chainId": 421611,
           "confirmations": 1,
-          "finalizationBlocks": 3,
+          "finalizationBlocks": 10,
           "indexPageSize": 2000,
           "supports1559": false
         }
@@ -1068,7 +1068,7 @@
           "blockTime": 3,
           "chainId": 97,
           "confirmations": 7,
-          "finalizationBlocks": 2,
+          "finalizationBlocks": 100,
           "indexPageSize": 2000,
           "supports1559": false
         }
@@ -1152,7 +1152,7 @@
           "blockTime": 15,
           "chainId": 5,
           "confirmations": 4,
-          "finalizationBlocks": 100,
+          "finalizationBlocks": 50,
           "indexPageSize": 2000,
           "supports1559": true
         }
@@ -1236,7 +1236,7 @@
           "blockTime": 15,
           "chainId": 420,
           "confirmations": 1,
-          "finalizationBlocks": 3,
+          "finalizationBlocks": 10,
           "indexPageSize": 2000,
           "supports1559": false
         }
@@ -1278,7 +1278,7 @@
           "blockTime": 5,
           "chainId": 80001,
           "confirmations": 3,
-          "finalizationBlocks": 2,
+          "finalizationBlocks": 150,
           "indexPageSize": 2000,
           "supports1559": true
         }
@@ -1320,7 +1320,7 @@
           "blockTime": 15,
           "chainId": 4,
           "confirmations": 4,
-          "finalizationBlocks": 80,
+          "finalizationBlocks": 50,
           "indexPageSize": 2000,
           "supports1559": true
         }
