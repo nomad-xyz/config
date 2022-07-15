@@ -573,8 +573,6 @@
       "arbitrumrinkeby": {
         "bridgeConfiguration": {
           "customs": [],
-          "deployGas": 85000000,
-          "mintGas": 20000000,
           "weth": "0xebbc3452cc911591e4f18f3b36727df45d6bd1f9"
         },
         "configuration": {
@@ -582,10 +580,7 @@
             "recoveryManager": "0xa4849f1d96b26066f9c631fcdc8f1457d27fb5ec",
             "recoveryTimelock": 86400
           },
-          "maximumGas": 100000000,
           "optimisticSeconds": 1800,
-          "processGas": 85000000,
-          "reserveGas": 2500000,
           "updater": "0xbfcec115c9019c40855130714a2450f22728594a",
           "watchers": [
             "0xe6252c87d801d8d9008d1b7b2886fb788675db29"
@@ -612,8 +607,6 @@
       "evmostestnet": {
         "bridgeConfiguration": {
           "customs": [],
-          "deployGas": 85000000,
-          "mintGas": 20000000,
           "weth": "0xcc491f589b45d4a3c679016195b3fb87d7848210"
         },
         "configuration": {
@@ -621,10 +614,7 @@
             "recoveryManager": "0xa4849f1d96b26066f9c631fcdc8f1457d27fb5ec",
             "recoveryTimelock": 180
           },
-          "maximumGas": 100000000,
           "optimisticSeconds": 10,
-          "processGas": 85000000,
-          "reserveGas": 1500000,
           "updater": "0x815d2281a9ebacfbffa4294375de6e14f2522d87",
           "watchers": [
             "0xafcf8db79e999cb79260572fb61c8e5006b855a4"
@@ -651,8 +641,6 @@
       "goerli": {
         "bridgeConfiguration": {
           "customs": [],
-          "deployGas": 85000000,
-          "mintGas": 20000000,
           "weth": "0x0bb7509324ce409f7bbc4b701f932eaca9736ab7"
         },
         "configuration": {
@@ -660,10 +648,7 @@
             "recoveryManager": "0xa4849f1d96b26066f9c631fcdc8f1457d27fb5ec",
             "recoveryTimelock": 180
           },
-          "maximumGas": 100000000,
           "optimisticSeconds": 10,
-          "processGas": 85000000,
-          "reserveGas": 1500000,
           "updater": "0xd16bdbbc56090156ec609ebebc8bace1240fa22e",
           "watchers": [
             "0x69520f1cec6199fe93c6c77881b5de701e0efeff"
@@ -690,8 +675,6 @@
       "neontestnet": {
         "bridgeConfiguration": {
           "customs": [],
-          "deployGas": 85000000,
-          "mintGas": 20000,
           "weth": "0xf8ad328e98f85fccbf09e43b16dcbbda7e84beab"
         },
         "configuration": {
@@ -699,10 +682,7 @@
             "recoveryManager": "0xa4849f1d96b26066f9c631fcdc8f1457d27fb5ec",
             "recoveryTimelock": 180
           },
-          "maximumGas": 100000000,
           "optimisticSeconds": 1800,
-          "processGas": 85000000,
-          "reserveGas": 2500000,
           "updater": "0xa4e6e0953443882f448b93de52abfe7eb8b2efd4",
           "watchers": [
             "0xdc030a4e198dd6d08a7497b3deaf644ad755c10b"
@@ -729,8 +709,6 @@
       "rinkeby": {
         "bridgeConfiguration": {
           "customs": [],
-          "deployGas": 85000000,
-          "mintGas": 20000000,
           "weth": "0xc778417e063141139fce010982780140aa0cd5ab"
         },
         "configuration": {
@@ -738,10 +716,7 @@
             "recoveryManager": "0xa4849f1d96b26066f9c631fcdc8f1457d27fb5ec",
             "recoveryTimelock": 180
           },
-          "maximumGas": 100000000,
           "optimisticSeconds": 10,
-          "processGas": 85000000,
-          "reserveGas": 1500000,
           "updater": "0xe80d5d65275208aee8e10609258e4e048eb86b4c",
           "watchers": [
             "0x8ad65ba028cae9e3932959d5c167a09ede941d2c"
