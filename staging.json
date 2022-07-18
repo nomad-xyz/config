@@ -31,7 +31,11 @@
           "bucket": "nomadxyz-staging-proofs",
           "region": "us-west-2"
         },
-        "subsidizedRemotes": ["goerli", "neontestnet", "rinkeby"]
+        "subsidizedRemotes": [
+          "goerli",
+          "neontestnet",
+          "rinkeby"
+        ]
       },
       "relayer": {
         "enabled": true,
@@ -70,7 +74,11 @@
           "bucket": "nomadxyz-staging-proofs",
           "region": "us-west-2"
         },
-        "subsidizedRemotes": ["evmostestnet", "neontestnet", "rinkeby"]
+        "subsidizedRemotes": [
+          "evmostestnet",
+          "neontestnet",
+          "rinkeby"
+        ]
       },
       "relayer": {
         "enabled": true,
@@ -109,7 +117,11 @@
           "bucket": "nomadxyz-staging-proofs",
           "region": "us-west-2"
         },
-        "subsidizedRemotes": ["evmostestnet", "goerli", "rinkeby"]
+        "subsidizedRemotes": [
+          "evmostestnet",
+          "goerli",
+          "rinkeby"
+        ]
       },
       "relayer": {
         "enabled": true,
@@ -148,7 +160,11 @@
           "bucket": "nomadxyz-staging-proofs",
           "region": "us-west-2"
         },
-        "subsidizedRemotes": ["evmostestnet", "neontestnet", "rinkeby"]
+        "subsidizedRemotes": [
+          "evmostestnet",
+          "neontestnet",
+          "rinkeby"
+        ]
       },
       "relayer": {
         "enabled": true,
@@ -187,7 +203,11 @@
           "bucket": "nomadxyz-staging-proofs",
           "region": "us-west-2"
         },
-        "subsidizedRemotes": ["evmostestnet", "goerli", "neontestnet"]
+        "subsidizedRemotes": [
+          "evmostestnet",
+          "goerli",
+          "neontestnet"
+        ]
       },
       "relayer": {
         "enabled": true,
@@ -308,23 +328,32 @@
   },
   "bridgeGui": {
     "evmostestnet": {
-      "connections": ["rinkeby"],
+      "connections": [
+        "rinkeby"
+      ],
       "displayName": "Evmos Testnet",
       "nativeTokenSymbol": "tEVMOS"
     },
     "goerli": {
-      "connections": ["rinkeby"],
+      "connections": [
+        "rinkeby"
+      ],
       "connextEnabled": true,
       "displayName": "Goerli",
       "nativeTokenSymbol": "gETH"
     },
     "neontestnet": {
-      "connections": ["rinkeby"],
+      "connections": [
+        "rinkeby"
+      ],
       "displayName": "Neon Testnet",
       "nativeTokenSymbol": "tNEON"
     },
     "rinkeby": {
-      "connections": ["evmostestnet", "goerli"],
+      "connections": [
+        "evmostestnet",
+        "goerli"
+      ],
       "connextEnabled": true,
       "displayName": "Rinkeby",
       "manualProcessing": true,
@@ -548,9 +577,16 @@
           "processGas": 850000,
           "reserveGas": 15000,
           "updater": "0x67bd1ee5a1905613244fdfc401597b4b758c4fc5",
-          "watchers": ["0xd703fcb7c0a0aa4128d8371b6ccdbf356a7e4eec"]
+          "watchers": [
+            "0xd703fcb7c0a0aa4128d8371b6ccdbf356a7e4eec"
+          ]
         },
-        "connections": ["goerli", "neontestnet", "polygonmumbai", "rinkeby"],
+        "connections": [
+          "goerli",
+          "neontestnet",
+          "polygonmumbai",
+          "rinkeby"
+        ],
         "domain": 4441,
         "name": "evmostestnet",
         "specs": {
@@ -580,7 +616,9 @@
           "processGas": 850000,
           "reserveGas": 15000,
           "updater": "0xd39dd43efdd867939a2f070469cb3e1252827466",
-          "watchers": ["0x1795f9a0a6853d6328241e9dc37203ca545c3b79"]
+          "watchers": [
+            "0x1795f9a0a6853d6328241e9dc37203ca545c3b79"
+          ]
         },
         "connections": [
           "evmostestnet",
@@ -617,9 +655,16 @@
           "processGas": 850000,
           "reserveGas": 25000,
           "updater": "0xf1b9f5dbd2f22a3afbc88809dae63f10023735dd",
-          "watchers": ["0x2eb10725532da906400ce780438d00147dfac278"]
+          "watchers": [
+            "0x2eb10725532da906400ce780438d00147dfac278"
+          ]
         },
-        "connections": ["evmostestnet", "goerli", "polygonmumbai", "rinkeby"],
+        "connections": [
+          "evmostestnet",
+          "goerli",
+          "polygonmumbai",
+          "rinkeby"
+        ],
         "domain": 5551,
         "name": "neontestnet",
         "specs": {
@@ -649,9 +694,16 @@
           "processGas": 850000,
           "reserveGas": 25000,
           "updater": "0x1f1bd2b159e2b3d1f8fe5e2b9193260e78cda7d8",
-          "watchers": ["0xc92ccba6877406a82861c6d112af2bbc96ca462d"]
+          "watchers": [
+            "0xc92ccba6877406a82861c6d112af2bbc96ca462d"
+          ]
         },
-        "connections": ["evmostestnet", "goerli", "neontestnet", "rinkeby"],
+        "connections": [
+          "evmostestnet",
+          "goerli",
+          "neontestnet",
+          "rinkeby"
+        ],
         "domain": 8881,
         "name": "polygonmumbai",
         "specs": {
@@ -681,7 +733,9 @@
           "processGas": 850000,
           "reserveGas": 15000,
           "updater": "0x6b237d5af6e5116fe27116c0f6257caa6721d043",
-          "watchers": ["0x37b1e57b43e755da8384d05cf437d88d0274bfbd"]
+          "watchers": [
+            "0x37b1e57b43e755da8384d05cf437d88d0274bfbd"
+          ]
         },
         "connections": [
           "evmostestnet",
@@ -704,10 +758,20 @@
     }
   },
   "rpcs": {
-    "evmostestnet": ["https://eth.bd.evmos.dev:8545"],
-    "goerli": ["https://goerli-light.eth.linkpool.io"],
-    "neontestnet": ["https://proxy.devnet.neonlabs.org/solana"],
-    "polygonmumbai": ["https://rpc-mumbai.maticvigil.com/"],
-    "rinkeby": ["https://rinkeby-light.eth.linkpool.io"]
+    "evmostestnet": [
+      "https://eth.bd.evmos.dev:8545"
+    ],
+    "goerli": [
+      "https://goerli-light.eth.linkpool.io"
+    ],
+    "neontestnet": [
+      "https://proxy.devnet.neonlabs.org/solana"
+    ],
+    "polygonmumbai": [
+      "https://rpc-mumbai.maticvigil.com/"
+    ],
+    "rinkeby": [
+      "https://rinkeby-light.eth.linkpool.io"
+    ]
   }
 }
