@@ -979,10 +979,7 @@
     }
   },
   "environment": "staging",
-  "gas": {
-    "goerli": "evmDefault",
-    "rinkeby": "evmDefault"
-  },
+  "gas": {},
   "protocol": {
     "governor": {
       "domain": 1111,

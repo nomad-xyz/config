@@ -559,11 +559,7 @@
     }
   },
   "environment": "development",
-  "gas": {
-    "evmostestnet": "evmDefault",
-    "goerli": "evmDefault",
-    "rinkeby": "evmDefault"
-  },
+  "gas": {},
   "protocol": {
     "governor": {
       "domain": 1001,
