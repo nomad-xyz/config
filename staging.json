@@ -424,7 +424,12 @@
     }
   },
   "environment": "staging",
-  "gas": {},
+  "gas": {
+    "evmostestnet": "evmDefault",
+    "goerli": "evmDefault",
+    "polygonmumbai": "evmDefault",
+    "rinkeby": "evmDefault"
+  },
   "protocol": {
     "governor": {
       "domain": 1111,
