@@ -35,8 +35,12 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
+          "bsctestnet",
           "evmostestnet",
+          "goerli",
           "neontestnet",
+          "optimismgoerli",
+          "polygonmumbai",
           "rinkeby"
         ]
       },
@@ -78,8 +82,12 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
+          "arbitrumrinkeby",
           "evmostestnet",
+          "goerli",
           "neontestnet",
+          "optimismgoerli",
+          "polygonmumbai",
           "rinkeby"
         ]
       },
@@ -121,8 +129,12 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
+          "arbitrumrinkeby",
+          "bsctestnet",
           "goerli",
           "neontestnet",
+          "optimismgoerli",
+          "polygonmumbai",
           "rinkeby"
         ]
       },
@@ -164,8 +176,12 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
+          "arbitrumrinkeby",
+          "bsctestnet",
           "evmostestnet",
           "neontestnet",
+          "optimismgoerli",
+          "polygonmumbai",
           "rinkeby"
         ]
       },
@@ -207,8 +223,12 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
+          "arbitrumrinkeby",
+          "bsctestnet",
           "evmostestnet",
           "goerli",
+          "optimismgoerli",
+          "polygonmumbai",
           "rinkeby"
         ]
       },
@@ -250,8 +270,12 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
+          "arbitrumrinkeby",
+          "bsctestnet",
           "evmostestnet",
+          "goerli",
           "neontestnet",
+          "polygonmumbai",
           "rinkeby"
         ]
       },
@@ -293,8 +317,12 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
+          "arbitrumrinkeby",
+          "bsctestnet",
           "evmostestnet",
+          "goerli",
           "neontestnet",
+          "optimismgoerli",
           "rinkeby"
         ]
       },
@@ -336,9 +364,13 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
+          "arbitrumrinkeby",
+          "bsctestnet",
           "evmostestnet",
           "goerli",
-          "neontestnet"
+          "neontestnet",
+          "optimismgoerli",
+          "polygonmumbai"
         ]
       },
       "relayer": {
