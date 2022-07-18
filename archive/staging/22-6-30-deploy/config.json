@@ -1303,7 +1303,7 @@
         "domain": 8881,
         "name": "polygonmumbai",
         "specs": {
-          "blockExplorer": "https://polygonmumbai.polygonscan.com/",
+          "blockExplorer": "https://mumbai.polygonscan.com/",
           "blockTime": 5,
           "chainId": 80001,
           "confirmations": 3,
