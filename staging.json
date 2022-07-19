@@ -1,55 +1,10 @@
 {
   "version": 0,
   "networks": [
-    "evmostestnet",
     "goerli",
-    "polygonmumbai",
     "rinkeby"
   ],
   "agent": {
-    "evmostestnet": {
-      "db": "/usr/share/nomad",
-      "kathy": {
-        "chat": {
-          "type": "default"
-        },
-        "enabled": true,
-        "interval": 500
-      },
-      "logging": {
-        "fmt": "json",
-        "level": "info"
-      },
-      "metrics": 9090,
-      "processor": {
-        "allowed": null,
-        "denied": null,
-        "enabled": true,
-        "interval": 5,
-        "s3": {
-          "bucket": "nomadxyz-staging-proofs",
-          "region": "us-west-2"
-        },
-        "subsidizedRemotes": [
-          "evmostestnet",
-          "goerli",
-          "rinkeby"
-        ]
-      },
-      "relayer": {
-        "enabled": true,
-        "interval": 10
-      },
-      "rpcStyle": "ethereum",
-      "updater": {
-        "enabled": true,
-        "interval": 5
-      },
-      "watcher": {
-        "enabled": true,
-        "interval": 5
-      }
-    },
     "goerli": {
       "db": "/usr/share/nomad",
       "kathy": {
@@ -74,51 +29,6 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
-          "evmostestnet",
-          "polygonmumbai",
-          "rinkeby"
-        ]
-      },
-      "relayer": {
-        "enabled": true,
-        "interval": 10
-      },
-      "rpcStyle": "ethereum",
-      "updater": {
-        "enabled": true,
-        "interval": 5
-      },
-      "watcher": {
-        "enabled": true,
-        "interval": 5
-      }
-    },
-    "polygonmumbai": {
-      "db": "/usr/share/nomad",
-      "kathy": {
-        "chat": {
-          "type": "default"
-        },
-        "enabled": true,
-        "interval": 500
-      },
-      "logging": {
-        "fmt": "json",
-        "level": "info"
-      },
-      "metrics": 9090,
-      "processor": {
-        "allowed": null,
-        "denied": null,
-        "enabled": true,
-        "interval": 5,
-        "s3": {
-          "bucket": "nomadxyz-staging-proofs",
-          "region": "us-west-2"
-        },
-        "subsidizedRemotes": [
-          "evmostestnet",
-          "goerli",
           "rinkeby"
         ]
       },
@@ -160,9 +70,7 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
-          "evmostestnet",
-          "goerli",
-          "polygonmumbai"
+          "goerli"
         ]
       },
       "relayer": {
@@ -181,26 +89,6 @@
     }
   },
   "bridge": {
-    "evmostestnet": {
-      "bridgeRouter": {
-        "beacon": "0xab308abb7dbd8eda27bb19c6069929ea2b637aba",
-        "implementation": "0x19067855486ce8a772878423cfab8842ff9b3793",
-        "proxy": "0xd0d596fb4985eddf2859eeae7c7e80f00403fbb7"
-      },
-      "bridgeToken": {
-        "beacon": "0xbeab447203a8caa05d60b8aa56b8f1c1b4d5d4eb",
-        "implementation": "0x428620149c7e05ef1581bd68427dd0b0e6a71d08",
-        "proxy": "0x0000000000000000000000000000000000000000"
-      },
-      "customs": [],
-      "deployHeight": 998909,
-      "ethHelper": "0xa179a65273b55a424ddb2834ce3983f4b5d6a5fb",
-      "tokenRegistry": {
-        "beacon": "0x59dd6dfe0e3f8c0c39d67d98b6b6c12b0d432900",
-        "implementation": "0xc4c42a914c49e04e2c7787cffc9c294338e1cf44",
-        "proxy": "0xba48e1ea33e92263192c97496507586a5baf2c23"
-      }
-    },
     "goerli": {
       "bridgeRouter": {
         "beacon": "0xddd8b23487ec3e4b02427713acf03d2a0c1700d6",
@@ -219,26 +107,6 @@
         "beacon": "0x9dd8fd7e34d9adff5b5333a0eca52b8017f4abba",
         "implementation": "0x40ac82a5aafc919a917d93c73d614891dec6581b",
         "proxy": "0x22431cd0b489f148fd34baee3accf815750ac732"
-      }
-    },
-    "polygonmumbai": {
-      "bridgeRouter": {
-        "beacon": "0x26e0c7bb6b38f597359718ba9029b54f5d096bea",
-        "implementation": "0xfe4385156f733dc34811f9d7c851c7e152e2fb26",
-        "proxy": "0x1387558106dacd35a1ec175a2b7e94e36b7fa576"
-      },
-      "bridgeToken": {
-        "beacon": "0x270c044f8631d4662be0bae272337b1824d3c16b",
-        "implementation": "0x1b407fe6065ec3158a25759fe87534911decab09",
-        "proxy": "0x0000000000000000000000000000000000000000"
-      },
-      "customs": [],
-      "deployHeight": 26973045,
-      "ethHelper": "0x3a38403ee40ff4d26bac474ed028cb1e9ee1ae0f",
-      "tokenRegistry": {
-        "beacon": "0xccbad79e427f3ab043fcb20f37e80a8745960678",
-        "implementation": "0x8c88e61baa535e8c8faf61c4e4b635601370621f",
-        "proxy": "0xf831aed752890076bd2f264fc2fd00a2f15f6cf6"
       }
     },
     "rinkeby": {
@@ -263,13 +131,6 @@
     }
   },
   "bridgeGui": {
-    "evmostestnet": {
-      "connections": [
-        "rinkeby"
-      ],
-      "displayName": "Evmos Testnet",
-      "nativeTokenSymbol": "tEVMOS"
-    },
     "goerli": {
       "connections": [
         "rinkeby"
@@ -280,7 +141,6 @@
     },
     "rinkeby": {
       "connections": [
-        "evmostestnet",
         "goerli"
       ],
       "connextEnabled": true,
@@ -290,39 +150,6 @@
     }
   },
   "core": {
-    "evmostestnet": {
-      "deployHeight": 998766,
-      "governanceRouter": {
-        "beacon": "0xc14772571056bfacb3e306ef2dfce8623065394a",
-        "implementation": "0x7a2ac3f2d84ca2da7a725cfbc159bc1c2492cf14",
-        "proxy": "0x3c054909e1f659c4bb6f3c03060e74b42d5f602f"
-      },
-      "home": {
-        "beacon": "0xe50e6190dc9b3324f4f699fd8c68d80fdda3ce81",
-        "implementation": "0x740085c562aa71dfa417fb3fa0933acacd037ae3",
-        "proxy": "0x16b0f38bcca1f5f88cfe1d238779a57e0df6707d"
-      },
-      "replicas": {
-        "goerli": {
-          "beacon": "0x4cfdab9df84e03413a8da8fea41212ba6bc6c250",
-          "implementation": "0x73f6d2ddd31856eb45080cf9eaf397f57800cacd",
-          "proxy": "0xe5cd1d85d4bd5d28f8f0c9a0a9c140919f9000e2"
-        },
-        "polygonmumbai": {
-          "beacon": "0x4cfdab9df84e03413a8da8fea41212ba6bc6c250",
-          "implementation": "0x73f6d2ddd31856eb45080cf9eaf397f57800cacd",
-          "proxy": "0x7c8cc92daa7d9172dfe5d8319cc74a6166d05c2c"
-        },
-        "rinkeby": {
-          "beacon": "0x4cfdab9df84e03413a8da8fea41212ba6bc6c250",
-          "implementation": "0x73f6d2ddd31856eb45080cf9eaf397f57800cacd",
-          "proxy": "0x60e5957f39ad0b38e35d87902f2960bb71c9641a"
-        }
-      },
-      "updaterManager": "0x6997db9152c25fd504b1ac7dd15585dc028249b4",
-      "upgradeBeaconController": "0x1f55165d45ced17d6741bcc563a713df19a32eea",
-      "xAppConnectionManager": "0xc1b02c5855360e4c9d38a8a33156a61eae2308fd"
-    },
     "goerli": {
       "deployHeight": 6748857,
       "governanceRouter": {
@@ -336,16 +163,6 @@
         "proxy": "0x2698210d52378c0c01765ac7e79a10e8a226fbae"
       },
       "replicas": {
-        "evmostestnet": {
-          "beacon": "0xe1fbad342c8f2967f74dcef5db8c774a07b41dab",
-          "implementation": "0x15fd033c7bb9eaf0961f351193bfd47f851ee414",
-          "proxy": "0x3b02a61ce383c473dece1bb66b2aeda18c742115"
-        },
-        "polygonmumbai": {
-          "beacon": "0xe1fbad342c8f2967f74dcef5db8c774a07b41dab",
-          "implementation": "0x15fd033c7bb9eaf0961f351193bfd47f851ee414",
-          "proxy": "0xdaf0b05031cdb7b138627af790d23fba442a6017"
-        },
         "rinkeby": {
           "beacon": "0xe1fbad342c8f2967f74dcef5db8c774a07b41dab",
           "implementation": "0x15fd033c7bb9eaf0961f351193bfd47f851ee414",
@@ -355,39 +172,6 @@
       "updaterManager": "0x3fed184102403c548cc7a028ac20490c7964e82c",
       "upgradeBeaconController": "0x3627497fbfdb6c0b4971812a92baab076c5922ea",
       "xAppConnectionManager": "0xae2398fe62f348a343a454c3d0cb81885f2bb269"
-    },
-    "polygonmumbai": {
-      "deployHeight": 26972521,
-      "governanceRouter": {
-        "beacon": "0x89784cea6baf552f49a98daff2c16730e9d2488f",
-        "implementation": "0x091264137364018a14e80d477922c334a20574a4",
-        "proxy": "0xe6034b2f02ffe38563c0f96252577ceedb00b4f5"
-      },
-      "home": {
-        "beacon": "0x9cb5abe515ca91a3851aa246d614a639ad88b735",
-        "implementation": "0xeb79540da3f802e63e63f99eb13c7803109def40",
-        "proxy": "0x38789a24cf7bd4b1f3bf5cebb7498c2662de92d3"
-      },
-      "replicas": {
-        "evmostestnet": {
-          "beacon": "0x0e4024950d71f630d710f8523e4e40656a2cd617",
-          "implementation": "0xf2e2da66eaacc274469c29149d9ba5996fad5449",
-          "proxy": "0xd14eebfb2c1267f88dd0b362c86e41517680dbc3"
-        },
-        "goerli": {
-          "beacon": "0x0e4024950d71f630d710f8523e4e40656a2cd617",
-          "implementation": "0xf2e2da66eaacc274469c29149d9ba5996fad5449",
-          "proxy": "0xbb7eec7e960359f0cf2ef35cd91b120e43876ae8"
-        },
-        "rinkeby": {
-          "beacon": "0x0e4024950d71f630d710f8523e4e40656a2cd617",
-          "implementation": "0xf2e2da66eaacc274469c29149d9ba5996fad5449",
-          "proxy": "0x7e769c2a3d79877deb72dcb0f842fc48d7a9d732"
-        }
-      },
-      "updaterManager": "0x9b1b80ecbb23a07f6edd2023897d46af942b6d6e",
-      "upgradeBeaconController": "0x8aff8c2bc89adb1620eda1e52fdc1f3d64af8502",
-      "xAppConnectionManager": "0x0dab5407446bfebb16990c8f586a91ba7bb2c189"
     },
     "rinkeby": {
       "deployHeight": 10537550,
@@ -402,20 +186,10 @@
         "proxy": "0xba64e033fafd08e1b14e034fcd31d10e9534ba8e"
       },
       "replicas": {
-        "evmostestnet": {
-          "beacon": "0x7e31b1e36313260466123c630e78a038cf6b395b",
-          "implementation": "0x9972c9d9a711b1f92a686cfff28e504de829489a",
-          "proxy": "0xddccd92b9a18052d03ea4241e059ed82d7d1a695"
-        },
         "goerli": {
           "beacon": "0x7e31b1e36313260466123c630e78a038cf6b395b",
           "implementation": "0x9972c9d9a711b1f92a686cfff28e504de829489a",
           "proxy": "0x4c57ebd1eacb86d4dd5b64bb67115f9d401bc141"
-        },
-        "polygonmumbai": {
-          "beacon": "0x7e31b1e36313260466123c630e78a038cf6b395b",
-          "implementation": "0x9972c9d9a711b1f92a686cfff28e504de829489a",
-          "proxy": "0x4632ec8b5671e412e66694b2e378cbf62fcd72f0"
         }
       },
       "updaterManager": "0x64b5d98ba7aa803fd5ccee4b68f2b7ed3e315c86",
@@ -425,9 +199,7 @@
   },
   "environment": "staging",
   "gas": {
-    "evmostestnet": "evmDefault",
     "goerli": "evmDefault",
-    "polygonmumbai": "evmDefault",
     "rinkeby": "evmDefault"
   },
   "protocol": {
@@ -436,44 +208,6 @@
       "id": "0x812c096810e8efaa73eff841b601ab82a7be9ab0"
     },
     "networks": {
-      "evmostestnet": {
-        "bridgeConfiguration": {
-          "customs": [],
-          "deployGas": 850000,
-          "mintGas": 200000,
-          "weth": "0xcc491f589b45d4a3c679016195b3fb87d7848210"
-        },
-        "configuration": {
-          "governance": {
-            "recoveryManager": "0xa4849f1d96b26066f9c631fcdc8f1457d27fb5ec",
-            "recoveryTimelock": 180
-          },
-          "maximumGas": 1000000,
-          "optimisticSeconds": 1800,
-          "processGas": 850000,
-          "reserveGas": 15000,
-          "updater": "0x67bd1ee5a1905613244fdfc401597b4b758c4fc5",
-          "watchers": [
-            "0xd703fcb7c0a0aa4128d8371b6ccdbf356a7e4eec"
-          ]
-        },
-        "connections": [
-          "goerli",
-          "polygonmumbai",
-          "rinkeby"
-        ],
-        "domain": 4441,
-        "name": "evmostestnet",
-        "specs": {
-          "blockExplorer": "https://evm.evmos.dev/",
-          "blockTime": 5,
-          "chainId": 9000,
-          "confirmations": 6,
-          "finalizationBlocks": 10,
-          "indexPageSize": 2000,
-          "supports1559": false
-        }
-      },
       "goerli": {
         "bridgeConfiguration": {
           "customs": [],
@@ -496,8 +230,6 @@
           ]
         },
         "connections": [
-          "evmostestnet",
-          "polygonmumbai",
           "rinkeby"
         ],
         "domain": 3331,
@@ -508,44 +240,6 @@
           "chainId": 5,
           "confirmations": 4,
           "finalizationBlocks": 50,
-          "indexPageSize": 2000,
-          "supports1559": true
-        }
-      },
-      "polygonmumbai": {
-        "bridgeConfiguration": {
-          "customs": [],
-          "deployGas": 850000,
-          "mintGas": 200000,
-          "weth": "0x9c3c9283d3e44854697cd22d3faa240cfb032889"
-        },
-        "configuration": {
-          "governance": {
-            "recoveryManager": "0xa4849f1d96b26066f9c631fcdc8f1457d27fb5ec",
-            "recoveryTimelock": 180
-          },
-          "maximumGas": 1000000,
-          "optimisticSeconds": 1800,
-          "processGas": 850000,
-          "reserveGas": 25000,
-          "updater": "0x1f1bd2b159e2b3d1f8fe5e2b9193260e78cda7d8",
-          "watchers": [
-            "0xc92ccba6877406a82861c6d112af2bbc96ca462d"
-          ]
-        },
-        "connections": [
-          "evmostestnet",
-          "goerli",
-          "rinkeby"
-        ],
-        "domain": 8881,
-        "name": "polygonmumbai",
-        "specs": {
-          "blockExplorer": "https://mumbai.polygonscan.com/",
-          "blockTime": 5,
-          "chainId": 80001,
-          "confirmations": 3,
-          "finalizationBlocks": 150,
           "indexPageSize": 2000,
           "supports1559": true
         }
@@ -572,9 +266,7 @@
           ]
         },
         "connections": [
-          "evmostestnet",
-          "goerli",
-          "polygonmumbai"
+          "goerli"
         ],
         "domain": 1111,
         "name": "rinkeby",
@@ -591,14 +283,8 @@
     }
   },
   "rpcs": {
-    "evmostestnet": [
-      "https://eth.bd.evmos.dev:8545"
-    ],
     "goerli": [
       "https://goerli-light.eth.linkpool.io"
-    ],
-    "polygonmumbai": [
-      "https://rpc-mumbai.maticvigil.com/"
     ],
     "rinkeby": [
       "https://rinkeby-light.eth.linkpool.io"
