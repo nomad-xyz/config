@@ -6,7 +6,7 @@
   ],
   "agent": {
     "goerli": {
-      "db": "/usr/share/nomad",
+      "db": "/var/tmp",
       "kathy": {
         "chat": {
           "type": "default"
@@ -47,7 +47,7 @@
       }
     },
     "rinkeby": {
-      "db": "/usr/share/nomad",
+      "db": "/var/tmp",
       "kathy": {
         "chat": {
           "type": "default"
