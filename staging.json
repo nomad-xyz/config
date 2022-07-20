@@ -32,7 +32,6 @@
         },
         "subsidizedRemotes": [
           "evmostestnet",
-          "goerli",
           "rinkeby"
         ]
       },
