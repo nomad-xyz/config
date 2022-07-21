@@ -1,0 +1,46 @@
+{
+  "version": null,
+  "networks": null,
+  "arbitrumrinkeby": [
+    {
+      "address": "0x0507f12B31276Ed8EDDFD6F463477aD64AD9dA45",
+      "constructorArguments": [
+        "0x9e8dfda818ef4c01004ceac3515c6e9f589cee33"
+      ],
+      "encodedConstructorArguments": "0x0000000000000000000000009e8dfda818ef4c01004ceac3515c6e9f589cee33",
+      "name": "UpdaterManager",
+      "specifier": "packages/contracts-core/contracts/UpdaterManager.sol:UpdaterManager"
+    },
+    {
+      "address": "0xd685f14522Ea053A6aC7CcDEB2c1CD1E54714dA6",
+      "name": "UpgradeBeaconController",
+      "specifier": "packages/contracts-core/contracts/upgrade/UpgradeBeaconController.sol:UpgradeBeaconController"
+    },
+    {
+      "address": "0xf116142af150F8E2b939C14f746a67Ed6788266C",
+      "name": "XAppConnectionManager",
+      "specifier": "packages/contracts-core/contracts/XAppConnectionManager.sol:XAppConnectionManager"
+    }
+  ],
+  "optimismgoerli": [
+    {
+      "address": "0xeB79540da3f802E63E63f99eB13C7803109dEF40",
+      "constructorArguments": [
+        "0x3bf55e3be6fc16cda4959c7eb91bfda122a6d2a3"
+      ],
+      "encodedConstructorArguments": "0x0000000000000000000000003bf55e3be6fc16cda4959c7eb91bfda122a6d2a3",
+      "name": "UpdaterManager",
+      "specifier": "packages/contracts-core/contracts/UpdaterManager.sol:UpdaterManager"
+    },
+    {
+      "address": "0x0DAB5407446BFeBb16990C8F586A91Ba7bb2c189",
+      "name": "XAppConnectionManager",
+      "specifier": "packages/contracts-core/contracts/XAppConnectionManager.sol:XAppConnectionManager"
+    },
+    {
+      "address": "0x9b1b80eCbb23a07f6eDD2023897D46aF942b6D6e",
+      "name": "UpgradeBeaconController",
+      "specifier": "packages/contracts-core/contracts/upgrade/UpgradeBeaconController.sol:UpgradeBeaconController"
+    }
+  ]
+}

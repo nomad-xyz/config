@@ -595,13 +595,13 @@
       "https://eth.bd.evmos.dev:8545"
     ],
     "goerli": [
-      "https://goerli-light.eth.linkpool.io"
+      "https://eth-goerli.g.alchemy.com/v2/D6sivz4IM-C8TIyJFVKQ5jr8SpatiuhO"
     ],
     "polygonmumbai": [
-      "https://rpc-mumbai.maticvigil.com/"
+      "https://polygon-mumbai.g.alchemy.com/v2/xDT35pTaOdclkAGUEdQ5PB_vVCbrbLw5"
     ],
     "rinkeby": [
-      "https://rinkeby-light.eth.linkpool.io"
+      "https://eth-rinkeby.alchemyapi.io/v2/hGRAMCHlGPNjBtxbBg7-j_6eUE-1ur50"
     ]
   }
 }
