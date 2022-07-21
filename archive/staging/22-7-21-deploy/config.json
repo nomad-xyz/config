@@ -370,19 +370,19 @@
       },
       "replicas": {
         "evmostestnet": {
-          "implementation": "0x9222E045124F1F3418B150CD00547C14758c40b7",
           "beacon": "0xb0b95E5cc3E922A2B67Fd3BbCA1c18603A4d0Ba4",
+          "implementation": "0x9222E045124F1F3418B150CD00547C14758c40b7",
           "proxy": "0x96f2380D5240E3634692694EaB82F5609CaEE18D"
         },
-        "rinkeby": {
-          "implementation": "0x9222E045124F1F3418B150CD00547C14758c40b7",
-          "beacon": "0xb0b95E5cc3E922A2B67Fd3BbCA1c18603A4d0Ba4",
-          "proxy": "0x3014dd7f749A62BAeA07B96fb929F14001a2E87F"
-        },
         "goerli": {
-          "implementation": "0x9222E045124F1F3418B150CD00547C14758c40b7",
           "beacon": "0xb0b95E5cc3E922A2B67Fd3BbCA1c18603A4d0Ba4",
+          "implementation": "0x9222E045124F1F3418B150CD00547C14758c40b7",
           "proxy": "0xbF394C127403Ea4Aaf56F42B8217Fb4544C6e5be"
+        },
+        "rinkeby": {
+          "beacon": "0xb0b95E5cc3E922A2B67Fd3BbCA1c18603A4d0Ba4",
+          "implementation": "0x9222E045124F1F3418B150CD00547C14758c40b7",
+          "proxy": "0x3014dd7f749A62BAeA07B96fb929F14001a2E87F"
         }
       },
       "updaterManager": "0x9b1b80ecbb23a07f6edd2023897d46af942b6d6e",

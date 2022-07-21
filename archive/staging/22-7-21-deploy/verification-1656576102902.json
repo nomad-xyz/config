@@ -1,14 +1,16 @@
 {
+  "version": null,
+  "networks": null,
   "arbitrumrinkeby": [
     {
+      "address": "0x632C27F5ca0Bb1fD4BF3D240b453a8170019e23a",
       "name": "UpgradeBeaconController",
-      "specifier": "packages/contracts-core/contracts/upgrade/UpgradeBeaconController.sol:UpgradeBeaconController",
-      "address": "0x632C27F5ca0Bb1fD4BF3D240b453a8170019e23a"
+      "specifier": "packages/contracts-core/contracts/upgrade/UpgradeBeaconController.sol:UpgradeBeaconController"
     },
     {
+      "address": "0xF46c05d2cE3c07552FEF96D775141dB7E32CcddC",
       "name": "XAppConnectionManager",
-      "specifier": "packages/contracts-core/contracts/XAppConnectionManager.sol:XAppConnectionManager",
-      "address": "0xF46c05d2cE3c07552FEF96D775141dB7E32CcddC"
+      "specifier": "packages/contracts-core/contracts/XAppConnectionManager.sol:XAppConnectionManager"
     }
   ]
 }
