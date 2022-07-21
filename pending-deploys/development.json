@@ -2,8 +2,7 @@
   "version": 0,
   "networks": [
     "evmostestnet",
-    "goerli",
-    "optimismgoerli"
+    "goerli"
   ],
   "agent": {
     "evmostestnet": {
@@ -30,8 +29,7 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
-          "goerli",
-          "optimismgoerli"
+          "goerli"
         ]
       },
       "relayer": {
@@ -72,50 +70,7 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
-          "evmostestnet",
-          "optimismgoerli"
-        ]
-      },
-      "relayer": {
-        "enabled": true,
-        "interval": 10
-      },
-      "rpcStyle": "ethereum",
-      "updater": {
-        "enabled": true,
-        "interval": 5
-      },
-      "watcher": {
-        "enabled": true,
-        "interval": 5
-      }
-    },
-    "optimismgoerli": {
-      "db": "/usr/share/nomad",
-      "kathy": {
-        "chat": {
-          "type": "default"
-        },
-        "enabled": true,
-        "interval": 500
-      },
-      "logging": {
-        "fmt": "json",
-        "level": "info"
-      },
-      "metrics": 9090,
-      "processor": {
-        "allowed": null,
-        "denied": null,
-        "enabled": true,
-        "interval": 5,
-        "s3": {
-          "bucket": "nomadxyz-development-proofs",
-          "region": "us-west-2"
-        },
-        "subsidizedRemotes": [
-          "evmostestnet",
-          "goerli"
+          "evmostestnet"
         ]
       },
       "relayer": {
@@ -173,53 +128,22 @@
         "implementation": "0x958a0e80306583123d230324ce6d1aac6fc91128",
         "proxy": "0xcaca3358fd90c8e7ae9689ac4d21a8a7ec58c030"
       }
-    },
-    "optimismgoerli": {
-      "bridgeRouter": {
-        "beacon": "0x0000000000000000000000000000000000000000",
-        "implementation": "0x0000000000000000000000000000000000000000",
-        "proxy": "0x0000000000000000000000000000000000000000"
-      },
-      "bridgeToken": {
-        "beacon": "0x0000000000000000000000000000000000000000",
-        "implementation": "0x0000000000000000000000000000000000000000",
-        "proxy": "0x0000000000000000000000000000000000000000"
-      },
-      "customs": [],
-      "deployHeight": 0,
-      "ethHelper": "0x64586c361748e1973efdccda47c43bfd255d5238",
-      "tokenRegistry": {
-        "beacon": "0x0000000000000000000000000000000000000000",
-        "implementation": "0x0000000000000000000000000000000000000000",
-        "proxy": "0x0000000000000000000000000000000000000000"
-      }
     }
   },
   "bridgeGui": {
     "evmostestnet": {
       "connections": [
-        "goerli",
-        "optimismgoerli"
+        "goerli"
       ],
       "displayName": "Evmos Testnet",
       "nativeTokenSymbol": "tEVMOS"
     },
     "goerli": {
       "connections": [
-        "evmostestnet",
-        "optimismgoerli"
+        "evmostestnet"
       ],
       "connextEnabled": true,
       "displayName": "Goerli",
-      "nativeTokenSymbol": "gETH"
-    },
-    "optimismgoerli": {
-      "connections": [
-        "evmostestnet",
-        "goerli"
-      ],
-      "connextEnabled": true,
-      "displayName": "Optimism Goerli",
       "nativeTokenSymbol": "gETH"
     }
   },
@@ -241,11 +165,6 @@
           "beacon": "0xa38bdbd738e81a93e006959f1ea6565bb033c8d7",
           "implementation": "0x0fd70d51a1defb851da94ee66975b69b785fb8d0",
           "proxy": "0xff1000469744aa20630ae61d5f9f461b08755582"
-        },
-        "optimismgoerli": {
-          "beacon": "0x0000000000000000000000000000000000000000",
-          "implementation": "0x0000000000000000000000000000000000000000",
-          "proxy": "0x0000000000000000000000000000000000000000"
         }
       },
       "updaterManager": "0x9095f216b9cb3f1da981062ec81114a2c7494cd4",
@@ -269,51 +188,17 @@
           "beacon": "0x4a455cbabd96dc9b0dba2f0ccbb58a2dad403df2",
           "implementation": "0x9ba051dc387b54963e8988b21c17328d5196b64e",
           "proxy": "0xf1b83d100860887aef35e50b3794e28dc744e5ce"
-        },
-        "optimismgoerli": {
-          "beacon": "0x0000000000000000000000000000000000000000",
-          "implementation": "0x0000000000000000000000000000000000000000",
-          "proxy": "0x0000000000000000000000000000000000000000"
         }
       },
       "updaterManager": "0x75bd8ab02238dca52f303013f038d4e2d834e8fc",
       "upgradeBeaconController": "0x5bba73ef76bf303c0b48ade5d611bb2f80471653",
       "xAppConnectionManager": "0x859943879f79ce8d2e9e1d8c848c7ce9f6eb63d8"
-    },
-    "optimismgoerli": {
-      "deployHeight": 0,
-      "governanceRouter": {
-        "beacon": "0x0000000000000000000000000000000000000000",
-        "implementation": "0x0000000000000000000000000000000000000000",
-        "proxy": "0x0000000000000000000000000000000000000000"
-      },
-      "home": {
-        "beacon": "0x0000000000000000000000000000000000000000",
-        "implementation": "0x0000000000000000000000000000000000000000",
-        "proxy": "0x0000000000000000000000000000000000000000"
-      },
-      "replicas": {
-        "evmostestnet": {
-          "beacon": "0x0000000000000000000000000000000000000000",
-          "implementation": "0x0000000000000000000000000000000000000000",
-          "proxy": "0x0000000000000000000000000000000000000000"
-        },
-        "goerli": {
-          "beacon": "0x0000000000000000000000000000000000000000",
-          "implementation": "0x0000000000000000000000000000000000000000",
-          "proxy": "0x0000000000000000000000000000000000000000"
-        }
-      },
-      "updaterManager": "0x0000000000000000000000000000000000000000",
-      "upgradeBeaconController": "0x0000000000000000000000000000000000000000",
-      "xAppConnectionManager": "0x0000000000000000000000000000000000000000"
     }
   },
   "environment": "development",
   "gas": {
     "evmostestnet": "evmDefault",
-    "goerli": "evmDefault",
-    "optimismgoerli": "evmDefault"
+    "goerli": "evmDefault"
   },
   "protocol": {
     "governor": {
@@ -343,8 +228,7 @@
           ]
         },
         "connections": [
-          "goerli",
-          "optimismgoerli"
+          "goerli"
         ],
         "domain": 4001,
         "name": "evmostestnet",
@@ -380,8 +264,7 @@
           ]
         },
         "connections": [
-          "evmostestnet",
-          "optimismgoerli"
+          "evmostestnet"
         ],
         "domain": 3001,
         "name": "goerli",
@@ -394,43 +277,6 @@
           "indexPageSize": 2000,
           "supports1559": true
         }
-      },
-      "optimismgoerli": {
-        "bridgeConfiguration": {
-          "customs": [],
-          "deployGas": 85000000,
-          "mintGas": 20000000,
-          "weth": "0x4200000000000000000000000000000000000006"
-        },
-        "configuration": {
-          "governance": {
-            "recoveryManager": "0xa4849f1d96b26066f9c631fcdc8f1457d27fb5ec",
-            "recoveryTimelock": 180
-          },
-          "maximumGas": 100000000,
-          "optimisticSeconds": 1800,
-          "processGas": 85000000,
-          "reserveGas": 2500000,
-          "updater": "0x0000000000000000000000000000000000000000",
-          "watchers": [
-            "0x0000000000000000000000000000000000000000"
-          ]
-        },
-        "connections": [
-          "evmostestnet",
-          "goerli"
-        ],
-        "domain": 9991,
-        "name": "optimismgoerli",
-        "specs": {
-          "blockExplorer": "https://blockscout.com/optimism/goerli",
-          "blockTime": 15,
-          "chainId": 420,
-          "confirmations": 1,
-          "finalizationBlocks": 10,
-          "indexPageSize": 2000,
-          "supports1559": false
-        }
       }
     }
   },
@@ -440,9 +286,6 @@
     ],
     "goerli": [
       "https://goerli-light.eth.linkpool.io"
-    ],
-    "optimismgoerli": [
-      "https://goerli.optimism.io"
     ]
   }
 }
