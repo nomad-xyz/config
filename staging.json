@@ -1,11 +1,6 @@
 {
   "version": 0,
-  "networks": [
-    "evmostestnet",
-    "goerli",
-    "polygonmumbai",
-    "rinkeby"
-  ],
+  "networks": ["evmostestnet", "goerli", "polygonmumbai", "rinkeby"],
   "agent": {
     "evmostestnet": {
       "db": "/usr/share/nomad",
@@ -30,11 +25,7 @@
           "bucket": "nomadxyz-staging-proofs",
           "region": "us-west-2"
         },
-        "subsidizedRemotes": [
-          "evmostestnet",
-          "goerli",
-          "rinkeby"
-        ]
+        "subsidizedRemotes": ["evmostestnet", "goerli", "rinkeby"]
       },
       "relayer": {
         "enabled": true,
@@ -73,11 +64,7 @@
           "bucket": "nomadxyz-staging-proofs",
           "region": "us-west-2"
         },
-        "subsidizedRemotes": [
-          "evmostestnet",
-          "polygonmumbai",
-          "rinkeby"
-        ]
+        "subsidizedRemotes": ["evmostestnet", "polygonmumbai", "rinkeby"]
       },
       "relayer": {
         "enabled": true,
@@ -116,11 +103,7 @@
           "bucket": "nomadxyz-staging-proofs",
           "region": "us-west-2"
         },
-        "subsidizedRemotes": [
-          "evmostestnet",
-          "goerli",
-          "rinkeby"
-        ]
+        "subsidizedRemotes": ["evmostestnet", "goerli", "rinkeby"]
       },
       "relayer": {
         "enabled": true,
@@ -159,11 +142,7 @@
           "bucket": "nomadxyz-staging-proofs",
           "region": "us-west-2"
         },
-        "subsidizedRemotes": [
-          "evmostestnet",
-          "goerli",
-          "polygonmumbai"
-        ]
+        "subsidizedRemotes": ["evmostestnet", "goerli", "polygonmumbai"]
       },
       "relayer": {
         "enabled": true,
@@ -264,25 +243,18 @@
   },
   "bridgeGui": {
     "evmostestnet": {
-      "connections": [
-        "rinkeby"
-      ],
+      "connections": ["rinkeby"],
       "displayName": "Evmos Testnet",
       "nativeTokenSymbol": "tEVMOS"
     },
     "goerli": {
-      "connections": [
-        "rinkeby"
-      ],
+      "connections": ["rinkeby"],
       "connextEnabled": true,
       "displayName": "Goerli",
       "nativeTokenSymbol": "gETH"
     },
     "rinkeby": {
-      "connections": [
-        "evmostestnet",
-        "goerli"
-      ],
+      "connections": ["evmostestnet", "goerli"],
       "connextEnabled": true,
       "displayName": "Rinkeby",
       "manualProcessing": true,
@@ -370,19 +342,19 @@
       },
       "replicas": {
         "evmostestnet": {
-          "beacon": "0x0e4024950d71f630d710f8523e4e40656a2cd617",
-          "implementation": "0xf2e2da66eaacc274469c29149d9ba5996fad5449",
-          "proxy": "0xd14eebfb2c1267f88dd0b362c86e41517680dbc3"
-        },
-        "goerli": {
-          "beacon": "0x0e4024950d71f630d710f8523e4e40656a2cd617",
-          "implementation": "0xf2e2da66eaacc274469c29149d9ba5996fad5449",
-          "proxy": "0xbb7eec7e960359f0cf2ef35cd91b120e43876ae8"
+          "implementation": "0x9222E045124F1F3418B150CD00547C14758c40b7",
+          "beacon": "0xb0b95E5cc3E922A2B67Fd3BbCA1c18603A4d0Ba4",
+          "proxy": "0x96f2380D5240E3634692694EaB82F5609CaEE18D"
         },
         "rinkeby": {
-          "beacon": "0x0e4024950d71f630d710f8523e4e40656a2cd617",
-          "implementation": "0xf2e2da66eaacc274469c29149d9ba5996fad5449",
-          "proxy": "0x7e769c2a3d79877deb72dcb0f842fc48d7a9d732"
+          "implementation": "0x9222E045124F1F3418B150CD00547C14758c40b7",
+          "beacon": "0xb0b95E5cc3E922A2B67Fd3BbCA1c18603A4d0Ba4",
+          "proxy": "0x3014dd7f749A62BAeA07B96fb929F14001a2E87F"
+        },
+        "goerli": {
+          "implementation": "0x9222E045124F1F3418B150CD00547C14758c40b7",
+          "beacon": "0xb0b95E5cc3E922A2B67Fd3BbCA1c18603A4d0Ba4",
+          "proxy": "0xbF394C127403Ea4Aaf56F42B8217Fb4544C6e5be"
         }
       },
       "updaterManager": "0x9b1b80ecbb23a07f6edd2023897d46af942b6d6e",
@@ -453,15 +425,9 @@
           "processGas": 850000,
           "reserveGas": 15000,
           "updater": "0x67bd1ee5a1905613244fdfc401597b4b758c4fc5",
-          "watchers": [
-            "0xd703fcb7c0a0aa4128d8371b6ccdbf356a7e4eec"
-          ]
+          "watchers": ["0xd703fcb7c0a0aa4128d8371b6ccdbf356a7e4eec"]
         },
-        "connections": [
-          "goerli",
-          "polygonmumbai",
-          "rinkeby"
-        ],
+        "connections": ["goerli", "polygonmumbai", "rinkeby"],
         "domain": 4441,
         "name": "evmostestnet",
         "specs": {
@@ -491,15 +457,9 @@
           "processGas": 850000,
           "reserveGas": 15000,
           "updater": "0xd39dd43efdd867939a2f070469cb3e1252827466",
-          "watchers": [
-            "0x1795f9a0a6853d6328241e9dc37203ca545c3b79"
-          ]
+          "watchers": ["0x1795f9a0a6853d6328241e9dc37203ca545c3b79"]
         },
-        "connections": [
-          "evmostestnet",
-          "polygonmumbai",
-          "rinkeby"
-        ],
+        "connections": ["evmostestnet", "polygonmumbai", "rinkeby"],
         "domain": 3331,
         "name": "goerli",
         "specs": {
@@ -529,15 +489,9 @@
           "processGas": 850000,
           "reserveGas": 25000,
           "updater": "0x1f1bd2b159e2b3d1f8fe5e2b9193260e78cda7d8",
-          "watchers": [
-            "0xc92ccba6877406a82861c6d112af2bbc96ca462d"
-          ]
+          "watchers": ["0xc92ccba6877406a82861c6d112af2bbc96ca462d"]
         },
-        "connections": [
-          "evmostestnet",
-          "goerli",
-          "rinkeby"
-        ],
+        "connections": ["evmostestnet", "goerli", "rinkeby"],
         "domain": 8881,
         "name": "polygonmumbai",
         "specs": {
@@ -567,15 +521,9 @@
           "processGas": 850000,
           "reserveGas": 15000,
           "updater": "0x6b237d5af6e5116fe27116c0f6257caa6721d043",
-          "watchers": [
-            "0x37b1e57b43e755da8384d05cf437d88d0274bfbd"
-          ]
+          "watchers": ["0x37b1e57b43e755da8384d05cf437d88d0274bfbd"]
         },
-        "connections": [
-          "evmostestnet",
-          "goerli",
-          "polygonmumbai"
-        ],
+        "connections": ["evmostestnet", "goerli", "polygonmumbai"],
         "domain": 1111,
         "name": "rinkeby",
         "specs": {
@@ -591,17 +539,10 @@
     }
   },
   "rpcs": {
-    "evmostestnet": [
-      "https://eth.bd.evmos.dev:8545"
-    ],
-    "goerli": [
-      "https://goerli-light.eth.linkpool.io"
-    ],
-    "polygonmumbai": [
-      "https://rpc-mumbai.maticvigil.com/"
-    ],
-    "rinkeby": [
-      "https://rinkeby-light.eth.linkpool.io"
-    ]
+    "evmostestnet": ["https://eth.bd.evmos.dev:8545"],
+    "goerli": ["https://goerli-light.eth.linkpool.io"],
+    "polygonmumbai": ["https://rpc-mumbai.maticvigil.com/"],
+    "rinkeby": ["https://rinkeby-light.eth.linkpool.io"]
   }
 }
+
