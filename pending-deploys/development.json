@@ -176,22 +176,22 @@
     },
     "optimismgoerli": {
       "bridgeRouter": {
-        "beacon": "",
-        "implementation": "",
-        "proxy": ""
+        "beacon": "0x0000000000000000000000000000000000000000",
+        "implementation": "0x0000000000000000000000000000000000000000",
+        "proxy": "0x0000000000000000000000000000000000000000"
       },
       "bridgeToken": {
-        "beacon": "",
-        "implementation": "",
-        "proxy": ""
+        "beacon": "0x0000000000000000000000000000000000000000",
+        "implementation": "0x0000000000000000000000000000000000000000",
+        "proxy": "0x0000000000000000000000000000000000000000"
       },
       "customs": [],
       "deployHeight": 0,
       "ethHelper": "0x64586c361748e1973efdccda47c43bfd255d5238",
       "tokenRegistry": {
-        "beacon": "",
-        "implementation": "",
-        "proxy": ""
+        "beacon": "0x0000000000000000000000000000000000000000",
+        "implementation": "0x0000000000000000000000000000000000000000",
+        "proxy": "0x0000000000000000000000000000000000000000"
       }
     }
   },
@@ -243,9 +243,9 @@
           "proxy": "0xff1000469744aa20630ae61d5f9f461b08755582"
         },
         "optimismgoerli": {
-          "beacon": "",
-          "implementation": "",
-          "proxy": ""
+          "beacon": "0x0000000000000000000000000000000000000000",
+          "implementation": "0x0000000000000000000000000000000000000000",
+          "proxy": "0x0000000000000000000000000000000000000000"
         }
       },
       "updaterManager": "0x9095f216b9cb3f1da981062ec81114a2c7494cd4",
@@ -271,9 +271,9 @@
           "proxy": "0xf1b83d100860887aef35e50b3794e28dc744e5ce"
         },
         "optimismgoerli": {
-          "beacon": "",
-          "implementation": "",
-          "proxy": ""
+          "beacon": "0x0000000000000000000000000000000000000000",
+          "implementation": "0x0000000000000000000000000000000000000000",
+          "proxy": "0x0000000000000000000000000000000000000000"
         }
       },
       "updaterManager": "0x75bd8ab02238dca52f303013f038d4e2d834e8fc",
@@ -283,30 +283,30 @@
     "optimismgoerli": {
       "deployHeight": 0,
       "governanceRouter": {
-        "beacon": "",
-        "implementation": "",
-        "proxy": ""
+        "beacon": "0x0000000000000000000000000000000000000000",
+        "implementation": "0x0000000000000000000000000000000000000000",
+        "proxy": "0x0000000000000000000000000000000000000000"
       },
       "home": {
-        "beacon": "",
-        "implementation": "",
-        "proxy": ""
+        "beacon": "0x0000000000000000000000000000000000000000",
+        "implementation": "0x0000000000000000000000000000000000000000",
+        "proxy": "0x0000000000000000000000000000000000000000"
       },
       "replicas": {
         "evmostestnet": {
-          "beacon": "",
-          "implementation": "",
-          "proxy": ""
+          "beacon": "0x0000000000000000000000000000000000000000",
+          "implementation": "0x0000000000000000000000000000000000000000",
+          "proxy": "0x0000000000000000000000000000000000000000"
         },
         "goerli": {
-          "beacon": "",
-          "implementation": "",
-          "proxy": ""
+          "beacon": "0x0000000000000000000000000000000000000000",
+          "implementation": "0x0000000000000000000000000000000000000000",
+          "proxy": "0x0000000000000000000000000000000000000000"
         }
       },
-      "updaterManager": "",
-      "upgradeBeaconController": "",
-      "xAppConnectionManager": ""
+      "updaterManager": "0x0000000000000000000000000000000000000000",
+      "upgradeBeaconController": "0x0000000000000000000000000000000000000000",
+      "xAppConnectionManager": "0x0000000000000000000000000000000000000000"
     }
   },
   "environment": "development",
@@ -411,9 +411,9 @@
           "optimisticSeconds": 1800,
           "processGas": 85000000,
           "reserveGas": 2500000,
-          "updater": "",
+          "updater": "0x0000000000000000000000000000000000000000",
           "watchers": [
-            ""
+            "0x0000000000000000000000000000000000000000"
           ]
         },
         "connections": [
