@@ -278,10 +278,19 @@
       "displayName": "Goerli",
       "nativeTokenSymbol": "gETH"
     },
+    "polygonmumbai": {
+      "connections": [
+        "rinkeby"
+      ],
+      "connextEnabled": true,
+      "displayName": "Polygon Mumbai",
+      "nativeTokenSymbol": "MATIC"
+    },
     "rinkeby": {
       "connections": [
         "evmostestnet",
-        "goerli"
+        "goerli",
+        "polygonmumbai"
       ],
       "connextEnabled": true,
       "displayName": "Rinkeby",
