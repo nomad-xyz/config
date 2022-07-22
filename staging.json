@@ -281,12 +281,21 @@
     "rinkeby": {
       "connections": [
         "evmostestnet",
-        "goerli"
+        "goerli",
+        "polygonmumbai"
       ],
       "connextEnabled": true,
       "displayName": "Rinkeby",
       "manualProcessing": true,
       "nativeTokenSymbol": "rETH"
+    },
+    "polygonmumbai": {
+      "connections": [
+        "rinkeby"
+      ],
+      "connextEnabled": true,
+      "displayName": "Polygon Mumbai",
+      "nativeTokenSymbol": "MATIC"
     }
   },
   "core": {
