@@ -2,7 +2,8 @@
   "version": 0,
   "networks": [
     "evmostestnet",
-    "goerli"
+    "goerli",
+    "rinkeby"
   ],
   "agent": {
     "evmostestnet": {
@@ -29,7 +30,8 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
-          "goerli"
+          "goerli",
+          "rinkeby"
         ]
       },
       "relayer": {
@@ -70,7 +72,50 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
-          "evmostestnet"
+          "evmostestnet",
+          "rinkeby"
+        ]
+      },
+      "relayer": {
+        "enabled": true,
+        "interval": 10
+      },
+      "rpcStyle": "ethereum",
+      "updater": {
+        "enabled": true,
+        "interval": 5
+      },
+      "watcher": {
+        "enabled": true,
+        "interval": 5
+      }
+    },
+    "rinkeby": {
+      "db": "/usr/share/nomad",
+      "kathy": {
+        "chat": {
+          "type": "default"
+        },
+        "enabled": true,
+        "interval": 500
+      },
+      "logging": {
+        "fmt": "json",
+        "level": "info"
+      },
+      "metrics": 9090,
+      "processor": {
+        "allowed": null,
+        "denied": null,
+        "enabled": true,
+        "interval": 5,
+        "s3": {
+          "bucket": "nomadxyz-development-proofs",
+          "region": "us-west-2"
+        },
+        "subsidizedRemotes": [
+          "evmostestnet",
+          "goerli"
         ]
       },
       "relayer": {
@@ -128,23 +173,55 @@
         "implementation": "0x958a0e80306583123d230324ce6d1aac6fc91128",
         "proxy": "0xcaca3358fd90c8e7ae9689ac4d21a8a7ec58c030"
       }
+    },
+    "rinkeby": {
+      "bridgeRouter": {
+        "beacon": "0xa778962b0ffbe7bc4449c308513a196bfa344232",
+        "implementation": "0xebf2eaff9799c2b3b8f80cf40d89afbbba2e362e",
+        "proxy": "0x5731f3581d139e9a697448a34f55a89b781aac9a"
+      },
+      "bridgeToken": {
+        "beacon": "0xc19123a2afcc71220f603aec6228bc527db39fd0",
+        "implementation": "0xf163454b43bcfab89db7ba2d5323d66b8096a952",
+        "proxy": "0x0000000000000000000000000000000000000000"
+      },
+      "customs": [],
+      "deployHeight": 10537318,
+      "ethHelper": "0x64586c361748e1973efdccda47c43bfd255d5238",
+      "tokenRegistry": {
+        "beacon": "0xa38175d60e5f3b08989694af084abdb9d86efba7",
+        "implementation": "0xdf1307c9a5a77a9d0d68a1b4e83ff25bdb582093",
+        "proxy": "0x7975a69a1fbccd03693e1ebec3e494be09d0604a"
+      }
     }
   },
   "bridgeGui": {
     "evmostestnet": {
       "connections": [
-        "goerli"
+        "goerli",
+        "rinkeby"
       ],
       "displayName": "Evmos Testnet",
       "nativeTokenSymbol": "tEVMOS"
     },
     "goerli": {
       "connections": [
-        "evmostestnet"
+        "evmostestnet",
+        "rinkeby"
       ],
       "connextEnabled": true,
       "displayName": "Goerli",
       "nativeTokenSymbol": "gETH"
+    },
+    "rinkeby": {
+      "connections": [
+        "evmostestnet",
+        "goerli"
+      ],
+      "connextEnabled": true,
+      "displayName": "Rinkeby",
+      "manualProcessing": true,
+      "nativeTokenSymbol": "rETH"
     }
   },
   "core": {
@@ -165,6 +242,11 @@
           "beacon": "0xa38bdbd738e81a93e006959f1ea6565bb033c8d7",
           "implementation": "0x0fd70d51a1defb851da94ee66975b69b785fb8d0",
           "proxy": "0xff1000469744aa20630ae61d5f9f461b08755582"
+        },
+        "rinkeby": {
+          "beacon": "0xa38bdbd738e81a93e006959f1ea6565bb033c8d7",
+          "implementation": "0x0fd70d51a1defb851da94ee66975b69b785fb8d0",
+          "proxy": "0x362f6d97609501e630ad8a5da2f211675cac591e"
         }
       },
       "updaterManager": "0x9095f216b9cb3f1da981062ec81114a2c7494cd4",
@@ -188,17 +270,51 @@
           "beacon": "0x4a455cbabd96dc9b0dba2f0ccbb58a2dad403df2",
           "implementation": "0x9ba051dc387b54963e8988b21c17328d5196b64e",
           "proxy": "0xf1b83d100860887aef35e50b3794e28dc744e5ce"
+        },
+        "rinkeby": {
+          "beacon": "0xa38bdbd738e81a93e006959f1ea6565bb033c8d7",
+          "implementation": "0x0fd70d51a1defb851da94ee66975b69b785fb8d0",
+          "proxy": "0x362f6d97609501e630ad8a5da2f211675cac591e"
         }
       },
       "updaterManager": "0x75bd8ab02238dca52f303013f038d4e2d834e8fc",
       "upgradeBeaconController": "0x5bba73ef76bf303c0b48ade5d611bb2f80471653",
       "xAppConnectionManager": "0x859943879f79ce8d2e9e1d8c848c7ce9f6eb63d8"
+    },
+    "rinkeby": {
+      "deployHeight": 10537248,
+      "governanceRouter": {
+        "beacon": "0x0574d16015f9eef1d228c3c02d551ca8a7458036",
+        "implementation": "0x76a0549fc4f238601a0fc4b43aa5c6750a35179e",
+        "proxy": "0xfbb2fec4fcb5738c739b9705e723117581cbabeb"
+      },
+      "home": {
+        "beacon": "0x8c49b91b307cd9d00838b947cf7f4a25bc051152",
+        "implementation": "0x291aa27728ec80c5b7a2356546b8055a48996c64",
+        "proxy": "0x0977fc99b94fd769ea4fbbfa14777434f773ced2"
+      },
+      "replicas": {
+        "evmostestnet": {
+          "beacon": "0x8dc1c77718b6f97f4a1e06e234ba2c8defd9cf9a",
+          "implementation": "0xcea907d60b96bf18b0c571ff7b0a5e97356f3ceb",
+          "proxy": "0x423b1eced988959067834b13b501c8ab78a28576"
+        },
+        "goerli": {
+          "beacon": "0x8dc1c77718b6f97f4a1e06e234ba2c8defd9cf9a",
+          "implementation": "0xcea907d60b96bf18b0c571ff7b0a5e97356f3ceb",
+          "proxy": "0x96ee295d2c96ea0353b25ff0b8e8e0b8e64db60f"
+        }
+      },
+      "updaterManager": "0xd7191ef96218836fd73f58c7579e88062e162321",
+      "upgradeBeaconController": "0xffc73f39f22ebfbe4643c7abcd972edc62bfb371",
+      "xAppConnectionManager": "0xb26806b76540348d655a12a5b8427ee088459625"
     }
   },
   "environment": "development",
   "gas": {
     "evmostestnet": "evmDefault",
-    "goerli": "evmDefault"
+    "goerli": "evmDefault",
+    "rinkeby": "evmDefault"
   },
   "protocol": {
     "governor": {
@@ -228,7 +344,8 @@
           ]
         },
         "connections": [
-          "goerli"
+          "goerli",
+          "rinkeby"
         ],
         "domain": 4001,
         "name": "evmostestnet",
@@ -264,7 +381,8 @@
           ]
         },
         "connections": [
-          "evmostestnet"
+          "evmostestnet",
+          "rinkeby"
         ],
         "domain": 3001,
         "name": "goerli",
@@ -272,6 +390,43 @@
           "blockExplorer": "https://goerli.etherscan.io/",
           "blockTime": 15,
           "chainId": 5,
+          "confirmations": 4,
+          "finalizationBlocks": 30,
+          "indexPageSize": 2000,
+          "supports1559": true
+        }
+      },
+      "rinkeby": {
+        "bridgeConfiguration": {
+          "customs": [],
+          "deployGas": 85000000,
+          "mintGas": 20000000,
+          "weth": "0xc778417e063141139fce010982780140aa0cd5ab"
+        },
+        "configuration": {
+          "governance": {
+            "recoveryManager": "0xa4849f1d96b26066f9c631fcdc8f1457d27fb5ec",
+            "recoveryTimelock": 180
+          },
+          "maximumGas": 100000000,
+          "optimisticSeconds": 10,
+          "processGas": 85000000,
+          "reserveGas": 1500000,
+          "updater": "0xe80d5d65275208aee8e10609258e4e048eb86b4c",
+          "watchers": [
+            "0x8ad65ba028cae9e3932959d5c167a09ede941d2c"
+          ]
+        },
+        "connections": [
+          "evmostestnet",
+          "goerli"
+        ],
+        "domain": 1001,
+        "name": "rinkeby",
+        "specs": {
+          "blockExplorer": "https://rinkeby.etherscan.io/",
+          "blockTime": 15,
+          "chainId": 4,
           "confirmations": 4,
           "finalizationBlocks": 30,
           "indexPageSize": 2000,
@@ -286,6 +441,9 @@
     ],
     "goerli": [
       "https://goerli-light.eth.linkpool.io"
+    ],
+    "rinkeby": [
+      "https://rinkeby-light.eth.linkpool.io"
     ]
   }
 }
