@@ -282,7 +282,7 @@
   },
   "rpcs": {
     "evmostestnet": [
-      "https://eth.bd.evmos.dev:8545/"
+      "https://tharsis-evmos-nomad-testnet.bdnodes.net:8545"
     ],
     "goerli": [
       "https://goerli-light.eth.linkpool.io"
