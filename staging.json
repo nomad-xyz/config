@@ -612,5 +612,9 @@
     "rinkeby": [
       "https://rinkeby-light.eth.linkpool.io"
     ]
+  },
+  "s3": {
+    "bucket": "nomadxyz-staging-proofs",
+    "region": "us-west-2"
   }
 }
