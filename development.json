@@ -334,6 +334,7 @@
   "bridgeGui": {
     "evmostestnet": {
       "connections": [
+        "neontestnet",
         "rinkeby"
       ],
       "displayName": "Evmos Testnet",
@@ -349,6 +350,7 @@
     },
     "neontestnet": {
       "connections": [
+        "evmostestnet",
         "rinkeby"
       ],
       "displayName": "Neon Testnet",
