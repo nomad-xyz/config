@@ -334,8 +334,8 @@
   "bridgeGui": {
     "evmostestnet": {
       "connections": [
-        "rinkeby",
-        "neontestnet"
+        "neontestnet",
+        "rinkeby"
       ],
       "displayName": "Evmos Testnet",
       "nativeTokenSymbol": "tEVMOS"
@@ -350,8 +350,8 @@
     },
     "neontestnet": {
       "connections": [
-        "rinkeby",
-        "evmostestnet"
+        "evmostestnet",
+        "rinkeby"
       ],
       "displayName": "Neon Testnet",
       "nativeTokenSymbol": "tNEON"
