@@ -438,8 +438,8 @@
     "evmos": {
       "connections": [
         "ethereum",
-        "moonbeam",
-        "milkomedaC1"
+        "milkomedaC1",
+        "moonbeam"
       ],
       "connextEnabled": true,
       "displayName": "Evmos",
@@ -448,8 +448,8 @@
     "milkomedaC1": {
       "connections": [
         "ethereum",
-        "moonbeam",
-        "evmos"
+        "evmos",
+        "moonbeam"
       ],
       "displayName": "Milkomeda C1",
       "nativeTokenSymbol": "milkADA"
