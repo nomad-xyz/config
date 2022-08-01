@@ -457,8 +457,8 @@
     "moonbeam": {
       "connections": [
         "ethereum",
-        "milkomedaC1",
-        "moonbeam"
+        "evmos",
+        "milkomedaC1"
       ],
       "connextEnabled": true,
       "displayName": "Moonbeam",
