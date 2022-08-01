@@ -75,6 +75,7 @@ chosen from already-committed deploy outputs.
 - Check out a new branch
 - **Copy** your deploy's config from `archive/` to the root level
 - Overwrite the appropriate env config
+- Run `./sort_configs.sh` to make sure the linting CI will pass.
 - Make a PR and get it merged 💪
 
 ## Distribution
