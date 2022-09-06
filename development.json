@@ -42,7 +42,6 @@
         "enabled": true,
         "interval": 10
       },
-      "rpcStyle": "ethereum",
       "updater": {
         "enabled": true,
         "interval": 5
@@ -86,7 +85,6 @@
         "enabled": true,
         "interval": 10
       },
-      "rpcStyle": "ethereum",
       "updater": {
         "enabled": true,
         "interval": 5
@@ -130,7 +128,6 @@
         "enabled": true,
         "interval": 10
       },
-      "rpcStyle": "ethereum",
       "updater": {
         "enabled": true,
         "interval": 5
@@ -174,7 +171,6 @@
         "enabled": true,
         "interval": 10
       },
-      "rpcStyle": "ethereum",
       "updater": {
         "enabled": true,
         "interval": 5
@@ -218,7 +214,6 @@
         "enabled": true,
         "interval": 10
       },
-      "rpcStyle": "ethereum",
       "updater": {
         "enabled": true,
         "interval": 5
@@ -757,6 +752,7 @@
         ],
         "domain": 1001,
         "name": "rinkeby",
+        "rpcStyle": "ethereum",
         "specs": {
           "blockExplorer": "https://rinkeby.etherscan.io/",
           "blockTime": 15,

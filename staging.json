@@ -40,7 +40,6 @@
         "enabled": true,
         "interval": 10
       },
-      "rpcStyle": "ethereum",
       "updater": {
         "enabled": true,
         "interval": 5
@@ -83,7 +82,6 @@
         "enabled": true,
         "interval": 10
       },
-      "rpcStyle": "ethereum",
       "updater": {
         "enabled": true,
         "interval": 5
@@ -126,7 +124,6 @@
         "enabled": true,
         "interval": 10
       },
-      "rpcStyle": "ethereum",
       "updater": {
         "enabled": true,
         "interval": 5
@@ -169,7 +166,6 @@
         "enabled": true,
         "interval": 10
       },
-      "rpcStyle": "ethereum",
       "updater": {
         "enabled": true,
         "interval": 5
@@ -473,6 +469,7 @@
         ],
         "domain": 4441,
         "name": "evmostestnet",
+        "rpcStyle": "ethereum",
         "specs": {
           "blockExplorer": "https://evm.evmos.dev/",
           "blockTime": 5,
@@ -511,6 +508,7 @@
         ],
         "domain": 3331,
         "name": "goerli",
+        "rpcStyle": "ethereum",
         "specs": {
           "blockExplorer": "https://goerli.etherscan.io/",
           "blockTime": 15,
@@ -549,6 +547,7 @@
         ],
         "domain": 9991,
         "name": "polygonmumbai",
+        "rpcStyle": "ethereum",
         "specs": {
           "blockExplorer": "https://mumbai.polygonscan.com/",
           "blockTime": 5,
@@ -587,6 +586,7 @@
         ],
         "domain": 1111,
         "name": "rinkeby",
+        "rpcStyle": "ethereum",
         "specs": {
           "blockExplorer": "https://rinkeby.etherscan.io/",
           "blockTime": 15,

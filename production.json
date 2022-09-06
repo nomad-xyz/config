@@ -43,7 +43,6 @@
         "enabled": true,
         "interval": 10
       },
-      "rpcStyle": "ethereum",
       "updater": {
         "enabled": true,
         "interval": 5
@@ -88,7 +87,6 @@
         "enabled": true,
         "interval": 10
       },
-      "rpcStyle": "ethereum",
       "updater": {
         "enabled": true,
         "interval": 5
@@ -132,7 +130,6 @@
         "enabled": true,
         "interval": 10
       },
-      "rpcStyle": "ethereum",
       "updater": {
         "enabled": true,
         "interval": 5
@@ -176,7 +173,6 @@
         "enabled": true,
         "interval": 10
       },
-      "rpcStyle": "ethereum",
       "updater": {
         "enabled": true,
         "interval": 5
@@ -220,7 +216,6 @@
         "enabled": true,
         "interval": 10
       },
-      "rpcStyle": "ethereum",
       "updater": {
         "enabled": true,
         "interval": 5
@@ -264,7 +259,6 @@
         "enabled": true,
         "interval": 10
       },
-      "rpcStyle": "ethereum",
       "updater": {
         "enabled": true,
         "interval": 5
@@ -770,6 +764,7 @@
         ],
         "domain": 1635148152,
         "name": "avalanche",
+        "rpcStyle": "ethereum",
         "specs": {
           "blockExplorer": "https://snowtrace.io/",
           "blockTime": 2,
@@ -810,6 +805,7 @@
         ],
         "domain": 6648936,
         "name": "ethereum",
+        "rpcStyle": "ethereum",
         "specs": {
           "blockExplorer": "https://etherscan.io",
           "blockTime": 15,
@@ -860,6 +856,7 @@
         ],
         "domain": 1702260083,
         "name": "evmos",
+        "rpcStyle": "ethereum",
         "specs": {
           "blockExplorer": "http://evm.evmos.org",
           "blockTime": 6,
@@ -900,6 +897,7 @@
         ],
         "domain": 25393,
         "name": "milkomedaC1",
+        "rpcStyle": "ethereum",
         "specs": {
           "blockExplorer": "https://rpc.c1.milkomeda.com:4000/",
           "blockTime": 4,
@@ -940,6 +938,7 @@
         ],
         "domain": 1650811245,
         "name": "moonbeam",
+        "rpcStyle": "ethereum",
         "specs": {
           "blockExplorer": "https://moonbeam.moonscan.io",
           "blockTime": 15,
@@ -980,6 +979,7 @@
         ],
         "domain": 2019844457,
         "name": "xdai",
+        "rpcStyle": "ethereum",
         "specs": {
           "blockExplorer": "https://blockscout.com/xdai/mainnet/",
           "blockTime": 5,
