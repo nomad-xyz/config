@@ -20,7 +20,7 @@
   "protocol": {
     "governor": {
       "domain": 1001,
-      "id": "0xa4849f1d96b26066f9c631fcdc8f1457d27fb5ec"
+      "id": "TBD"
     },
     "networks": {
       "goerli1": {
@@ -28,11 +28,11 @@
           "customs": [],
           "deployGas": 85000000,
           "mintGas": 20000000,
-          "weth": "0x0bb7509324ce409f7bbc4b701f932eaca9736ab7"
+          "weth": "TBD"
         },
         "configuration": {
           "governance": {
-            "recoveryManager": "0xa4849f1d96b26066f9c631fcdc8f1457d27fb5ec",
+            "recoveryManager": "TBD",
             "recoveryTimelock": 180
           },
           "maximumGas": 100000000,
@@ -47,7 +47,7 @@
         "connections": [
           "goerli2"
         ],
-        "domain": 3001,
+        "domain": 1001,
         "name": "goerli1",
         "specs": {
           "blockExplorer": "https://goerli.etherscan.io/",
@@ -64,26 +64,26 @@
           "customs": [],
           "deployGas": 85000000,
           "mintGas": 20000000,
-          "weth": "0x0bb7509324ce409f7bbc4b701f932eaca9736ab7"
+          "weth": "TBD"
         },
         "configuration": {
           "governance": {
-            "recoveryManager": "0xa4849f1d96b26066f9c631fcdc8f1457d27fb5ec",
+            "recoveryManager": "TBD",
             "recoveryTimelock": 180
           },
           "maximumGas": 100000000,
           "optimisticSeconds": 10,
           "processGas": 85000000,
           "reserveGas": 1500000,
-          "updater": "0xd16bdbbc56090156ec609ebebc8bace1240fa22e",
+          "updater": "0xe80D5D65275208Aee8e10609258E4E048eb86b4C",
           "watchers": [
-            "0x69520f1cec6199fe93c6c77881b5de701e0efeff"
+            "0x8aD65ba028caE9E3932959D5c167a09eDE941D2c"
           ]
         },
         "connections": [
           "goerli1"
         ],
-        "domain": 3001,
+        "domain": 1002,
         "name": "goerli2",
         "specs": {
           "blockExplorer": "https://goerli.etherscan.io/",
