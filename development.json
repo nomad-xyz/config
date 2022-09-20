@@ -12,7 +12,7 @@
           "type": "default"
         },
         "enabled": true,
-        "interval": 500
+        "interval": 2000
       },
       "logging": {
         "fmt": "json",
@@ -53,7 +53,7 @@
           "type": "default"
         },
         "enabled": true,
-        "interval": 500
+        "interval": 2000
       },
       "logging": {
         "fmt": "json",
