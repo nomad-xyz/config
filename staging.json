@@ -202,6 +202,11 @@
       }
     },
     "goerli": {
+      "accountant": {
+        "beacon": "0x661aFa47c0eFeAEE1414116b4fE7182Dab37DC7B",
+        "implementation": "0x661aFa47c0eFeAEE1414116b4fE7182Dab37DC7B",
+        "proxy": "0x661aFa47c0eFeAEE1414116b4fE7182Dab37DC7B"
+      },
       "bridgeRouter": {
         "beacon": "0xddd8b23487ec3e4b02427713acf03d2a0c1700d6",
         "implementation": "0x151b8a335ad5d0d15085d172c1fc70e6a81ceec2",
