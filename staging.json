@@ -203,7 +203,7 @@
     },
     "goerli": {
       "accountant": {
-        "beacon": "0x661aFa47c0eFeAEE1414116b4fE7182Dab37DC7B",
+        "beacon": "0x0000000000000000000000000000000000000000",
         "implementation": "0x661aFa47c0eFeAEE1414116b4fE7182Dab37DC7B",
         "proxy": "0x661aFa47c0eFeAEE1414116b4fE7182Dab37DC7B"
       },
