@@ -179,7 +179,7 @@
       "xAppConnectionManager": "0x0499063d42b5d3186e8bcd9d7d84e9c6d4efaa6c"
     }
   },
-  "environment": "development",
+  "environment": "staging",
   "gas": {
     "goerli": {
       "bridge": {
