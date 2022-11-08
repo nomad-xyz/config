@@ -70,7 +70,6 @@
           "region": "us-west-2"
         },
         "subsidizedRemotes": [
-          "goerli"
         ]
       },
       "relayer": {
