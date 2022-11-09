@@ -136,16 +136,16 @@
         "sepolia"
       ],
       "displayName": "Goerli",
-      "nativeTokenSymbol": "gETH",
-      "manualProcessing": true
+      "manualProcessing": true,
+      "nativeTokenSymbol": "gETH"
     },
     "sepolia": {
       "connections": [
         "goerli"
       ],
       "displayName": "Sepolia",
-      "nativeTokenSymbol": "sETH",
-      "manualProcessing": false
+      "manualProcessing": false,
+      "nativeTokenSymbol": "sETH"
     }
   },
   "core": {
