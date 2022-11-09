@@ -128,7 +128,24 @@
       }
     }
   },
-  "bridgeGui": {},
+  "bridgeGui": {
+    "goerli": {
+      "connections": [
+        "sepolia"
+      ],
+      "displayName": "Goerli",
+      "manualProcessing": true,
+      "nativeTokenSymbol": "gETH"
+    },
+    "sepolia": {
+      "connections": [
+        "goerli"
+      ],
+      "displayName": "Sepolia",
+      "manualProcessing": false,
+      "nativeTokenSymbol": "sETH"
+    }
+  },
   "core": {
     "goerli": {
       "deployHeight": 7623119,
