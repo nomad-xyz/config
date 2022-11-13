@@ -839,7 +839,7 @@
         },
         "configuration": {
           "governance": {
-            "recoveryManager": "0xea24ac04defb338ca8595c3750e20166f3b4998a",
+            "recoveryManager": "0x132aeBF14c4c5F59621D95722719090b78272bCc",
             "recoveryTimelock": 86400
           },
           "maximumGas": 1000000,
@@ -879,7 +879,7 @@
         },
         "configuration": {
           "governance": {
-            "recoveryManager": "0xea24ac04defb338ca8595c3750e20166f3b4998a",
+            "recoveryManager": "0xFAA4c0e86539ebb2e781ad56B54a032010720d59",
             "recoveryTimelock": 86400
           },
           "maximumGas": 1000000,
