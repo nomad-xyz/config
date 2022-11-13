@@ -782,6 +782,10 @@
       },
       "ethereum": {
         "bridgeConfiguration": {
+          "accountant": {
+            "fundsRecipient": "0x97f41A903DA8a9e763526E5568563E6637A659b7",
+            "owner": "0xb0895da7eA0081B652c43dbe848fea6791Ea2888"
+          },
           "customs": [],
           "deployGas": 850000,
           "mintGas": 200000,
