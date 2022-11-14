@@ -330,7 +330,7 @@
         "specs": {
           "blockExplorer": "https://sepolia.etherscan.io/",
           "blockTime": 15,
-          "chainId": 5,
+          "chainId": 11155111,
           "confirmations": 4,
           "finalizationBlocks": 30,
           "indexPageSize": 2000,
