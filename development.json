@@ -91,42 +91,42 @@
   "bridge": {
     "goerli": {
       "bridgeRouter": {
-        "beacon": "0xc60f9577bb163be3771cfe186f82b317361dd799",
-        "implementation": "0x610fd513c9cfc6d0780eda33901441ace0fc83bb",
-        "proxy": "0x0219f26fad0579b39c4def5eae5332e72193d53b"
+        "beacon": "0xc60F9577Bb163Be3771CfE186f82b317361DD799",
+        "implementation": "0xeEc3572dD97CfD59Ff173fbbFA14e7eE74A88a73",
+        "proxy": "0x0219F26FAd0579B39C4DeF5Eae5332E72193d53B"
       },
       "bridgeToken": {
-        "beacon": "0x6a35a97983ab7649a636dc3a028707edad165bd2",
-        "implementation": "0xa6b4d1537ae3f26a4ea4b1af763d448108d3c4c6",
+        "beacon": "0x6a35A97983Ab7649a636DC3a028707EDad165Bd2",
+        "implementation": "0xd9896663110D0499c4312FaBEAa44A1b7735B0D8",
         "proxy": "0x0000000000000000000000000000000000000000"
       },
       "customs": [],
       "deployHeight": 7940728,
       "ethHelper": "0xe0b9a7fd5253708dabe64a98cbc928575db53c1a",
       "tokenRegistry": {
-        "beacon": "0x6c6cdd8d8aa29b9213d7f9a93d7cb533cf02c8ce",
-        "implementation": "0xdb919ffb32e538e539d42e9f7a19837478bfaf23",
-        "proxy": "0xf698959ec6a1881521f6f8e732444c4e3bf05d19"
+        "beacon": "0x6C6cDd8D8Aa29b9213d7f9A93D7cB533Cf02C8cE",
+        "implementation": "0xcD108a4BB8413A19df4dB1cFc3d98B7c45Ee8b72",
+        "proxy": "0xf698959Ec6a1881521F6F8e732444C4E3Bf05d19"
       }
     },
     "sepolia": {
       "bridgeRouter": {
-        "beacon": "0x2bc28a1321f51ca147f5916a3c0841b8f7d816cf",
-        "implementation": "0x0aa0bdd64c0c06bf05d9a21cc1b77be3687033a9",
-        "proxy": "0xadb29b47156ef7ce5200c9a1fc84bc83f2d97a50"
+        "beacon": "0x2bc28A1321f51cA147f5916a3C0841B8F7D816cF",
+        "implementation": "0xc036729DAE05c897B71a8a5967461A54D0DA5216",
+        "proxy": "0xAdB29B47156EF7Ce5200c9A1Fc84BC83F2D97A50"
       },
       "bridgeToken": {
-        "beacon": "0x2b64cac924047e240a894e93a38f7ddfa82296a2",
-        "implementation": "0x6a5f9531d1877ebe96bc0631dbf64bbcf1f7421c",
+        "beacon": "0x2b64caC924047E240a894E93A38f7Ddfa82296A2",
+        "implementation": "0x6A20205F6bdf35bF4e51Fcb411BB8B9f1baa11E7",
         "proxy": "0x0000000000000000000000000000000000000000"
       },
       "customs": [],
       "deployHeight": 2275577,
       "ethHelper": "0x23cf8d606b51852251dafd8246ba67c22de67ffa",
       "tokenRegistry": {
-        "beacon": "0x616a3a17fa52d2c1d0ae2e063a1cdcb7820afd18",
-        "implementation": "0x53e7f6afbecbb18a8e4989b89adb1f0ce85272f5",
-        "proxy": "0x27cc367b58e54f85a2374a32ba7c1818e5234ced"
+        "beacon": "0x616A3a17FA52D2C1d0aE2E063a1CDCb7820afd18",
+        "implementation": "0xC72B0CBA22aC0d790B567E806E6e3257aAB103Fe",
+        "proxy": "0x27cC367b58e54F85a2374A32Ba7c1818E5234cEd"
       }
     }
   },
@@ -152,20 +152,20 @@
     "goerli": {
       "deployHeight": 7940679,
       "governanceRouter": {
-        "beacon": "0x5b95c02798b435af31c49c82ac1eff343a3adb92",
-        "implementation": "0x91cc5cc93476267378c44437397d7ac973baf6c7",
-        "proxy": "0x75fc38b7c761fd7739b36726f52e386d4859277a"
+        "beacon": "0x5b95C02798b435Af31c49C82aC1eff343a3adb92",
+        "implementation": "0x20AE448D61d69Dad1D5579b2AD0698Cf66b07405",
+        "proxy": "0x75fc38B7C761fD7739B36726F52E386D4859277A"
       },
       "home": {
-        "beacon": "0x244e128bbabcbf9936915c9d69f582e3defd4a96",
-        "implementation": "0xe25e0a9dbf89e3278f06ca573e252270cdbb78fc",
-        "proxy": "0x4b9b8a389475146a62a6be669408b7e45f75c13e"
+        "beacon": "0x244e128BbABCbF9936915C9d69F582e3DeFD4A96",
+        "implementation": "0x60c226048ba61b054Be210d3427e30fEB19b52Df",
+        "proxy": "0x4b9b8A389475146A62a6bE669408B7E45F75c13E"
       },
       "replicas": {
         "sepolia": {
-          "beacon": "0x4581650881ced1a0837d5233a4724af432be9232",
-          "implementation": "0x98d8ed1014698e3366a43ae3bb9a1d062f3a2ba2",
-          "proxy": "0x845479edf9d00ff9babcb750e7952f08ec9d0604"
+          "beacon": "0x4581650881CeD1A0837d5233a4724Af432bE9232",
+          "implementation": "0x7e84973407d29cF692b1B2573831d219919Cefa9",
+          "proxy": "0x845479edF9D00fF9BAbCB750e7952f08Ec9d0604"
         }
       },
       "updaterManager": "0x19653a25d654547b1c57e19c17e2fbd0b636f986",
@@ -175,20 +175,20 @@
     "sepolia": {
       "deployHeight": 2275529,
       "governanceRouter": {
-        "beacon": "0x0507f12b31276ed8eddfd6f463477ad64ad9da45",
-        "implementation": "0xf116142af150f8e2b939c14f746a67ed6788266c",
-        "proxy": "0x215f582a1352367576ed9b5cb243b32bd9d82d02"
+        "beacon": "0x0507f12B31276Ed8EDDFD6F463477aD64AD9dA45",
+        "implementation": "0x20f63643D5E521E8C1d6D73a2dd09D3C5e752Cbe",
+        "proxy": "0x215F582A1352367576ed9b5cB243B32bd9D82d02"
       },
       "home": {
-        "beacon": "0x78e7cdee08ead8f4efdd7eb589785811a07da644",
-        "implementation": "0xf46c05d2ce3c07552fef96d775141db7e32ccddc",
-        "proxy": "0x6e6010e6bd43a9d2f7ae3b7ea9f61760e58758f3"
+        "beacon": "0x78E7CDEE08eAD8f4eFDd7Eb589785811a07DA644",
+        "implementation": "0xfAED9868046b73A805e1f144AdE61cd4Ea1a856F",
+        "proxy": "0x6E6010E6bd43a9d2F7AE3b7eA9f61760e58758f3"
       },
       "replicas": {
         "goerli": {
-          "beacon": "0x72925eb54c9730abde885b091b99de1811d80812",
-          "implementation": "0x8e68819f8596b7d23cbfe1d8a0605675c1ed646f",
-          "proxy": "0x6554bc7a5c35ba64bf48fa8a9e662d8808aaa890"
+          "beacon": "0x72925EB54c9730AbDe885B091B99dE1811D80812",
+          "implementation": "0xba56B810409e992119B77306dEA713E12C3832Fe",
+          "proxy": "0x6554bc7a5C35bA64Bf48FA8a9e662d8808aaa890"
         }
       },
       "updaterManager": "0x632c27f5ca0bb1fd4bf3d240b453a8170019e23a",
