@@ -286,7 +286,7 @@
             "recoveryTimelock": 180
           },
           "optimisticSeconds": 1800,
-          "updater": "0x0CFaE1e5A97429b5FA4F2e4016DF5C4AA35CcC7f",
+          "updater": "0xd16bdbbc56090156ec609ebebc8bace1240fa22e",
           "watchers": [
             "0x69520f1cec6199fe93c6c77881b5de701e0efeff"
           ]
@@ -317,7 +317,7 @@
             "recoveryTimelock": 180
           },
           "optimisticSeconds": 1800,
-          "updater": "0x93dF1aE45f38588d6eE58f1D8198F9Cb11A24De3",
+          "updater": "0xe80d5d65275208aee8e10609258e4e048eb86b4c",
           "watchers": [
             "0x8ad65ba028cae9e3932959d5c167a09ede941d2c"
           ]
