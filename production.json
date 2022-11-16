@@ -297,6 +297,11 @@
       }
     },
     "ethereum": {
+      "accountant": {
+        "beacon": "0x0000000000000000000000000000000000000000",
+        "implementation": "0x0000000000000000000000000000000000000000",
+        "proxy": "0x0000000000000000000000000000000000000000"
+      },
       "bridgeRouter": {
         "beacon": "0xb70588b1a51f847d13158ff18e9cac861df5fb00",
         "implementation": "0x15fda9f60310d09fea54e3c99d1197dff5107248",
