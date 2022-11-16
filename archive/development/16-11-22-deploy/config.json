@@ -1,0 +1,354 @@
+{
+  "version": 0,
+  "networks": [
+    "goerli",
+    "sepolia"
+  ],
+  "agent": {
+    "goerli": {
+      "db": "/usr/share/nomad",
+      "kathy": {
+        "chat": {
+          "type": "default"
+        },
+        "enabled": true,
+        "interval": 2000
+      },
+      "logging": {
+        "fmt": "json",
+        "level": "info"
+      },
+      "metrics": 9090,
+      "processor": {
+        "allowed": null,
+        "denied": null,
+        "enabled": true,
+        "interval": 5,
+        "s3": {
+          "bucket": "nomadxyz-development-proofs",
+          "region": "us-west-2"
+        },
+        "subsidizedRemotes": [
+          "sepolia"
+        ]
+      },
+      "relayer": {
+        "enabled": true,
+        "interval": 10
+      },
+      "rpcStyle": "ethereum",
+      "updater": {
+        "enabled": true,
+        "interval": 5
+      },
+      "watcher": {
+        "enabled": true,
+        "interval": 5
+      }
+    },
+    "sepolia": {
+      "db": "/usr/share/nomad",
+      "kathy": {
+        "chat": {
+          "type": "default"
+        },
+        "enabled": true,
+        "interval": 2000
+      },
+      "logging": {
+        "fmt": "json",
+        "level": "info"
+      },
+      "metrics": 9090,
+      "processor": {
+        "allowed": null,
+        "denied": null,
+        "enabled": true,
+        "interval": 5,
+        "s3": {
+          "bucket": "nomadxyz-development-proofs",
+          "region": "us-west-2"
+        },
+        "subsidizedRemotes": [
+          "goerli"
+        ]
+      },
+      "relayer": {
+        "enabled": true,
+        "interval": 10
+      },
+      "rpcStyle": "ethereum",
+      "updater": {
+        "enabled": true,
+        "interval": 5
+      },
+      "watcher": {
+        "enabled": true,
+        "interval": 5
+      }
+    }
+  },
+  "bridge": {
+    "goerli": {
+      "bridgeRouter": {
+        "beacon": "0x3da6e1c7bfc7e537ae2bf7a9e9eb90312d15c881",
+        "implementation": "0xb097097d9874f59ed8ed136ff42e623672e4a3be",
+        "proxy": "0x1170c6f9cd8115d05a50ce2e521e124708b7e7fc"
+      },
+      "bridgeToken": {
+        "beacon": "0x660eee96676c696e35e234caf9ecefce4db0b517",
+        "implementation": "0x265bad5e519a6b7c496518b77f97aab5fcb31a0a",
+        "proxy": "0x0000000000000000000000000000000000000000"
+      },
+      "customs": [],
+      "deployHeight": 7960552,
+      "ethHelper": "0xe022402de2da3bd1c1403e11ba6418da77ef352a",
+      "tokenRegistry": {
+        "beacon": "0x0c316f4002b7f27b326c97664620eaa1c2a815d7",
+        "implementation": "0xd77d5ca721c00eb483a4910c2b435097f8d46d8e",
+        "proxy": "0x0ccb7cabbf7c03e3830bda19d27620a8825447b3"
+      }
+    },
+    "sepolia": {
+      "bridgeRouter": {
+        "beacon": "0x5c572f1d2da14ad800e5abd565c1c3a59f5244a6",
+        "implementation": "0x0f88d9d31c8f8e8fc06ab2eda25a974ee2fd89ee",
+        "proxy": "0x374e21d37584128881cf385c3d629dd25f5d28b2"
+      },
+      "bridgeToken": {
+        "beacon": "0x7a523a88f3f4683c81bd49c5c51777bec10d71c1",
+        "implementation": "0x0c473afc0cabd469751cbe3ac08abac3e40bf586",
+        "proxy": "0x0000000000000000000000000000000000000000"
+      },
+      "customs": [],
+      "deployHeight": 2297088,
+      "ethHelper": "0x29ed2691b1f474bfbc25a3fc193facf5191d1a76",
+      "tokenRegistry": {
+        "beacon": "0x92697d688e9ceb7dbd6b928e08269805abd9fb5c",
+        "implementation": "0x2504511b3607dce7a3c11ea93d80bdeed9b5c717",
+        "proxy": "0x66a3d2f29cba24c18693c76172a83e70bbb4ff57"
+      }
+    }
+  },
+  "bridgeGui": {
+    "goerli": {
+      "connections": [
+        "sepolia"
+      ],
+      "displayName": "Goerli",
+      "manualProcessing": true,
+      "nativeTokenSymbol": "gETH"
+    },
+    "sepolia": {
+      "connections": [
+        "goerli"
+      ],
+      "displayName": "Sepolia",
+      "manualProcessing": false,
+      "nativeTokenSymbol": "sETH"
+    }
+  },
+  "core": {
+    "goerli": {
+      "deployHeight": 7960504,
+      "governanceRouter": {
+        "beacon": "0x50c3b2ed1fd53fc1d83bb2554fd424d5f9834680",
+        "implementation": "0xbf38ba1abe348d917da8764058fdedcc19e03963",
+        "proxy": "0x08b01304e80e3281989a2429670e0d3e1469711d"
+      },
+      "home": {
+        "beacon": "0x3f4cd1e8ecd8da51d81f572e58b35ca1aed9a272",
+        "implementation": "0xa717530be4dc807f7d23d971f7a981fd5c1c25d5",
+        "proxy": "0x39350cbde45751e7c56ed6d6f8235bed7c165360"
+      },
+      "replicas": {
+        "sepolia": {
+          "beacon": "0x29bda9b78b48fa1238ef8a89644c41c95586d4fb",
+          "implementation": "0x66a19f21a9e61d29ccc726689bdf9f5ff5d11a23",
+          "proxy": "0x3e58d823a669cb123c6ced2944fd8b445d88bb8f"
+        }
+      },
+      "updaterManager": "0x23aa45aecc7d26a429be814a7e879f4445becc24",
+      "upgradeBeaconController": "0x4bb5cf130f026068ba571f0b2e19e727c800fd60",
+      "xAppConnectionManager": "0xbeba49276b473c1d0a7e6b37ebf24b84893c6b0c"
+    },
+    "sepolia": {
+      "deployHeight": 2297040,
+      "governanceRouter": {
+        "beacon": "0x8f8424dc94b4c302984ab5a03fc4c2d1ec95dc92",
+        "implementation": "0xbdf5227e9d80c400cfb294864b7d068bdee4e4ed",
+        "proxy": "0x42f046ca3967f80f0f3178ca73f8701b36957445"
+      },
+      "home": {
+        "beacon": "0x8459ede1ed4dadd6d5b142d845240088a6530cf8",
+        "implementation": "0x35ef86b59dbf21ddd6cf4fa7dc04a3aefad57484",
+        "proxy": "0x4624a7e4fe1ebfb92b7721bbf67322e9f6875610"
+      },
+      "replicas": {
+        "goerli": {
+          "beacon": "0x7eb8450a5397b795f2d89bc48ea20c24fa147f11",
+          "implementation": "0x73509b64b9a83f9e220d300cfa964e6bbe718b85",
+          "proxy": "0x5977bf230719fb405aaf2aadadd8e026000f2436"
+        }
+      },
+      "updaterManager": "0x05a1aff80b23c2fc7e2067daf4413eda1b76b0d0",
+      "upgradeBeaconController": "0x74ad55dc4cc6a88a0240591352aed72fc828aeba",
+      "xAppConnectionManager": "0x53b94f2d4a3159b66fccc4f406ea388426a3f3cb"
+    }
+  },
+  "environment": "development",
+  "gas": {
+    "goerli": {
+      "bridge": {
+        "bridgeRouter": {
+          "send": 500000
+        },
+        "ethHelper": {
+          "send": 800000,
+          "sendToEvmLike": 800000
+        }
+      },
+      "core": {
+        "connectionManager": {
+          "ownerUnenrollReplica": 120000,
+          "unenrollReplica": 120000
+        },
+        "home": {
+          "doubleUpdate": 200000,
+          "improperUpdate": {
+            "base": 100000,
+            "perMessage": 10000
+          },
+          "update": {
+            "base": 100000,
+            "perMessage": 10000
+          }
+        },
+        "replica": {
+          "doubleUpdate": 200000,
+          "process": 1700000,
+          "prove": 200000,
+          "proveAndProcess": 1900000,
+          "update": 140000
+        }
+      }
+    },
+    "sepolia": {
+      "bridge": {
+        "bridgeRouter": {
+          "send": 500000
+        },
+        "ethHelper": {
+          "send": 800000,
+          "sendToEvmLike": 800000
+        }
+      },
+      "core": {
+        "connectionManager": {
+          "ownerUnenrollReplica": 120000,
+          "unenrollReplica": 120000
+        },
+        "home": {
+          "doubleUpdate": 200000,
+          "improperUpdate": {
+            "base": 100000,
+            "perMessage": 10000
+          },
+          "update": {
+            "base": 100000,
+            "perMessage": 10000
+          }
+        },
+        "replica": {
+          "doubleUpdate": 200000,
+          "process": 1700000,
+          "prove": 200000,
+          "proveAndProcess": 1900000,
+          "update": 140000
+        }
+      }
+    }
+  },
+  "protocol": {
+    "governor": {
+      "domain": 1337,
+      "id": "0xa4849f1d96b26066f9c631fcdc8f1457d27fb5ec"
+    },
+    "networks": {
+      "goerli": {
+        "bridgeConfiguration": {
+          "customs": [],
+          "weth": "0x0bb7509324ce409f7bbc4b701f932eaca9736ab7"
+        },
+        "configuration": {
+          "governance": {
+            "recoveryManager": "0xa4849f1d96b26066f9c631fcdc8f1457d27fb5ec",
+            "recoveryTimelock": 180
+          },
+          "optimisticSeconds": 1800,
+          "updater": "0xd16bdbbc56090156ec609ebebc8bace1240fa22e",
+          "watchers": [
+            "0x69520f1cec6199fe93c6c77881b5de701e0efeff"
+          ]
+        },
+        "connections": [
+          "sepolia"
+        ],
+        "domain": 1337,
+        "name": "goerli",
+        "specs": {
+          "blockExplorer": "https://goerli.etherscan.io/",
+          "blockTime": 15,
+          "chainId": 5,
+          "confirmations": 4,
+          "finalizationBlocks": 30,
+          "indexPageSize": 2000,
+          "supports1559": true
+        }
+      },
+      "sepolia": {
+        "bridgeConfiguration": {
+          "customs": [],
+          "weth": "0x9af0c1fa99a11d2b8a7642b4abcaae2f632a40be"
+        },
+        "configuration": {
+          "governance": {
+            "recoveryManager": "0xa4849f1d96b26066f9c631fcdc8f1457d27fb5ec",
+            "recoveryTimelock": 180
+          },
+          "optimisticSeconds": 1800,
+          "updater": "0xe80d5d65275208aee8e10609258e4e048eb86b4c",
+          "watchers": [
+            "0x8ad65ba028cae9e3932959d5c167a09ede941d2c"
+          ]
+        },
+        "connections": [
+          "goerli"
+        ],
+        "domain": 9999,
+        "name": "sepolia",
+        "specs": {
+          "blockExplorer": "https://sepolia.etherscan.io/",
+          "blockTime": 15,
+          "chainId": 11155111,
+          "confirmations": 4,
+          "finalizationBlocks": 30,
+          "indexPageSize": 2000,
+          "supports1559": true
+        }
+      }
+    }
+  },
+  "rpcs": {
+    "goerli": [
+      "https://goerli-light.eth.linkpool.io"
+    ],
+    "sepolia": [
+      "https://rpc.sepolia.org"
+    ]
+  },
+  "s3": {
+    "bucket": "nomadxyz-development-proofs",
+    "region": "us-west-2"
+  }
+}
