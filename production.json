@@ -297,6 +297,11 @@
       }
     },
     "ethereum": {
+      "accountant": {
+        "beacon": "0x0000000000000000000000000000000000000000",
+        "implementation": "0x0000000000000000000000000000000000000000",
+        "proxy": "0x0000000000000000000000000000000000000000"
+      },
       "bridgeRouter": {
         "beacon": "0xb70588b1a51f847d13158ff18e9cac861df5fb00",
         "implementation": "0x15fda9f60310d09fea54e3c99d1197dff5107248",
@@ -756,7 +761,7 @@
           "optimisticSeconds": 1800,
           "processGas": 850000,
           "reserveGas": 25000,
-          "updater": "0xb93d4dbb87b80f0869a5ce0839fb75acdbeb1b77",
+          "updater": "0x5067c8a9cBf708f885195aA318F8d7A3f2f5D112",
           "watchers": [
             "0x499b1fa18e3cac1c8cdf2b14c458aa70a6a2b68f"
           ]
@@ -800,7 +805,7 @@
           "optimisticSeconds": 1800,
           "processGas": 850000,
           "reserveGas": 25000,
-          "updater": "0x71dc76c07e92325e7cc09117ab94310da63fc2b9",
+          "updater": "0xa728bE5Be33E60D9c65677EBa569555536e587E4",
           "watchers": [
             "0x297bbc2f2eaaeb17ee53f514020bc8173f0570dc"
           ]
@@ -850,7 +855,7 @@
           "optimisticSeconds": 1800,
           "processGas": 850000,
           "reserveGas": 25000,
-          "updater": "0xc8e344d4698b6462187c88b9bb58f26ca3b5ed31",
+          "updater": "0x4a20554A905fC015da26447c233d7bd99673e192",
           "watchers": [
             "0x9e8e7eb5886a9c77e955fd5d717581556eb7f98d"
           ]
@@ -890,7 +895,7 @@
           "optimisticSeconds": 1800,
           "processGas": 850000,
           "reserveGas": 25000,
-          "updater": "0xe293d129d9fd291a8115cb373bb934586055427d",
+          "updater": "0x6e7ae3785f36Db23660d9B2bbF812666231bb4c0",
           "watchers": [
             "0x06d8902cfae8235047dc7783875279311798c715"
           ]
@@ -930,7 +935,7 @@
           "optimisticSeconds": 1800,
           "processGas": 850000,
           "reserveGas": 25000,
-          "updater": "0x40fd91557b318bd5d52d12535795265c88702681",
+          "updater": "0x77b4962f97dc4dDB9cc5B28DC1a92C0158e37a98",
           "watchers": [
             "0x9782a3c8128f5d1bd3c9655d03181ba5b420883e"
           ]
@@ -970,7 +975,7 @@
           "optimisticSeconds": 1800,
           "processGas": 850000,
           "reserveGas": 25000,
-          "updater": "0x777a89f8cba8fa632268e8f3c6789cdadada3482",
+          "updater": "0x475F6e0612a495e356FD2913ab5f2F7a237bab53",
           "watchers": [
             "0xce941bbad38b35bd7f6b039af5ae67f8f0c99960"
           ]
