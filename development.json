@@ -92,12 +92,12 @@
     "goerli": {
       "bridgeRouter": {
         "beacon": "0x3da6e1c7bfc7e537ae2bf7a9e9eb90312d15c881",
-        "implementation": "0xb097097d9874f59ed8ed136ff42e623672e4a3be",
+        "implementation": "0x1d7f3F685094C1833e5D8eC3bA72dbf072AB9F12",
         "proxy": "0x1170c6f9cd8115d05a50ce2e521e124708b7e7fc"
       },
       "bridgeToken": {
         "beacon": "0x660eee96676c696e35e234caf9ecefce4db0b517",
-        "implementation": "0x265bad5e519a6b7c496518b77f97aab5fcb31a0a",
+        "implementation": "0x901E54a3BA810A2258952e98c8Cccd9347140D73",
         "proxy": "0x0000000000000000000000000000000000000000"
       },
       "customs": [],
@@ -105,19 +105,19 @@
       "ethHelper": "0xe022402de2da3bd1c1403e11ba6418da77ef352a",
       "tokenRegistry": {
         "beacon": "0x0c316f4002b7f27b326c97664620eaa1c2a815d7",
-        "implementation": "0xd77d5ca721c00eb483a4910c2b435097f8d46d8e",
+        "implementation": "0x23D19616B1C7cf91bB20eb516E8bB4c657CF5D10",
         "proxy": "0x0ccb7cabbf7c03e3830bda19d27620a8825447b3"
       }
     },
     "sepolia": {
       "bridgeRouter": {
         "beacon": "0x5c572f1d2da14ad800e5abd565c1c3a59f5244a6",
-        "implementation": "0x0f88d9d31c8f8e8fc06ab2eda25a974ee2fd89ee",
+        "implementation": "0x91AB58Fc297ab0e0351b588025E4B48fBB8A8BE7",
         "proxy": "0x374e21d37584128881cf385c3d629dd25f5d28b2"
       },
       "bridgeToken": {
         "beacon": "0x7a523a88f3f4683c81bd49c5c51777bec10d71c1",
-        "implementation": "0x0c473afc0cabd469751cbe3ac08abac3e40bf586",
+        "implementation": "0xEFA17984Cd8D276333862CdaFd39E84d20cFBbBD",
         "proxy": "0x0000000000000000000000000000000000000000"
       },
       "customs": [],
@@ -125,7 +125,7 @@
       "ethHelper": "0x29ed2691b1f474bfbc25a3fc193facf5191d1a76",
       "tokenRegistry": {
         "beacon": "0x92697d688e9ceb7dbd6b928e08269805abd9fb5c",
-        "implementation": "0x2504511b3607dce7a3c11ea93d80bdeed9b5c717",
+        "implementation": "0x314D88678a60254242730247d68c21a45451EaaD",
         "proxy": "0x66a3d2f29cba24c18693c76172a83e70bbb4ff57"
       }
     }
@@ -153,18 +153,18 @@
       "deployHeight": 7960504,
       "governanceRouter": {
         "beacon": "0x50c3b2ed1fd53fc1d83bb2554fd424d5f9834680",
-        "implementation": "0xbf38ba1abe348d917da8764058fdedcc19e03963",
+        "implementation": "0xeFCDa5E64CBb32618d7c64F530286bC3e260164b",
         "proxy": "0x08b01304e80e3281989a2429670e0d3e1469711d"
       },
       "home": {
         "beacon": "0x3f4cd1e8ecd8da51d81f572e58b35ca1aed9a272",
-        "implementation": "0xa717530be4dc807f7d23d971f7a981fd5c1c25d5",
+        "implementation": "0xC998172a8f5AD547D913bF77b3Cc1121293b3729",
         "proxy": "0x39350cbde45751e7c56ed6d6f8235bed7c165360"
       },
       "replicas": {
         "sepolia": {
           "beacon": "0x29bda9b78b48fa1238ef8a89644c41c95586d4fb",
-          "implementation": "0x66a19f21a9e61d29ccc726689bdf9f5ff5d11a23",
+          "implementation": "0xb0a78E724810100ed95E31e99f4a2e24Ef3B170c",
           "proxy": "0x3e58d823a669cb123c6ced2944fd8b445d88bb8f"
         }
       },
@@ -176,18 +176,18 @@
       "deployHeight": 2297040,
       "governanceRouter": {
         "beacon": "0x8f8424dc94b4c302984ab5a03fc4c2d1ec95dc92",
-        "implementation": "0xbdf5227e9d80c400cfb294864b7d068bdee4e4ed",
+        "implementation": "0x3B14b382f9C5E891dE26FDC0f738962F3D5743bf",
         "proxy": "0x42f046ca3967f80f0f3178ca73f8701b36957445"
       },
       "home": {
         "beacon": "0x8459ede1ed4dadd6d5b142d845240088a6530cf8",
-        "implementation": "0x35ef86b59dbf21ddd6cf4fa7dc04a3aefad57484",
+        "implementation": "0x68660AF7a6DC6Ac27003edC4DAC28e4E53261809",
         "proxy": "0x4624a7e4fe1ebfb92b7721bbf67322e9f6875610"
       },
       "replicas": {
         "goerli": {
           "beacon": "0x7eb8450a5397b795f2d89bc48ea20c24fa147f11",
-          "implementation": "0x73509b64b9a83f9e220d300cfa964e6bbe718b85",
+          "implementation": "0xf5364400B6180d03e295F99A2D8AFc2dE5968133",
           "proxy": "0x5977bf230719fb405aaf2aadadd8e026000f2436"
         }
       },
@@ -286,7 +286,7 @@
             "recoveryTimelock": 180
           },
           "optimisticSeconds": 1800,
-          "updater": "0xd16bdbbc56090156ec609ebebc8bace1240fa22e",
+          "updater": "0x0CFaE1e5A97429b5FA4F2e4016DF5C4AA35CcC7f",
           "watchers": [
             "0x69520f1cec6199fe93c6c77881b5de701e0efeff"
           ]
@@ -317,7 +317,7 @@
             "recoveryTimelock": 180
           },
           "optimisticSeconds": 1800,
-          "updater": "0xe80d5d65275208aee8e10609258e4e048eb86b4c",
+          "updater": "0x93dF1aE45f38588d6eE58f1D8198F9Cb11A24De3",
           "watchers": [
             "0x8ad65ba028cae9e3932959d5c167a09ede941d2c"
           ]
