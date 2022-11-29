@@ -298,18 +298,18 @@
     },
     "ethereum": {
       "accountant": {
-        "beacon": "0xaa76Bc4F861deFbc111Ba3ec45a1dE8d21D96021",
-        "implementation": "0x4FcE8a84C8f2ADE7159596208DcBFF7FFaD5D459",
-        "proxy": "0xa5f7461Ea681685F8B2C5085f6451C03A8cbAC59"
+        "beacon": "0x3485D3299725bB4a4d7cC48a3835A10E0C82cbea",
+        "implementation": "0x6A16aC43Fa969959Ad820bF4cE37869CFf5830ba",
+        "proxy": "0xa4B86BcbB18639D8e708d6163a0c734aFcDB770c"
       },
       "bridgeRouter": {
         "beacon": "0xb70588b1a51f847d13158ff18e9cac861df5fb00",
-        "implementation": "0xf5859458CEAfb6E34d0118fC6965786Cf6cEC8AF",
+        "implementation": "0xe0db61ac718f502B485DEc66D013afbbE0B52F84",
         "proxy": "0x88a69b4e698a4b090df6cf5bd7b2d47325ad30a3"
       },
       "bridgeToken": {
         "beacon": "0x8ca56e6235d83ff2f4e779f0b35a6c856d5a2fb2",
-        "implementation": "0xA85b5500F3BAbE89011DfEA2D1B217751AAbdfCe",
+        "implementation": "0x4aA8699cdaA97E72837093F227f40D122bA79611",
         "proxy": "0x9f7ea856ba1fb88d35e000c45e75f134a756ac4f"
       },
       "customs": [],
@@ -317,7 +317,7 @@
       "ethHelper": "0x2d6775c1673d4ce55e1f827a0d53e62c43d1f304",
       "tokenRegistry": {
         "beacon": "0x4d5ff8a01ed833e11aba43821d2881a5f2911f98",
-        "implementation": "0x9dC81F56FD4FC4705e98899E99567283e8d9A9Cd",
+        "implementation": "0xFD956B862B67C476C9a55d016cffd06EA96FaC82",
         "proxy": "0x0a6f564c5c9bebd66f1595f1b51d1f3de6ef3b79"
       }
     },
@@ -518,38 +518,38 @@
       "deployHeight": 13983724,
       "governanceRouter": {
         "beacon": "0x67833a48b3f509d4252ac2c19cd604556ed6c981",
-        "implementation": "0x295f1Ef8E4e5a26190E986A40637F3D8354bAF34",
+        "implementation": "0xE9F0a0a787CEEA82f1c8fE7A783826eBD181e707",
         "proxy": "0x3009c99d370b780304d2098196f1ebf779a4777a"
       },
       "home": {
         "beacon": "0x063e871f8db991cead34b557a00b157b360084cc",
-        "implementation": "0x263c732f614380e570FC9810AD162AFF59978510",
+        "implementation": "0xf3bb7e2d4B26ae2C3EAC41171840c227f457EA06",
         "proxy": "0x92d3404a7e6c91455bbd81475cd9fad96acff4c8"
       },
       "replicas": {
         "avalanche": {
           "beacon": "0x0876dfe4acae0e1c0a43302716483f5752298b71",
-          "implementation": "0xab42ebD10f77db551632D88300eA4E52882b045f",
+          "implementation": "0x7f221A1850c12b57fed1f0831dd25399a13b68c2",
           "proxy": "0x5d94309e5a0090b165fa4181519701637b6daeba"
         },
         "evmos": {
           "beacon": "0x0876dfe4acae0e1c0a43302716483f5752298b71",
-          "implementation": "0xab42ebD10f77db551632D88300eA4E52882b045f",
+          "implementation": "0x7f221A1850c12b57fed1f0831dd25399a13b68c2",
           "proxy": "0x5bae47bf29f4e9b1e275c0b427b84c4daa30033a"
         },
         "milkomedaC1": {
           "beacon": "0x0876dfe4acae0e1c0a43302716483f5752298b71",
-          "implementation": "0xab42ebD10f77db551632D88300eA4E52882b045f",
+          "implementation": "0x7f221A1850c12b57fed1f0831dd25399a13b68c2",
           "proxy": "0xef989866b66a491e7b6c7473d73b589450d0f766"
         },
         "moonbeam": {
           "beacon": "0x0876dfe4acae0e1c0a43302716483f5752298b71",
-          "implementation": "0xab42ebD10f77db551632D88300eA4E52882b045f",
+          "implementation": "0x7f221A1850c12b57fed1f0831dd25399a13b68c2",
           "proxy": "0x049b51e531fd8f90da6d92ea83dc4125002f20ef"
         },
         "xdai": {
           "beacon": "0x0876dfe4acae0e1c0a43302716483f5752298b71",
-          "implementation": "0xab42ebD10f77db551632D88300eA4E52882b045f",
+          "implementation": "0x7f221A1850c12b57fed1f0831dd25399a13b68c2",
           "proxy": "0x0a627a6398f429b62969cd475fb5ba8e04a4eb70"
         }
       },
