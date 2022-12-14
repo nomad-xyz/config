@@ -580,6 +580,11 @@
           "implementation": "0x252B12005B6427F87411D9dD2fA9943cb42A394f",
           "proxy": "0x6792e656d84476b875d370b25492f9efc7246376"
         },
+        "moonbeam": {
+          "beacon": "0x049b51e531fd8f90da6d92ea83dc4125002f20ef",
+          "implementation": "0x252B12005B6427F87411D9dD2fA9943cb42A394f",
+          "proxy": "0x4d41f97f84256d9546b5d71446a9dd7af3507d94"
+        },
         "xdai": {
           "beacon": "0x049b51e531fd8f90da6d92ea83dc4125002f20ef",
           "implementation": "0x252B12005B6427F87411D9dD2fA9943cb42A394f",
@@ -921,7 +926,8 @@
           ]
         },
         "connections": [
-          "ethereum"
+          "ethereum",
+          "evmos"
         ],
         "domain": 1650811245,
         "name": "moonbeam",
