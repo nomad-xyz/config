@@ -499,6 +499,11 @@
           "implementation": "0xc7e755e41f9EFc716d300D795340FA13627d23b0",
           "proxy": "0xeaa8b3805a0b14c127c688cc3e35bfb560a3ce47"
         },
+        "moonbeam": {
+          "beacon": "0x7f58bb8311db968ab110889f2dfa04ab7e8e831b",
+          "implementation": "0xc7e755e41f9EFc716d300D795340FA13627d23b0",
+          "proxy": "0x0876dfe4acae0e1c0a43302716483f5752298b71"
+        },
         "xdai": {
           "beacon": "0x7f58bb8311db968ab110889f2dfa04ab7e8e831b",
           "implementation": "0xc7e755e41f9EFc716d300D795340FA13627d23b0",
@@ -623,6 +628,11 @@
           "implementation": "0xf3bb7e2d4B26ae2C3EAC41171840c227f457EA06",
           "proxy": "0xa14c224ecf8a9ccf0343ae8f06c405903c4bd808"
         },
+        "moonbeam": {
+          "beacon": "0xbbb0efa9e6a57b906bba5ad9a656abcf2db5da3c",
+          "implementation": "0xf3bb7e2d4B26ae2C3EAC41171840c227f457EA06",
+          "proxy": "0xddaa63f070215ce0ef9d29537cb96b64cb0819aa"
+        },
         "xdai": {
           "beacon": "0xbbb0efa9e6a57b906bba5ad9a656abcf2db5da3c",
           "implementation": "0xf3bb7e2d4B26ae2C3EAC41171840c227f457EA06",
@@ -708,6 +718,11 @@
           "beacon": "0xab42ebd10f77db551632d88300ea4e52882b045f",
           "implementation": "0x48d97c69eD1f76D70863A06Eb08744C9E558a0F4",
           "proxy": "0xe7b1ca2e67a9e9438fe7089298127181e7945307"
+        },
+        "moonbeam": {
+          "beacon": "0xab42ebd10f77db551632d88300ea4e52882b045f",
+          "implementation": "0x48d97c69eD1f76D70863A06Eb08744C9E558a0F4",
+          "proxy": "0x09c3cbfcecc00d004f4cefe0c9ebdafcf98ea9db"
         }
       },
       "updaterManager": "0xa14c224ecf8a9ccf0343ae8f06c405903c4bd808",
@@ -926,8 +941,11 @@
           ]
         },
         "connections": [
+          "avalanche",
           "ethereum",
-          "evmos"
+          "evmos",
+          "milkomedaC1",
+          "xdai"
         ],
         "domain": 1650811245,
         "name": "moonbeam",
