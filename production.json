@@ -805,7 +805,7 @@
         "domain": 6648936,
         "name": "ethereum",
         "specs": {
-          "blockExplorer": "https://etherscan.io",
+          "blockExplorer": "https://etherscan.io/",
           "blockTime": 15,
           "chainId": 1,
           "confirmations": 3,
@@ -855,7 +855,7 @@
         "domain": 1702260083,
         "name": "evmos",
         "specs": {
-          "blockExplorer": "http://evm.evmos.org",
+          "blockExplorer": "http://evm.evmos.org/",
           "blockTime": 6,
           "chainId": 9001,
           "confirmations": 5,
@@ -932,7 +932,7 @@
         "domain": 1650811245,
         "name": "moonbeam",
         "specs": {
-          "blockExplorer": "https://moonbeam.moonscan.io",
+          "blockExplorer": "https://moonbeam.moonscan.io/",
           "blockTime": 15,
           "chainId": 1284,
           "confirmations": 3,
