@@ -859,7 +859,7 @@
           "blockTime": 6,
           "chainId": 9001,
           "confirmations": 5,
-          "finalizationBlocks": 1,
+          "finalizationBlocks": 10,
           "indexPageSize": 2000,
           "supports1559": true
         }
